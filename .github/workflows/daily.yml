@@ -52,6 +52,11 @@ jobs:
           BANKROLL: "1000"
         run: python run_daily.py
 
+      # NUEVO: Generar web/data.json para la web estática
+      - name: Generate web data
+        if: always()
+        run: python scripts/generate_site_data.py
+
       # Without this the whole settle step is a no-op in CI: prediction CSVs are
       # written into a fresh checkout, uploaded as an artifact, then destroyed
       # with the runner. Next run globs an empty reports/predictions/, finds
@@ -64,17 +69,17 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/predictions/ reports/bets_ledger.csv
+          git add reports/predictions/ reports/bets_ledger.csv web/data.json
           if git diff --cached --quiet; then
-            echo "No new predictions or ledger changes to commit."
+            echo "No new predictions, ledger changes, or web data to commit."
             exit 0
           fi
-          git commit -m "Daily run $(date -u +%Y-%m-%d): predictions + settled ledger"
+          git commit -m "Daily run $(date -u +%Y-%m-%d): predictions + settled ledger + web data"
           # The branch can move between checkout and here; rebase before pushing.
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
-      - name: Upload predictions + ledger
+      - name: Upload predictions + ledger + web data
         if: always()          # keep outputs even if a later step failed
         uses: actions/upload-artifact@v4
         with:
@@ -82,4 +87,5 @@ jobs:
           path: |
             reports/predictions/
             reports/bets_ledger.csv
+            web/data.json
           if-no-files-found: warn
