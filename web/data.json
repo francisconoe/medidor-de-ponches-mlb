@@ -13,6 +13,17 @@
       "agree": "no-pick"
     },
     {
+      "pitcher_name": "MacKenzie Gore",
+      "call": "over 6.5",
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.766,
+      "edge": 0.266,
+      "stake": 10.0,
+      "oddsindex": "-",
+      "agree": "no-pick"
+    },
+    {
       "pitcher_name": "Brad Lord",
       "call": "under 3.5",
       "odds": -110,
@@ -28,19 +39,8 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.744,
-      "edge": 0.244,
-      "stake": 10.0,
-      "oddsindex": "-",
-      "agree": "no-pick"
-    },
-    {
-      "pitcher_name": "MacKenzie Gore",
-      "call": "over 6.5",
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.722,
-      "edge": 0.222,
+      "model_prob": 0.746,
+      "edge": 0.246,
       "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
@@ -50,8 +50,8 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.691,
-      "edge": 0.191,
+      "model_prob": 0.692,
+      "edge": 0.192,
       "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
@@ -72,8 +72,8 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.654,
-      "edge": 0.154,
+      "model_prob": 0.665,
+      "edge": 0.165,
       "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
