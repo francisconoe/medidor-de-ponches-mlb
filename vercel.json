@@ -1,5 +1,7 @@
 {
   "outputDirectory": "web",
   "cleanUrls": true,
-  "trailingSlash": false
+  "build": {
+    "env": {}
+  }
 }
