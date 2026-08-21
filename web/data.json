@@ -8,7 +8,7 @@
       "book": "(assumed)",
       "model_prob": 0.903,
       "edge": 0.403,
-      "stake": 12.0,
+      "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
     },
@@ -17,8 +17,8 @@
       "call": "under 3.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.783,
-      "edge": 0.283,
+      "model_prob": 0.753,
+      "edge": 0.253,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
@@ -30,7 +30,7 @@
       "book": "(assumed)",
       "model_prob": 0.744,
       "edge": 0.244,
-      "stake": 12.0,
+      "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
     },
@@ -41,7 +41,7 @@
       "book": "(assumed)",
       "model_prob": 0.722,
       "edge": 0.222,
-      "stake": 12.0,
+      "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
     },
@@ -50,9 +50,20 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.692,
-      "edge": 0.192,
-      "stake": 12.0,
+      "model_prob": 0.691,
+      "edge": 0.191,
+      "stake": 10.0,
+      "oddsindex": "-",
+      "agree": "no-pick"
+    },
+    {
+      "pitcher_name": "Jesús Luzardo",
+      "call": "over 6.5",
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.673,
+      "edge": 0.173,
+      "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
     },
@@ -63,7 +74,7 @@
       "book": "(assumed)",
       "model_prob": 0.654,
       "edge": 0.154,
-      "stake": 12.0,
+      "stake": 10.0,
       "oddsindex": "-",
       "agree": "no-pick"
     }
