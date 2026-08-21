@@ -1,0 +1,23 @@
+date,name,pred,call,prob,actual,is_play,status,hit
+2026-07-24,Ryan Gusto,2.43,under 3.5,0.806,4,True,graded,False
+2026-07-24,Jacob Lopez,2.76,under 3.5,0.73,4,True,graded,False
+2026-07-24,Tomoyuki Sugano,2.76,under 3.5,0.728,5,True,graded,False
+2026-07-24,Rhett Lowder,2.82,under 3.5,0.714,4,True,graded,False
+2026-07-24,Eduardo Rodriguez,2.86,under 3.5,0.706,4,True,graded,False
+2026-07-24,Grayson Rodriguez,3.04,under 3.5,0.662,3,True,graded,True
+2026-07-24,Shane McClanahan,4.93,over 4.5,0.541,3,False,graded,False
+2026-07-24,Trevor Rogers,3.91,over 3.5,0.538,6,False,graded,True
+2026-07-24,Logan Webb,4.82,over 4.5,0.52,4,False,graded,False
+2026-07-24,Jesús Luzardo,6.73,over 6.5,0.515,9,False,graded,True
+2026-07-24,Bryce Miller,5.8,over 5.5,0.513,0,False,graded,False
+2026-07-24,Spencer Arrighetti,4.79,over 4.5,0.512,0,False,graded,False
+2026-07-24,Roki Sasaki,4.77,over 4.5,0.51,9,False,graded,True
+2026-07-24,Tarik Skubal,6.66,over 6.5,0.501,12,False,graded,True
+2026-07-25,Nick Martinez,2.92,under 3.5,0.69,5,True,graded,False
+2026-07-25,Dylan Cease,7.25,over 6.5,0.614,12,False,graded,True
+2026-07-25,Yoshinobu Yamamoto,5.95,over 5.5,0.54,5,False,graded,False
+2026-07-25,Brandon Young,3.92,over 3.5,0.539,6,False,graded,True
+2026-07-25,Robbie Ray,4.8,over 4.5,0.516,5,False,graded,True
+2026-07-25,Bryce Elder,3.76,over 3.5,0.506,8,False,graded,True
+2026-07-25,Nolan McLean,5.76,over 5.5,0.506,7,False,graded,True
+2026-07-25,Bryan Woo,4.75,over 4.5,0.506,5,False,graded,True

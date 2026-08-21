@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medidor de Ponches MLB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>⚾ Medidor de Ponches MLB</h1>
+    <p class="subtitle">Valor de apuestas Over/Under basado en el modelo de strikeouts</p>
+  </header>
+
+  <main>
+    <section id="fecha-section" class="card">
+      <h2>Jornada del <span id="fecha"></span></h2>
+      <p>Ingresa la cuota americana actual (ej. -110) para cada jugada y pulsa <strong>Evaluar</strong>.</p>
+    </section>
+
+    <section id="juegos-section" class="card">
+      <h2>Predicciones de hoy</h2>
+      <div id="tabla-juegos"></div>
+    </section>
+
+    <section id="historial-section" class="card">
+      <h2>Historial de apuestas</h2>
+      <div id="tabla-historial"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Modelo: BNN v5 + XGBoost | Cuotas asumidas: -110 | No es consejo de apuestas</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

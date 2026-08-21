@@ -1,0 +1,2 @@
+model,n_test_2026,mae,mae_recent_avg_baseline,ensemble_nn_weight
+bnn_v5_vsopp_whiff,1154,1.7690304920206448,1.858102253032929,0.2

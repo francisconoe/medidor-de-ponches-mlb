@@ -1,0 +1,25 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,PLAY
+Bailey Ober,Minnesota Twins,Cleveland Guardians,15,2026-05-30,2026-07-09,2.71,0.259,0.135,0.035,0.011,3.5,-110,(assumed),under 3.5,0.741,0.5,0.241,0.415,under 3.5
+Patrick Sandoval,Boston Red Sox,Chicago White Sox,16,2024-06-15,2026-07-09,5.05,0.583,0.417,0.284,0.181,5.5,-110,(assumed),under 5.5,0.716,0.5,0.216,0.366,under 5.5
+Gavin Williams,Cleveland Guardians,Minnesota Twins,22,2026-07-03,2026-07-09,6.17,0.746,0.619,0.474,0.312,6.5,-110,(assumed),under 6.5,0.688,0.5,0.188,0.313,under 6.5
+Jack Perkins,Athletics,Detroit Tigers,11,2026-07-03,2026-07-09,5.02,0.672,0.54,0.318,0.181,5.5,-110,(assumed),under 5.5,0.682,0.5,0.182,0.303,under 5.5
+David Peterson,Chicago Cubs,Baltimore Orioles,21,2026-07-03,2026-07-09,4.23,0.468,0.364,0.176,0.107,4.5,-110,(assumed),under 4.5,0.636,0.5,0.136,0.215,under 4.5
+Michael Wacha,Kansas City Royals,New York Mets,22,2026-07-04,2026-07-09,4.79,0.583,0.417,0.284,0.181,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Mitch Keller,Pittsburgh Pirates,Atlanta Braves,22,2026-07-03,2026-07-09,3.97,0.583,0.405,0.238,0.143,3.5,-110,(assumed),over 3.5,0.583,0.5,0.083,0.113,over 3.5
+Bryce Elder,Atlanta Braves,Pittsburgh Pirates,20,2026-06-27,2026-07-09,4.34,0.583,0.417,0.284,0.181,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Janson Junk,Miami Marlins,Seattle Mariners,13,2026-05-25,2026-07-09,3.76,0.583,0.417,0.238,0.143,3.5,-110,(assumed),over 3.5,0.583,0.5,0.083,0.113,over 3.5
+Anthony Kay,Chicago White Sox,Boston Red Sox,24,2026-07-03,2026-07-09,4.1,0.583,0.417,0.284,0.16,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Sean Manaea,New York Mets,Kansas City Royals,18,2026-07-04,2026-07-09,4.4,0.583,0.417,0.284,0.181,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Trevor Rogers,Baltimore Orioles,Chicago Cubs,18,2026-07-03,2026-07-09,4.17,0.583,0.417,0.284,0.181,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Ryan Feltner,Colorado Rockies,San Francisco Giants,17,2026-07-03,2026-07-09,3.98,0.583,0.417,0.238,0.143,3.5,-110,(assumed),over 3.5,0.583,0.5,0.083,0.113,over 3.5
+Logan Henderson,Milwaukee Brewers,St. Louis Cardinals,4,2026-05-22,2026-07-09,4.74,0.583,0.417,0.284,0.181,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,under 4.5
+Nathan Eovaldi,Texas Rangers,Los Angeles Angels,20,2026-07-02,2026-07-09,7.21,1.0,0.882,0.688,0.571,6.5,-110,(assumed),over 6.5,0.571,0.5,0.071,0.091,over 6.5
+Bryce Miller,Seattle Mariners,Miami Marlins,9,2026-07-02,2026-07-09,6.05,0.885,0.692,0.533,0.429,6.5,-110,(assumed),under 6.5,0.571,0.5,0.071,0.091,under 6.5
+Jesús Luzardo,Philadelphia Phillies,Cincinnati Reds,21,2026-07-04,2026-07-09,6.85,1.0,0.882,0.688,0.571,6.5,-110,(assumed),over 6.5,0.571,0.5,0.071,0.091,over 6.5
+Andre Pallante,St. Louis Cardinals,Milwaukee Brewers,19,2026-07-03,2026-07-09,4.43,0.672,0.54,0.318,0.181,4.5,-110,(assumed),over 4.5,0.54,0.5,0.04,0.031,over 4.5
+Framber Valdez,Detroit Tigers,Athletics,22,2026-07-02,2026-07-09,4.61,0.672,0.54,0.318,0.181,4.5,-110,(assumed),over 4.5,0.54,0.5,0.04,0.031,over 4.5
+Brady Singer,Cincinnati Reds,Philadelphia Phillies,22,2026-07-03,2026-07-09,5.56,0.885,0.708,0.533,0.429,5.5,-110,(assumed),over 5.5,0.533,0.5,0.033,0.018,over 5.5
+Merrill Kelly,Arizona Diamondbacks,San Diego Padres,16,2026-07-04,2026-07-09,3.54,0.468,0.275,0.176,0.107,3.5,-110,(assumed),under 3.5,0.532,0.5,0.032,0.016,under 3.5
+Griffin Canning,San Diego Padres,Arizona Diamondbacks,12,2026-07-04,2026-07-09,3.5,0.468,0.275,0.158,0.052,3.5,-110,(assumed),under 3.5,0.532,0.5,0.032,0.016,under 3.5
+Reid Detmers,Los Angeles Angels,Texas Rangers,21,2026-07-03,2026-07-09,5.91,0.746,0.619,0.474,0.333,5.5,-110,(assumed),under 5.5,0.526,0.5,0.026,0.004,— pass —
+Drew Rasmussen,Tampa Bay Rays,New York Yankees,19,2026-07-04,2026-07-09,6.56,0.944,0.818,0.656,0.5,6.5,-110,(assumed),over 6.5,0.5,0.5,0.0,-0.045,— pass —

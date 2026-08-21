@@ -1,0 +1,13 @@
+name,pred,call,prob,actual,is_play,status,hit
+Jacob Misiorowski,8.52,over 6.5,0.812,12.0,True,graded,True
+Miles Mikolas,2.61,under 3.5,0.764,1.0,True,graded,True
+Jacob deGrom,7.05,over 6.5,0.576,4.0,False,graded,False
+Walker Buehler,3.97,over 3.5,0.548,7.0,False,graded,True
+Braxton Ashcraft,5.99,over 5.5,0.546,5.0,False,graded,False
+José Soriano,4.96,over 4.5,0.545,5.0,False,graded,True
+Ranger Suarez,3.91,over 3.5,0.536,6.0,False,graded,True
+Reynaldo López,4.87,over 4.5,0.528,6.0,False,graded,True
+Janson Junk,3.84,over 3.5,0.522,6.0,False,graded,True
+Connor Prielipp,4.82,over 4.5,0.518,5.0,False,graded,True
+Andrew Abbott,3.79,over 3.5,0.512,4.0,False,graded,True
+Cristopher Sánchez,,over 7.5,0.491,,False,IN_PLAY(Live),

@@ -1,0 +1,24 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,stake,PLAY
+Walbert Ureña,Los Angeles Angels,Houston Astros,20,2026-07-21,2026-07-27,5.74,0.807,0.678,0.502,0.333,4.5,-110,draftkings,over 4.5,0.678,0.494,0.184,0.294,20.0,over 4.5
+Merrill Kelly,Arizona Diamondbacks,Pittsburgh Pirates,19,2026-07-22,2026-07-27,3.86,0.526,0.335,0.184,0.092,4.5,-129,draftkings,under 4.5,0.665,0.531,0.134,0.181,20.0,under 4.5
+Chase Burns,Cincinnati Reds,Cleveland Guardians,23,2026-07-21,2026-07-27,7.07,0.903,0.841,0.725,0.579,6.5,108,draftkings,over 6.5,0.579,0.454,0.125,0.205,0.0,— pass —
+Matthew Liberatore,St. Louis Cardinals,Chicago Cubs,23,2026-07-21,2026-07-27,4.55,0.652,0.466,0.288,0.161,4.5,128,draftkings,over 4.5,0.466,0.414,0.053,0.063,0.0,— pass —
+Tyler Phillips,Miami Marlins,Philadelphia Phillies,18,2026-07-21,2026-07-27,4.1,0.574,0.38,0.218,0.113,3.5,-124,draftkings,over 3.5,0.574,0.522,0.052,0.036,0.0,— pass —
+Zac Thornton,New York Mets,Atlanta Braves,6,2026-07-21,2026-07-27,3.87,0.527,0.337,0.186,0.094,3.5,-110,(assumed),over 3.5,0.527,0.5,0.027,0.007,0.0,— thin data —
+Kumar Rocker,Texas Rangers,Seattle Mariners,22,2026-07-21,2026-07-27,4.86,0.701,0.526,0.342,0.2,4.5,-110,(assumed),over 4.5,0.526,0.5,0.026,0.004,0.0,— pass —
+Slade Cecconi,Cleveland Guardians,Cincinnati Reds,24,2026-07-22,2026-07-27,4.59,0.661,0.476,0.296,0.166,4.5,-101,draftkings,over 4.5,0.476,0.473,0.003,-0.053,0.0,— pass —
+Keider Montero,Detroit Tigers,Baltimore Orioles,19,2026-07-22,2026-07-27,3.99,0.553,0.36,0.202,0.103,4.5,-109,draftkings,under 4.5,0.64,0.492,0.149,0.228,0.0,— pass —
+Max Scherzer,Toronto Blue Jays,Washington Nationals,8,2026-06-10,2026-07-27,2.74,0.266,0.142,0.064,0.027,3.5,-157,draftkings,under 3.5,0.734,0.577,0.157,0.201,0.0,— thin data —
+George Kirby,Seattle Mariners,Texas Rangers,22,2026-07-20,2026-07-27,5.07,0.73,0.565,0.379,0.228,5.5,-110,(assumed),under 5.5,0.621,0.5,0.121,0.186,0.0,— pass —
+Zack Wheeler,Philadelphia Phillies,Miami Marlins,16,2026-07-21,2026-07-27,6.47,0.868,0.778,0.632,0.466,7.5,-137,draftkings,under 7.5,0.684,0.546,0.138,0.184,0.0,— pass —
+Mitch Keller,Pittsburgh Pirates,Arizona Diamondbacks,24,2026-07-22,2026-07-27,3.7,0.491,0.304,0.163,0.08,3.5,122,draftkings,under 3.5,0.509,0.425,0.084,0.13,0.0,— pass —
+Kyle Bradish,Baltimore Orioles,Detroit Tigers,23,2026-07-22,2026-07-27,5.4,0.77,0.621,0.438,0.276,5.5,-105,draftkings,under 5.5,0.562,0.482,0.08,0.098,0.0,— pass —
+Payton Tolle,Boston Red Sox,Athletics,18,2026-07-20,2026-07-27,5.32,0.763,0.61,0.425,0.264,5.5,-111,draftkings,under 5.5,0.575,0.496,0.08,0.094,0.0,— pass —
+Jack Perkins,Athletics,Boston Red Sox,13,2026-07-21,2026-07-27,4.78,0.688,0.51,0.327,0.188,4.5,119,draftkings,under 4.5,0.49,0.431,0.059,0.074,0.0,— pass —
+David Peterson,Chicago Cubs,St. Louis Cardinals,23,2026-07-21,2026-07-27,3.31,0.404,0.234,0.117,0.054,3.5,-125,draftkings,under 3.5,0.596,0.524,0.072,0.073,0.0,— pass —
+Tatsuya Imai,Houston Astros,Los Angeles Angels,12,2026-07-21,2026-07-27,6.03,0.832,0.719,0.553,0.383,6.5,-144,draftkings,under 6.5,0.617,0.557,0.06,0.046,0.0,— pass —
+Martín Pérez,Atlanta Braves,New York Mets,20,2026-07-22,2026-07-27,3.72,0.496,0.308,0.166,0.082,3.5,105,draftkings,under 3.5,0.504,0.46,0.044,0.033,0.0,— pass —
+Max Fried,New York Yankees,Chicago White Sox,14,2026-07-22,2026-07-27,5.0,0.72,0.552,0.367,0.219,5.5,-162,draftkings,under 5.5,0.633,0.584,0.049,0.024,0.0,— pass —
+Tyler Mahle,San Francisco Giants,Milwaukee Brewers,19,2026-07-21,2026-07-27,4.61,0.664,0.479,0.299,0.168,4.5,-104,draftkings,under 4.5,0.521,0.481,0.039,0.021,0.0,— pass —
+Brandon Sproat,Milwaukee Brewers,San Francisco Giants,22,2026-07-21,2026-07-27,4.65,0.672,0.488,0.306,0.172,4.5,-102,draftkings,under 4.5,0.512,0.476,0.036,0.014,0.0,— pass —
+Noah Schultz,Chicago White Sox,New York Yankees,12,2026-07-21,2026-07-27,4.95,0.714,0.543,0.357,0.211,4.5,115,draftkings,under 4.5,0.457,0.439,0.018,-0.017,0.0,— pass —

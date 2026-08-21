@@ -1,0 +1,9 @@
+date,pitcher,call,odds,book,model_prob,edge,unc,stake,actual_k,result,profit
+2026-07-31,Tomoyuki Sugano,under 3.5,-110,(assumed),0.766,0.266,0.057,15.0,2,win,13.64
+2026-07-31,Erick Fedde,under 3.5,-110,(assumed),0.757,0.257,0.069,15.0,6,loss,-15.0
+2026-07-31,Kodai Senga,under 3.5,-110,(assumed),0.7,0.2,0.121,15.0,4,loss,-15.0
+2026-07-31,Janson Junk,under 3.5,-110,(assumed),0.688,0.188,0.071,15.0,4,loss,-15.0
+2026-08-01,Brent Suter,under 3.5,-110,(assumed),0.905,0.405,0.124,15.0,1,win,13.64
+2026-08-01,Miles Mikolas,under 3.5,-110,(assumed),0.868,0.368,0.079,15.0,3,win,13.64
+2026-08-01,Tyler Phillips,under 3.5,-110,(assumed),0.759,0.259,0.081,15.0,3,win,13.64
+2026-08-01,Martín Pérez,under 3.5,-110,(assumed),0.701,0.201,0.099,15.0,6,loss,-15.0

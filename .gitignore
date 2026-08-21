@@ -1,0 +1,32 @@
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models & outputs
+models/*
+# ...but the production v4 model IS committed so CI (run_daily) can load it (12MB, plain git).
+!models/bnn_v4_model.pt
+!models/bnn_v4_xgb.json
+!models/bnn_v4_scaler.pkl
+!models/bnn_v4_calibrators.pkl
+!models/bnn_v4_features.json
+!models/bnn_v4_impute.json
+!models/bnn_v4_park.json
+!models/bnn_v4_meta.json
+reports/figures/*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

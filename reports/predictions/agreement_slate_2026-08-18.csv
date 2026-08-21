@@ -1,0 +1,6 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Foster Griffin,under 5.5,-108,draftkings,0.695,0.206,20.0,"under 5.5 (MEDIUM -141, xK=4.8)",agree
+Andrew Abbott,under 4.5,-112,draftkings,0.656,0.157,20.0,"under 4.5 (HIGH -139, xK=3.8)",agree
+Nick Martinez,under 3.5,-121,draftkings,0.655,0.139,20.0,"under 3.5 (LOW -120, xK=3.1)",agree
+Braxton Ashcraft,over 5.5,-136,draftkings,0.662,0.118,20.0,"over 5.5 (MEDIUM -102, xK=6.5)",agree
+Jack Perkins,over 3.5,-135,draftkings,0.654,0.112,20.0,-,no-pick

@@ -1,0 +1,33 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,stake,PLAY
+Michael King,San Diego Padres,Colorado Rockies,25,2026-07-22,2026-07-28,4.74,0.682,0.503,0.32,0.183,5.5,-127,draftkings,under 5.5,0.68,0.528,0.152,0.215,20.0,under 5.5
+Aaron Nola,Philadelphia Phillies,Miami Marlins,22,2026-07-22,2026-07-28,4.62,0.665,0.482,0.301,0.169,5.5,-144,draftkings,under 5.5,0.699,0.557,0.142,0.185,20.0,under 5.5
+Sandy Alcantara,Miami Marlins,Philadelphia Phillies,25,2026-07-22,2026-07-28,5.77,0.81,0.682,0.507,0.337,4.5,-161,draftkings,over 4.5,0.682,0.582,0.1,0.106,20.0,over 4.5
+Peter Lambert,Houston Astros,Los Angeles Angels,20,2026-07-22,2026-07-28,5.99,0.829,0.713,0.546,0.376,5.5,109,draftkings,over 5.5,0.546,0.451,0.096,0.142,0.0,— pass —
+Chase Burns,Cincinnati Reds,Cleveland Guardians,23,2026-07-21,2026-07-28,7.01,0.9,0.835,0.717,0.568,6.5,-110,(assumed),over 6.5,0.568,0.5,0.068,0.084,0.0,— pass —
+Taj Bradley,Minnesota Twins,Kansas City Royals,25,2026-07-23,2026-07-28,6.58,0.875,0.79,0.649,0.486,6.5,117,draftkings,over 6.5,0.486,0.434,0.051,0.054,0.0,— pass —
+Cade Cavalli,Washington Nationals,Toronto Blue Jays,25,2026-07-22,2026-07-28,4.87,0.703,0.528,0.342,0.199,4.5,-104,draftkings,over 4.5,0.528,0.48,0.047,0.035,0.0,— pass —
+Cal Quantrill,Texas Rangers,Tampa Bay Rays,10,2026-07-22,2026-07-28,3.31,0.403,0.232,0.116,0.053,2.5,-163,draftkings,over 2.5,0.639,0.585,0.054,0.03,0.0,— pass —
+Troy Melton,Detroit Tigers,Baltimore Orioles,10,2026-07-23,2026-07-28,6.22,0.848,0.745,0.587,0.418,5.5,-137,draftkings,over 5.5,0.587,0.545,0.042,0.015,0.0,— pass —
+Jake Bennett,Boston Red Sox,Athletics,11,2026-07-22,2026-07-28,4.39,0.627,0.437,0.263,0.143,3.5,-173,draftkings,over 3.5,0.627,0.598,0.028,-0.011,0.0,— pass —
+Michael McGreevy,St. Louis Cardinals,Chicago Cubs,24,2026-07-23,2026-07-28,3.84,0.522,0.331,0.181,0.091,3.5,-114,draftkings,over 3.5,0.522,0.503,0.019,-0.021,0.0,— pass —
+Brandon Pfaadt,Arizona Diamondbacks,Pittsburgh Pirates,13,2026-07-23,2026-07-28,4.31,0.613,0.421,0.249,0.133,4.5,132,draftkings,over 4.5,0.421,0.407,0.014,-0.023,0.0,— pass —
+Caleb Ferguson,Cincinnati Reds,Cleveland Guardians,2,2025-03-09,2026-07-28,2.68,0.252,0.134,0.06,0.025,3.5,-110,(assumed),under 3.5,0.748,0.5,0.248,0.428,0.0,— thin data —
+Shane Bieber,Toronto Blue Jays,Washington Nationals,6,2026-07-23,2026-07-28,3.59,0.466,0.283,0.15,0.072,3.5,132,draftkings,under 3.5,0.534,0.407,0.127,0.239,0.0,— thin data —
+Seth Lugo,Kansas City Royals,Minnesota Twins,23,2026-07-22,2026-07-28,3.69,0.488,0.302,0.162,0.08,3.5,132,draftkings,under 3.5,0.512,0.407,0.105,0.188,0.0,— pass —
+Gavin Williams,Cleveland Guardians,Cincinnati Reds,25,2026-07-23,2026-07-28,7.15,0.907,0.848,0.737,0.595,7.5,110,draftkings,under 7.5,0.557,0.449,0.107,0.169,0.0,— pass —
+Landen Roupp,San Francisco Giants,Milwaukee Brewers,23,2026-07-22,2026-07-28,5.21,0.749,0.59,0.404,0.247,5.5,-104,draftkings,under 5.5,0.596,0.48,0.116,0.169,0.0,— pass —
+Chris Sale,Atlanta Braves,New York Mets,23,2026-07-23,2026-07-28,6.11,0.84,0.731,0.568,0.398,6.5,-110,(assumed),under 6.5,0.602,0.5,0.102,0.149,0.0,— pass —
+Logan Henderson,Milwaukee Brewers,San Francisco Giants,7,2026-07-22,2026-07-28,5.12,0.736,0.573,0.388,0.236,5.5,-128,draftkings,under 5.5,0.612,0.529,0.083,0.09,0.0,— thin data —
+Colin Rea,Chicago Cubs,St. Louis Cardinals,26,2026-07-22,2026-07-28,3.35,0.411,0.24,0.122,0.057,3.5,-121,draftkings,under 3.5,0.589,0.517,0.072,0.075,0.0,— pass —
+Reid Detmers,Los Angeles Angels,Houston Astros,24,2026-07-22,2026-07-28,5.9,0.82,0.699,0.529,0.359,6.5,-148,draftkings,under 6.5,0.641,0.563,0.078,0.074,0.0,— pass —
+Christian Scott,New York Mets,Atlanta Braves,16,2026-07-22,2026-07-28,5.45,0.775,0.629,0.447,0.284,5.5,-110,(assumed),under 5.5,0.553,0.5,0.053,0.056,0.0,— pass —
+Michael Lorenzen,Colorado Rockies,San Diego Padres,24,2026-07-21,2026-07-28,3.5,0.448,0.268,0.139,0.066,3.5,-110,draftkings,under 3.5,0.552,0.494,0.058,0.054,0.0,— pass —
+Gerrit Cole,New York Yankees,Chicago White Sox,11,2026-07-22,2026-07-28,6.26,0.851,0.75,0.595,0.426,6.5,-125,draftkings,under 6.5,0.574,0.524,0.05,0.033,0.0,— pass —
+Gage Jump,Athletics,Boston Red Sox,13,2026-07-22,2026-07-28,5.29,0.757,0.603,0.419,0.26,5.5,-135,draftkings,under 5.5,0.581,0.542,0.039,0.012,0.0,— pass —
+Anthony Kay,Chicago White Sox,New York Yankees,27,2026-07-22,2026-07-28,4.68,0.675,0.493,0.31,0.176,4.5,-101,draftkings,under 4.5,0.507,0.474,0.033,0.01,0.0,— pass —
+Slade Cecconi,Cleveland Guardians,Cincinnati Reds,24,2026-07-22,2026-07-28,4.6,0.662,0.478,0.298,0.167,4.5,-110,(assumed),under 4.5,0.522,0.5,0.022,-0.003,0.0,— pass —
+Justin Wrobleski,Los Angeles Dodgers,Seattle Mariners,20,2026-07-21,2026-07-28,5.36,0.767,0.616,0.432,0.27,5.5,-134,draftkings,under 5.5,0.568,0.54,0.028,-0.008,0.0,— pass —
+Luis Castillo,Seattle Mariners,Los Angeles Dodgers,22,2026-07-21,2026-07-28,4.13,0.581,0.387,0.223,0.116,4.5,-168,draftkings,under 4.5,0.613,0.592,0.021,-0.023,0.0,— pass —
+Dean Kremer,Baltimore Orioles,Detroit Tigers,8,2026-07-22,2026-07-28,4.99,0.719,0.55,0.365,0.217,4.5,117,draftkings,under 4.5,0.45,0.435,0.015,-0.024,0.0,— pass —
+Griffin Jax,Tampa Bay Rays,Texas Rangers,14,2026-07-22,2026-07-28,5.49,0.78,0.636,0.454,0.29,5.5,-128,draftkings,under 5.5,0.546,0.529,0.017,-0.028,0.0,— pass —
+Bubba Chandler,Pittsburgh Pirates,Arizona Diamondbacks,23,2026-07-22,2026-07-28,4.22,0.597,0.404,0.235,0.124,4.5,-165,draftkings,under 4.5,0.596,0.588,0.008,-0.043,0.0,— pass —

@@ -1,0 +1,31 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Nick Martinez,Tampa Bay Rays,Athletics,26,2026-08-05,confirmed,2026-08-11,2.92,0.31,0.143,0.059,0.036,3.5,-140,draftkings,under 3.5,0.69,0.551,0.139,0.183,0.048,20.0,under 3.5
+Shota Imanaga,Chicago Cubs,Washington Nationals,27,2026-08-05,confirmed,2026-08-11,4.38,0.665,0.453,0.287,0.162,5.5,-154,draftkings,under 5.5,0.713,0.573,0.141,0.177,0.065,20.0,under 5.5
+Bailey Ober,Minnesota Twins,Baltimore Orioles,20,2026-08-06,confirmed,2026-08-11,3.85,0.549,0.33,0.186,0.101,4.5,-149,draftkings,under 4.5,0.67,0.564,0.106,0.119,0.06,20.0,under 4.5
+Ryan Johnson,Los Angeles Angels,Texas Rangers,15,2026-08-06,proxy,2026-08-11,4.42,0.672,0.462,0.295,0.167,3.5,-161,draftkings,over 3.5,0.672,0.582,0.09,0.09,0.061,20.0,over 3.5
+Brandon Young,Baltimore Orioles,Minnesota Twins,19,2026-08-06,confirmed,2026-08-11,4.69,0.724,0.525,0.351,0.206,4.5,120,draftkings,over 4.5,0.525,0.429,0.096,0.156,0.064,0.0,— pass —
+Andre Pallante,St. Louis Cardinals,Philadelphia Phillies,24,2026-08-05,confirmed,2026-08-11,3.93,0.568,0.349,0.2,0.109,3.5,-105,draftkings,over 3.5,0.568,0.483,0.084,0.108,0.06,0.0,— pass —
+Kyle Harrison,Milwaukee Brewers,San Diego Padres,22,2026-08-05,confirmed,2026-08-11,5.74,0.863,0.729,0.55,0.398,5.5,101,draftkings,over 5.5,0.55,0.469,0.081,0.106,0.054,0.0,— pass —
+Eury Pérez,Miami Marlins,Pittsburgh Pirates,24,2026-08-05,confirmed,2026-08-11,6.5,0.924,0.836,0.67,0.563,6.5,-106,draftkings,over 6.5,0.563,0.485,0.078,0.094,0.075,0.0,— pass —
+Nolan McLean,New York Mets,Atlanta Braves,24,2026-08-06,confirmed,2026-08-11,6.35,0.914,0.818,0.649,0.53,5.5,-149,draftkings,over 5.5,0.649,0.565,0.084,0.084,0.066,0.0,— pass —
+Carson Whisenhunt,San Francisco Giants,Houston Astros,7,2026-08-05,proxy,2026-08-11,4.06,0.596,0.379,0.225,0.124,3.5,-127,draftkings,over 3.5,0.596,0.528,0.068,0.066,0.062,0.0,— thin data —
+Martín Pérez,Atlanta Braves,New York Mets,22,2026-08-01,confirmed,2026-08-11,4.16,0.619,0.402,0.244,0.135,3.5,-147,draftkings,over 3.5,0.619,0.561,0.058,0.04,0.063,0.0,— pass —
+Ryan Weathers,New York Yankees,Seattle Mariners,27,2026-08-04,confirmed,2026-08-11,6.08,0.894,0.782,0.607,0.471,6.5,119,draftkings,over 6.5,0.471,0.431,0.04,0.031,0.068,0.0,— pass —
+Jake Irvin,Washington Nationals,Chicago Cubs,17,2026-08-05,confirmed,2026-08-11,4.44,0.675,0.467,0.299,0.17,4.5,120,draftkings,over 4.5,0.467,0.428,0.038,0.026,0.061,0.0,— pass —
+Drew Anderson,Detroit Tigers,Cleveland Guardians,11,2026-08-05,confirmed,2026-08-11,3.5,0.461,0.254,0.131,0.073,3.5,119,draftkings,over 3.5,0.461,0.432,0.029,0.009,0.076,0.0,— pass —
+Bryan Woo,Seattle Mariners,New York Yankees,25,2026-08-05,confirmed,2026-08-11,6.23,0.906,0.802,0.63,0.503,6.5,-102,draftkings,over 6.5,0.503,0.475,0.028,-0.004,0.066,0.0,— pass —
+Walker Buehler,San Diego Padres,Milwaukee Brewers,27,2026-08-06,confirmed,2026-08-11,4.38,0.666,0.454,0.287,0.162,4.5,119,draftkings,over 4.5,0.454,0.43,0.024,-0.005,0.057,0.0,— pass —
+Cristopher Sánchez,Philadelphia Phillies,St. Louis Cardinals,25,2026-08-06,confirmed,2026-08-11,5.95,0.884,0.764,0.587,0.442,6.5,119,draftkings,over 6.5,0.442,0.431,0.011,-0.032,0.07,0.0,— pass —
+Mason Barnett,Athletics,Tampa Bay Rays,8,2026-08-06,proxy,2026-08-11,3.52,0.467,0.258,0.133,0.073,3.5,106,draftkings,over 3.5,0.467,0.458,0.009,-0.038,0.064,0.0,— pass —
+Sean Burke,Chicago White Sox,Cincinnati Reds,27,2026-08-05,confirmed,2026-08-11,6.98,0.947,0.881,0.729,0.663,7.5,107,draftkings,over 7.5,0.463,0.456,0.007,-0.041,0.069,0.0,— pass —
+Blake Snell,Los Angeles Dodgers,Kansas City Royals,1,2026-05-09,confirmed,2026-08-11,4.18,0.625,0.407,0.246,0.135,6.5,-155,draftkings,under 6.5,0.865,0.573,0.291,0.422,0.08,0.0,— thin data —
+Cody Bradford,Texas Rangers,Los Angeles Angels,1,2026-08-05,confirmed,2026-08-11,4.08,0.602,0.383,0.228,0.125,5.5,-157,draftkings,under 5.5,0.772,0.577,0.196,0.264,0.075,0.0,— thin data —
+Dylan Cease,Toronto Blue Jays,Boston Red Sox,23,2026-08-06,proxy,2026-08-11,6.87,0.943,0.874,0.718,0.642,7.5,115,draftkings,under 7.5,0.557,0.439,0.119,0.198,0.073,0.0,— pass —
+Mitch Bratt,Arizona Diamondbacks,Colorado Rockies,8,2026-08-05,proxy,2026-08-11,4.0,0.584,0.366,0.214,0.117,4.5,-113,draftkings,under 4.5,0.634,0.501,0.133,0.195,0.069,0.0,— pass —
+Patrick Sandoval,Boston Red Sox,Toronto Blue Jays,5,2026-08-04,confirmed,2026-08-11,3.92,0.562,0.346,0.199,0.11,4.5,-123,draftkings,under 4.5,0.654,0.52,0.135,0.186,0.046,0.0,— thin data —
+Nick Lodolo,Cincinnati Reds,Chicago White Sox,16,2026-07-11,confirmed,2026-08-11,4.14,0.614,0.397,0.24,0.133,4.5,-105,draftkings,under 4.5,0.603,0.483,0.119,0.177,0.06,0.0,— thin data —
+Tomoyuki Sugano,Colorado Rockies,Arizona Diamondbacks,21,2026-08-05,confirmed,2026-08-11,3.0,0.33,0.155,0.065,0.039,2.5,116,draftkings,under 2.5,0.54,0.436,0.104,0.167,0.052,0.0,— pass —
+Hunter Brown,Houston Astros,San Francisco Giants,14,2026-08-05,proxy,2026-08-11,5.57,0.848,0.703,0.521,0.362,5.5,126,draftkings,under 5.5,0.479,0.417,0.062,0.083,0.065,0.0,— pass —
+Michael Wacha,Kansas City Royals,Los Angeles Dodgers,27,2026-08-06,proxy,2026-08-11,4.13,0.613,0.395,0.237,0.131,4.5,-132,draftkings,under 4.5,0.605,0.536,0.069,0.063,0.064,0.0,— pass —
+Tanner Bibee,Cleveland Guardians,Detroit Tigers,29,2026-08-05,confirmed,2026-08-11,4.31,0.651,0.437,0.273,0.152,4.5,-115,draftkings,under 4.5,0.563,0.505,0.058,0.052,0.067,0.0,— pass —
+Paul Skenes,Pittsburgh Pirates,Miami Marlins,25,2026-08-05,confirmed,2026-08-11,6.53,0.925,0.839,0.674,0.57,7.5,-157,draftkings,under 7.5,0.618,0.576,0.042,0.011,0.067,0.0,— pass —

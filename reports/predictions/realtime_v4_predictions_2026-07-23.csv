@@ -1,0 +1,11 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,stake,PLAY
+Brandon Pfaadt,Arizona Diamondbacks,St. Louis Cardinals,12,2026-07-18,2026-07-23,3.45,0.436,0.259,0.133,0.063,2.5,-170,draftkings,over 2.5,0.665,0.586,0.079,0.056,20.0,over 2.5
+Randy Dobnak,Kansas City Royals,Detroit Tigers,4,2026-07-18,2026-07-23,3.62,0.474,0.289,0.153,0.074,3.5,139,draftkings,over 3.5,0.474,0.395,0.079,0.133,0.0,— thin data —
+Chris Sale,Atlanta Braves,San Diego Padres,22,2026-07-17,2026-07-23,6.73,0.883,0.805,0.672,0.513,6.5,-110,(assumed),over 6.5,0.513,0.5,0.013,-0.02,0.0,— pass —
+Casey Legumina,Tampa Bay Rays,Toronto Blue Jays,1,2026-04-17,2026-07-23,2.36,0.179,0.092,0.039,0.015,3.5,-110,(assumed),under 3.5,0.821,0.5,0.321,0.567,0.0,— thin data —
+Kyle Hart,San Diego Padres,Atlanta Braves,5,2026-07-01,2026-07-23,2.41,0.191,0.098,0.042,0.016,3.5,-110,(assumed),under 3.5,0.809,0.5,0.309,0.545,0.0,— thin data —
+Troy Melton,Detroit Tigers,Kansas City Royals,9,2026-07-17,2026-07-23,5.42,0.773,0.625,0.442,0.279,5.5,122,draftkings,under 5.5,0.558,0.425,0.133,0.239,0.0,— pass —
+Taj Bradley,Minnesota Twins,Cleveland Guardians,24,2026-07-18,2026-07-23,6.28,0.854,0.754,0.599,0.43,6.5,-110,(assumed),under 6.5,0.57,0.5,0.07,0.088,0.0,— pass —
+Gavin Williams,Cleveland Guardians,Minnesota Twins,24,2026-07-18,2026-07-23,6.39,0.862,0.768,0.618,0.45,6.5,-110,(assumed),under 6.5,0.55,0.5,0.05,0.049,0.0,— pass —
+Shane Bieber,Toronto Blue Jays,Tampa Bay Rays,5,2026-07-18,2026-07-23,3.63,0.476,0.291,0.155,0.075,3.5,-110,(assumed),under 3.5,0.524,0.5,0.024,0.0,0.0,— thin data —
+Michael McGreevy,St. Louis Cardinals,Arizona Diamondbacks,23,2026-07-17,2026-07-23,3.58,0.465,0.282,0.148,0.071,3.5,-130,draftkings,under 3.5,0.535,0.525,0.01,-0.054,0.0,— pass —

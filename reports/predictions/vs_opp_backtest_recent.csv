@@ -1,0 +1,20 @@
+date,pitcher,call,line,side,result,actual,career_avgK,line_minus_career,vs_opp_n,vs_opp_avgK
+2026-07-31,Tomoyuki Sugano,under 3.5,3.5,under,win,2,3.33,0.17,2,4.0
+2026-07-31,Erick Fedde,under 3.5,3.5,under,loss,6,3.57,-0.07,2,7.5
+2026-07-31,Kodai Senga,under 3.5,3.5,under,loss,4,5.75,-2.25,7,6.14
+2026-07-31,Janson Junk,under 3.5,3.5,under,loss,4,3.22,0.28,0,
+2026-08-01,Brent Suter,under 3.5,3.5,under,win,1,1.07,2.43,11,0.73
+2026-08-01,Miles Mikolas,under 3.5,3.5,under,win,3,3.66,-0.16,6,3.33
+2026-08-01,Tyler Phillips,under 3.5,3.5,under,win,3,1.6,1.9,7,1.14
+2026-08-01,Martín Pérez,under 3.5,3.5,under,loss,6,3.83,-0.33,3,4.0
+2026-08-02,Jacob Misiorowski,over 6.5,6.5,over,win,10,7.56,-1.06,0,
+2026-08-03,Justin Wrobleski,under 5.5,5.5,under,win,4,3.67,1.83,1,6.0
+2026-08-03,Michael King,under 4.5,4.5,under,loss,5,3.76,0.74,5,4.6
+2026-08-03,Logan Webb,under 5.5,5.5,under,loss,8,5.61,-0.11,2,6.0
+2026-08-04,Sean Manaea,under 5.5,5.5,under,loss,7,4.55,0.95,2,4.0
+2026-08-04,Grant Holmes,under 6.5,6.5,under,win,5,3.9,2.6,4,4.25
+2026-08-04,Brady Singer,under 6.5,6.5,under,win,6,4.9,1.6,6,4.5
+2026-08-04,Joey Cantillo,under 7.5,7.5,under,win,5,3.89,3.61,0,
+2026-08-04,Freddy Peralta,under 5.5,5.5,under,win,3,5.95,-0.45,8,6.5
+2026-08-04,Javier Assad,under 3.5,3.5,under,win,3,3.31,0.19,2,2.5
+2026-08-04,Emerson Hancock,over 4.5,4.5,over,win,6,3.64,0.86,1,0.0

@@ -1,0 +1,16 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+matplotlib
+pybaseball
+xgboost
+shap
+torch
+tqdm
+pyyaml
+joblib
+# Direct dependency: the Discord notification, The Odds API client, and every
+# MLB Stats API call import it. It resolved transitively via pybaseball before,
+# which would break the daily run silently if that chain ever changed.
+requests

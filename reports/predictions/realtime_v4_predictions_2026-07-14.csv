@@ -1,0 +1,3 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,stake,PLAY
+Dylan Cease,American League All-Stars,National League All-Stars,19,2026-07-08,2026-07-14,6.97,0.899,0.832,0.712,0.561,6.5,-110,(assumed),over 6.5,0.561,0.5,0.061,0.071,0.0,— pass —
+Cristopher Sánchez,National League All-Stars,American League All-Stars,21,2026-07-11,2026-07-14,6.12,0.843,0.734,0.572,0.4,6.5,-110,(assumed),under 6.5,0.6,0.5,0.1,0.145,0.0,— pass —

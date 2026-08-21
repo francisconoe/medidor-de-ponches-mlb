@@ -1,0 +1,91 @@
+pitcher_name,team,opponent,n_starts,last_start,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,stake,PLAY
+Jacob Lopez,Athletics,Chicago White Sox,15,2026-07-07,2026-07-10,2.65,0.245,0.129,0.057,0.023,3.5,-110,(assumed),under 3.5,0.755,0.5,0.255,0.442,20.0,under 3.5
+Cal Quantrill,Texas Rangers,Houston Astros,8,2026-07-10,2026-07-10,2.75,0.27,0.143,0.065,0.027,3.5,-110,(assumed),under 3.5,0.73,0.5,0.23,0.394,20.0,under 3.5
+Kyle Leahy,St. Louis Cardinals,Atlanta Braves,22,2026-07-10,2026-07-10,2.94,0.316,0.173,0.081,0.035,3.5,-110,(assumed),under 3.5,0.684,0.5,0.184,0.306,20.0,under 3.5
+Nick Martinez,Tampa Bay Rays,Seattle Mariners,22,2026-07-10,2026-07-10,3.05,0.34,0.188,0.09,0.039,3.5,-110,(assumed),under 3.5,0.66,0.5,0.16,0.259,20.0,under 3.5
+Hunter Greene,Cincinnati Reds,Chicago Cubs,2,2026-07-10,2026-07-10,7.09,0.906,0.845,0.731,0.585,6.5,-110,(assumed),over 6.5,0.585,0.5,0.085,0.116,0.0,— thin data —
+Shota Imanaga,Chicago Cubs,Cincinnati Reds,23,2026-07-10,2026-07-10,4.94,0.715,0.543,0.356,0.209,4.5,-110,(assumed),over 4.5,0.543,0.5,0.043,0.037,0.0,— pass —
+Zebby Matthews,Minnesota Twins,Los Angeles Angels,14,2026-07-10,2026-07-10,4.92,0.712,0.538,0.352,0.205,4.5,-110,(assumed),over 4.5,0.538,0.5,0.038,0.028,0.0,— pass —
+Luis Castillo,Seattle Mariners,Tampa Bay Rays,21,2026-07-10,2026-07-10,3.88,0.531,0.339,0.186,0.093,3.5,-110,(assumed),over 3.5,0.531,0.5,0.031,0.014,0.0,— pass —
+Sandy Alcantara,Miami Marlins,Cleveland Guardians,23,2026-07-10,2026-07-10,4.86,0.703,0.527,0.34,0.197,4.5,-110,(assumed),over 4.5,0.527,0.5,0.027,0.005,0.0,— pass —
+Brandon Young,Baltimore Orioles,Kansas City Royals,15,2026-07-10,2026-07-10,3.8,0.513,0.322,0.175,0.086,3.5,-110,(assumed),over 3.5,0.513,0.5,0.013,-0.02,0.0,— pass —
+Robbie Ray,San Francisco Giants,Colorado Rockies,23,2026-07-10,2026-07-10,4.73,0.685,0.504,0.319,0.181,4.5,-110,(assumed),over 4.5,0.504,0.5,0.004,-0.038,0.0,— pass —
+Carson Palmquist,Washington Nationals,New York Yankees,2,2026-07-10,2026-07-10,2.69,0.255,0.134,0.06,0.024,3.5,-110,(assumed),under 3.5,0.745,0.5,0.245,0.422,0.0,— thin data —
+Shane Bieber,Toronto Blue Jays,San Diego Padres,4,2026-07-10,2026-07-10,2.96,0.321,0.175,0.082,0.035,3.5,-110,(assumed),under 3.5,0.679,0.5,0.179,0.297,0.0,— thin data —
+Eduardo Rodriguez,Arizona Diamondbacks,Los Angeles Dodgers,19,2026-07-10,2026-07-10,3.14,0.363,0.204,0.099,0.044,3.5,-110,(assumed),under 3.5,0.637,0.5,0.137,0.216,0.0,— pass —
+Hunter Brown,Houston Astros,Texas Rangers,10,2026-07-10,2026-07-10,5.07,0.732,0.566,0.378,0.226,5.5,-110,(assumed),under 5.5,0.622,0.5,0.122,0.188,0.0,— pass —
+Jack Flaherty,Detroit Tigers,Philadelphia Phillies,20,2026-07-10,2026-07-10,5.14,0.741,0.578,0.391,0.236,5.5,-110,(assumed),under 5.5,0.609,0.5,0.109,0.163,0.0,— pass —
+Sonny Gray,Boston Red Sox,New York Mets,20,2026-07-10,2026-07-10,4.15,0.584,0.391,0.225,0.118,4.5,-110,(assumed),under 4.5,0.609,0.5,0.109,0.163,0.0,— pass —
+Ryan Weathers,New York Yankees,Washington Nationals,23,2026-07-10,2026-07-10,4.17,0.588,0.395,0.228,0.119,4.5,-110,(assumed),under 4.5,0.605,0.5,0.105,0.156,0.0,— pass —
+Grayson Rodriguez,Los Angeles Angels,Minnesota Twins,11,2026-07-10,2026-07-10,3.28,0.397,0.228,0.113,0.052,3.5,-110,(assumed),under 3.5,0.603,0.5,0.103,0.151,0.0,— pass —
+JP Sears,San Diego Padres,Toronto Blue Jays,6,2026-07-10,2026-07-10,3.3,0.401,0.232,0.116,0.053,3.5,-110,(assumed),under 3.5,0.599,0.5,0.099,0.143,0.0,— thin data —
+Sean Burke,Chicago White Sox,Athletics,23,2026-07-10,2026-07-10,6.15,0.844,0.737,0.576,0.405,6.5,-110,(assumed),under 6.5,0.595,0.5,0.095,0.136,0.0,— pass —
+Nolan McLean,New York Mets,Boston Red Sox,20,2026-07-10,2026-07-10,6.22,0.849,0.746,0.587,0.417,6.5,-110,(assumed),under 6.5,0.583,0.5,0.083,0.113,0.0,— pass —
+Braxton Ashcraft,Pittsburgh Pirates,Milwaukee Brewers,20,2026-07-04,2026-07-10,6.27,0.852,0.751,0.595,0.427,6.5,-110,(assumed),under 6.5,0.573,0.5,0.073,0.095,0.0,— pass —
+Brandon Sproat,Milwaukee Brewers,Pittsburgh Pirates,20,2026-07-05,2026-07-10,5.39,0.77,0.621,0.437,0.275,5.5,-110,(assumed),under 5.5,0.563,0.5,0.063,0.074,0.0,— pass —
+Aaron Nola,Philadelphia Phillies,Detroit Tigers,20,2026-07-10,2026-07-10,4.46,0.641,0.451,0.273,0.149,4.5,-110,(assumed),under 4.5,0.549,0.5,0.049,0.048,0.0,— pass —
+Tanner Gordon,Colorado Rockies,San Francisco Giants,14,2026-07-10,2026-07-10,3.53,0.454,0.272,0.141,0.067,3.5,-110,(assumed),under 3.5,0.546,0.5,0.046,0.043,0.0,— pass —
+Parker Messick,Cleveland Guardians,Miami Marlins,23,2026-07-10,2026-07-10,5.5,0.783,0.64,0.457,0.291,5.5,-110,(assumed),under 5.5,0.543,0.5,0.043,0.037,0.0,— pass —
+Luinder Avila,Kansas City Royals,Baltimore Orioles,13,2026-07-10,2026-07-10,3.58,0.467,0.282,0.148,0.071,3.5,-110,(assumed),under 3.5,0.533,0.5,0.033,0.017,0.0,— pass —
+Chris Sale,Atlanta Braves,St. Louis Cardinals,21,2026-07-10,2026-07-10,4.69,0.678,0.495,0.311,0.176,4.5,-110,(assumed),under 4.5,0.505,0.5,0.005,-0.036,0.0,— pass —
+Reynaldo López,Atlanta Braves,St. Louis Cardinals,15,2026-07-11,2026-07-11,2.96,0.319,0.174,0.082,0.035,3.5,-110,(assumed),under 3.5,0.681,0.5,0.181,0.3,20.0,under 3.5
+Joe Ryan,Minnesota Twins,Los Angeles Angels,22,2026-07-11,2026-07-11,7.08,0.904,0.842,0.728,0.582,6.5,-110,(assumed),over 6.5,0.582,0.5,0.082,0.111,0.0,— pass —
+Kumar Rocker,Texas Rangers,Houston Astros,21,2026-07-11,2026-07-11,3.99,0.554,0.36,0.202,0.103,3.5,-110,(assumed),over 3.5,0.554,0.5,0.054,0.057,0.0,— pass —
+Peter Lambert,Houston Astros,Texas Rangers,18,2026-07-11,2026-07-11,3.95,0.545,0.352,0.196,0.099,3.5,-110,(assumed),over 3.5,0.545,0.5,0.045,0.041,0.0,— pass —
+Brandon Sproat,Milwaukee Brewers,Pittsburgh Pirates,21,2026-07-11,2026-07-11,4.94,0.715,0.543,0.356,0.209,4.5,-110,(assumed),over 4.5,0.543,0.5,0.043,0.036,0.0,— pass —
+Gage Jump,Athletics,Chicago White Sox,11,2026-07-11,2026-07-11,4.92,0.712,0.539,0.352,0.206,4.5,-110,(assumed),over 4.5,0.539,0.5,0.039,0.03,0.0,— pass —
+Noah Cameron,Kansas City Royals,Baltimore Orioles,22,2026-07-11,2026-07-11,4.9,0.709,0.535,0.348,0.203,4.5,-110,(assumed),over 4.5,0.535,0.5,0.035,0.02,0.0,— pass —
+Cam Schlittler,New York Yankees,Washington Nationals,22,2026-07-11,2026-07-11,5.84,0.818,0.693,0.52,0.348,5.5,-110,(assumed),over 5.5,0.52,0.5,0.02,-0.008,0.0,— pass —
+Griffin Jax,Tampa Bay Rays,Seattle Mariners,12,2026-07-11,2026-07-11,4.82,0.696,0.519,0.334,0.193,4.5,-110,(assumed),over 4.5,0.519,0.5,0.019,-0.009,0.0,— pass —
+Eury Pérez,Miami Marlins,Cleveland Guardians,20,2026-07-11,2026-07-11,5.81,0.815,0.689,0.515,0.344,5.5,-110,(assumed),over 5.5,0.515,0.5,0.015,-0.017,0.0,— pass —
+Shane Drohan,Milwaukee Brewers,Pittsburgh Pirates,17,2026-07-11,2026-07-11,4.75,0.688,0.507,0.322,0.183,4.5,-110,(assumed),over 4.5,0.507,0.5,0.007,-0.031,0.0,— pass —
+Yoshinobu Yamamoto,Los Angeles Dodgers,Arizona Diamondbacks,19,2026-07-11,2026-07-11,5.73,0.807,0.677,0.5,0.331,5.5,-110,(assumed),over 5.5,0.5,0.5,0.0,-0.045,0.0,— pass —
+Eduardo Rivera,Boston Red Sox,New York Mets,2,2026-07-11,2026-07-11,2.74,0.267,0.142,0.064,0.026,3.5,-110,(assumed),under 3.5,0.733,0.5,0.233,0.399,0.0,— thin data —
+Bryan Hudson,Chicago White Sox,Athletics,1,2025-05-12,2026-07-11,2.91,0.309,0.167,0.078,0.033,3.5,-110,(assumed),under 3.5,0.691,0.5,0.191,0.32,0.0,— thin data —
+Brandon Pfaadt,Arizona Diamondbacks,Los Angeles Dodgers,11,2026-07-11,2026-07-11,3.12,0.359,0.201,0.097,0.043,3.5,-110,(assumed),under 3.5,0.641,0.5,0.141,0.224,0.0,— pass —
+Braxton Ashcraft,Pittsburgh Pirates,Milwaukee Brewers,21,2026-07-11,2026-07-11,6.03,0.834,0.721,0.554,0.383,6.5,-110,(assumed),under 6.5,0.617,0.5,0.117,0.178,0.0,— pass —
+Cristopher Sánchez,Philadelphia Phillies,Detroit Tigers,21,2026-07-11,2026-07-11,6.06,0.837,0.726,0.56,0.389,6.5,-110,(assumed),under 6.5,0.611,0.5,0.111,0.167,0.0,— pass —
+Javier Assad,Chicago Cubs,Cincinnati Reds,13,2026-07-11,2026-07-11,3.25,0.391,0.223,0.11,0.05,3.5,-110,(assumed),under 3.5,0.609,0.5,0.109,0.163,0.0,— pass —
+Nick Lodolo,Cincinnati Reds,Chicago Cubs,16,2026-07-11,2026-07-11,4.16,0.587,0.393,0.227,0.119,4.5,-110,(assumed),under 4.5,0.607,0.5,0.107,0.159,0.0,— pass —
+Casey Mize,Detroit Tigers,Philadelphia Phillies,18,2026-07-11,2026-07-11,5.17,0.745,0.583,0.396,0.24,5.5,-110,(assumed),under 5.5,0.604,0.5,0.104,0.153,0.0,— pass —
+Kyle Freeland,Colorado Rockies,San Francisco Giants,19,2026-07-11,2026-07-11,3.36,0.414,0.241,0.121,0.056,3.5,-110,(assumed),under 3.5,0.586,0.5,0.086,0.118,0.0,— pass —
+Bubba Chandler,Pittsburgh Pirates,Milwaukee Brewers,22,2026-07-11,2026-07-11,4.28,0.61,0.417,0.245,0.13,4.5,-110,(assumed),under 4.5,0.583,0.5,0.083,0.113,0.0,— pass —
+Tanner Bibee,Cleveland Guardians,Miami Marlins,25,2026-07-11,2026-07-11,3.39,0.423,0.248,0.126,0.059,3.5,-110,(assumed),under 3.5,0.577,0.5,0.077,0.101,0.0,— pass —
+Trey Yesavage,Toronto Blue Jays,San Diego Padres,14,2026-07-11,2026-07-11,4.38,0.627,0.436,0.261,0.141,4.5,-110,(assumed),under 4.5,0.564,0.5,0.064,0.077,0.0,— pass —
+Matthew Liberatore,St. Louis Cardinals,Atlanta Braves,22,2026-07-11,2026-07-11,3.45,0.437,0.259,0.132,0.062,3.5,-110,(assumed),under 3.5,0.563,0.5,0.063,0.075,0.0,— pass —
+Tyler Mahle,San Francisco Giants,Colorado Rockies,18,2026-07-11,2026-07-11,4.46,0.64,0.451,0.274,0.15,4.5,-110,(assumed),under 4.5,0.549,0.5,0.049,0.048,0.0,— pass —
+Freddy Peralta,New York Mets,Boston Red Sox,22,2026-07-11,2026-07-11,4.5,0.647,0.458,0.279,0.153,4.5,-110,(assumed),under 4.5,0.542,0.5,0.042,0.035,0.0,— pass —
+Logan Gilbert,Seattle Mariners,Tampa Bay Rays,22,2026-07-11,2026-07-11,5.56,0.79,0.65,0.468,0.3,5.5,-110,(assumed),under 5.5,0.532,0.5,0.032,0.016,0.0,— pass —
+Ryan Johnson,Los Angeles Angels,Minnesota Twins,11,2026-07-11,2026-07-11,3.61,0.472,0.287,0.151,0.073,3.5,-110,(assumed),under 3.5,0.528,0.5,0.028,0.008,0.0,— pass —
+Kyle Bradish,Baltimore Orioles,Kansas City Royals,22,2026-07-11,2026-07-11,5.58,0.792,0.653,0.472,0.305,5.5,-110,(assumed),under 5.5,0.528,0.5,0.028,0.008,0.0,— pass —
+Walker Buehler,San Diego Padres,Toronto Blue Jays,23,2026-07-11,2026-07-11,3.64,0.479,0.292,0.154,0.075,3.5,-110,(assumed),under 3.5,0.521,0.5,0.021,-0.005,0.0,— pass —
+Taj Bradley,Minnesota Twins,Los Angeles Angels,23,2026-07-12,2026-07-12,7.04,0.902,0.839,0.722,0.574,6.5,-110,(assumed),over 6.5,0.574,0.5,0.074,0.096,0.0,— pass —
+Shane Baz,Baltimore Orioles,Kansas City Royals,21,2026-07-12,2026-07-12,4.99,0.721,0.551,0.364,0.215,4.5,-110,(assumed),over 4.5,0.551,0.5,0.051,0.053,0.0,— pass —
+Tarik Skubal,Detroit Tigers,Philadelphia Phillies,16,2026-07-12,2026-07-12,6.92,0.896,0.828,0.704,0.552,6.5,-110,(assumed),over 6.5,0.552,0.5,0.052,0.053,0.0,— pass —
+Cade Cavalli,Washington Nationals,New York Yankees,23,2026-07-12,2026-07-12,4.93,0.713,0.54,0.354,0.207,4.5,-110,(assumed),over 4.5,0.54,0.5,0.04,0.032,0.0,— pass —
+Ian Seymour,Tampa Bay Rays,Seattle Mariners,10,2026-07-12,2026-07-12,4.93,0.713,0.54,0.353,0.207,4.5,-110,(assumed),over 4.5,0.54,0.5,0.04,0.031,0.0,— pass —
+Dustin May,St. Louis Cardinals,Atlanta Braves,20,2026-07-12,2026-07-12,3.91,0.538,0.345,0.191,0.096,3.5,-110,(assumed),over 3.5,0.538,0.5,0.038,0.027,0.0,— pass —
+MacKenzie Gore,Texas Rangers,Houston Astros,22,2026-07-12,2026-07-12,4.91,0.711,0.537,0.351,0.205,4.5,-110,(assumed),over 4.5,0.537,0.5,0.037,0.025,0.0,— pass —
+Danny Young,Atlanta Braves,St. Louis Cardinals,1,2024-10-17,2026-07-12,2.57,0.227,0.118,0.052,0.021,3.5,-110,(assumed),under 3.5,0.773,0.5,0.273,0.476,0.0,— thin data —
+Mitch Bratt,Arizona Diamondbacks,Los Angeles Dodgers,4,2026-07-12,2026-07-12,2.6,0.234,0.122,0.053,0.021,3.5,-110,(assumed),under 3.5,0.766,0.5,0.266,0.463,0.0,— thin data —
+Cristian Javier,Houston Astros,Texas Rangers,6,2026-07-12,2026-07-12,3.08,0.349,0.194,0.093,0.041,3.5,-110,(assumed),under 3.5,0.651,0.5,0.151,0.242,0.0,— thin data —
+Zac Thornton,New York Mets,Boston Red Sox,5,2026-07-12,2026-07-12,3.14,0.362,0.203,0.099,0.044,3.5,-110,(assumed),under 3.5,0.638,0.5,0.138,0.218,0.0,— thin data —
+Germán Márquez,San Diego Padres,Toronto Blue Jays,12,2026-07-12,2026-07-12,3.15,0.366,0.205,0.1,0.044,3.5,-110,(assumed),under 3.5,0.634,0.5,0.134,0.211,0.0,— pass —
+Michael Lorenzen,Colorado Rockies,San Francisco Giants,23,2026-07-12,2026-07-12,3.2,0.379,0.215,0.106,0.048,3.5,-110,(assumed),under 3.5,0.621,0.5,0.121,0.186,0.0,— pass —
+Kevin Gausman,Toronto Blue Jays,San Diego Padres,22,2026-07-12,2026-07-12,5.24,0.753,0.596,0.409,0.251,5.5,-110,(assumed),under 5.5,0.591,0.5,0.091,0.127,0.0,— pass —
+J.T. Ginn,Athletics,Chicago White Sox,22,2026-07-12,2026-07-12,4.27,0.606,0.414,0.244,0.13,4.5,-110,(assumed),under 4.5,0.586,0.5,0.086,0.118,0.0,— pass —
+Zack Wheeler,Philadelphia Phillies,Detroit Tigers,15,2026-07-12,2026-07-12,6.25,0.853,0.751,0.594,0.424,6.5,-110,(assumed),under 6.5,0.576,0.5,0.076,0.1,0.0,— pass —
+Tyler Phillips,Miami Marlins,Cleveland Guardians,17,2026-07-08,2026-07-12,3.4,0.425,0.25,0.127,0.059,3.5,-110,(assumed),under 3.5,0.575,0.5,0.075,0.097,0.0,— pass —
+Joey Cantillo,Cleveland Guardians,Miami Marlins,25,2026-07-12,2026-07-12,4.34,0.62,0.427,0.253,0.135,4.5,-110,(assumed),under 4.5,0.573,0.5,0.073,0.094,0.0,— pass —
+Seth Lugo,Kansas City Royals,Baltimore Orioles,21,2026-07-12,2026-07-12,3.46,0.439,0.26,0.133,0.063,3.5,-110,(assumed),under 3.5,0.561,0.5,0.061,0.07,0.0,— pass —
+Robert Gasser,Milwaukee Brewers,Pittsburgh Pirates,12,2026-07-12,2026-07-12,4.4,0.631,0.44,0.264,0.143,4.5,-110,(assumed),under 4.5,0.56,0.5,0.06,0.069,0.0,— pass —
+Emerson Hancock,Seattle Mariners,Tampa Bay Rays,20,2026-07-05,2026-07-12,4.43,0.633,0.444,0.268,0.147,4.5,-110,(assumed),under 4.5,0.556,0.5,0.056,0.061,0.0,— pass —
+Emmet Sheehan,Los Angeles Dodgers,Arizona Diamondbacks,20,2026-07-12,2026-07-12,4.47,0.642,0.453,0.275,0.15,4.5,-110,(assumed),under 4.5,0.547,0.5,0.047,0.045,0.0,— pass —
+Will Warren,New York Yankees,Washington Nationals,25,2026-07-12,2026-07-12,3.53,0.453,0.272,0.142,0.068,3.5,-110,(assumed),under 3.5,0.547,0.5,0.047,0.044,0.0,— pass —
+Trevor McDonald,San Francisco Giants,Colorado Rockies,15,2026-07-12,2026-07-12,3.54,0.455,0.274,0.143,0.068,3.5,-110,(assumed),under 3.5,0.545,0.5,0.045,0.04,0.0,— pass —
+Andrew Abbott,Cincinnati Reds,Chicago Cubs,25,2026-07-12,2026-07-12,3.58,0.465,0.281,0.147,0.07,3.5,-110,(assumed),under 3.5,0.535,0.5,0.035,0.021,0.0,— pass —
+Payton Tolle,Boston Red Sox,New York Mets,17,2026-07-12,2026-07-12,4.54,0.655,0.467,0.287,0.159,4.5,-110,(assumed),under 4.5,0.533,0.5,0.033,0.017,0.0,— pass —
+Paul Skenes,Pittsburgh Pirates,Milwaukee Brewers,21,2026-07-12,2026-07-12,5.59,0.794,0.655,0.475,0.307,5.5,-110,(assumed),under 5.5,0.525,0.5,0.025,0.003,0.0,— pass —
+José Soriano,Los Angeles Angels,Minnesota Twins,23,2026-07-12,2026-07-12,4.62,0.666,0.482,0.3,0.168,4.5,-110,(assumed),under 4.5,0.518,0.5,0.018,-0.01,0.0,— pass —
+Matthew Boyd,Chicago Cubs,Cincinnati Reds,10,2026-07-12,2026-07-12,4.69,0.679,0.496,0.312,0.176,4.5,-110,(assumed),under 4.5,0.504,0.5,0.004,-0.038,0.0,— pass —
+Noah Schultz,Chicago White Sox,Athletics,11,2026-07-12,2026-07-12,3.73,0.498,0.309,0.166,0.081,3.5,-110,(assumed),under 3.5,0.502,0.5,0.002,-0.042,0.0,— pass —
