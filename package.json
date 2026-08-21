@@ -1,0 +1,7 @@
+{
+  "name": "medidor-de-ponches-mlb",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'no build needed'"
+  }
+}
