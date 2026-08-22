@@ -23,10 +23,13 @@ PRED_DIR = "reports/predictions"
 HIST_PATH = "reports/settled_results.csv"
 VENTANA_DIAS = 30
 MIN_JUEGOS = 20
-EV_MIN = 0.02
-PROB_MIN = 0.55   # umbral de probabilidad para apostar
-KELLY_FRACTION = 0.25
-STAKE_MAX = 0.02   # máximo 2% del bankroll
+EV_MIN = 0.05          # 5% de EV mínimo para apostar
+PROB_MIN = 0.60        # probabilidad mínima del lado elegido (antes de acotar)
+UNC_MAX = 0.12         # incertidumbre máxima permitida (si existe columna unc)
+KELLY_FRACTION = 0.25  # 1/4 Kelly
+STAKE_MAX = 0.01       # máximo 1% del bankroll por apuesta
+PROB_LOWER = 0.05
+PROB_UPPER = 0.85
 
 def prob_break_even(odds_americano):
     """Probabilidad de break-even para cuota americana."""
@@ -65,11 +68,9 @@ def kelly_fraction(prob, odds_americano):
         b = 100 / -odds
     return (prob * b - (1 - prob)) / b
 
-def calcular_stake(prob, odds_americano, bankroll):
-    """Calcula stake usando Kelly fraccional con límite."""
-    frac = kelly_fraction(prob, odds_americano) * KELLY_FRACTION
-    stake = bankroll * min(frac, STAKE_MAX)
-    return max(0.0, stake)
+def limit_prob(p):
+    """Limita la probabilidad al rango [0.05, 0.85]."""
+    return max(PROB_LOWER, min(PROB_UPPER, p))
 
 def main():
     parser = argparse.ArgumentParser()
@@ -118,43 +119,71 @@ def main():
             iso = IsotonicRegression(out_of_bounds="clip")
             iso.fit(x, y)
             p_cal = iso.predict([row[f"prob_over_{l}"]])[0]
-            pred.at[i, f"prob_over_{l}"] = p_cal
+            pred.at[i, f"prob_over_{l}"] = limit_prob(p_cal)   # acotar over
 
-    # Ahora recalcular decisiones con probabilidades calibradas
+    # Recalcular decisiones con probabilidades calibradas
     bankroll = float(os.environ.get("BANKROLL", "1000"))
     for i, row in pred.iterrows():
-        mejor = None
-        # Evaluar todas las líneas y lados
+        # Filtro por incertidumbre
+        if "unc" in row and not pd.isna(row["unc"]):
+            if float(row["unc"]) > UNC_MAX:
+                pred.at[i, "PLAY"] = "— pass —"
+                pred.at[i, "stake"] = 0.0
+                pred.at[i, "call"] = ""
+                pred.at[i, "line"] = ""
+                pred.at[i, "model_prob"] = np.nan
+                pred.at[i, "EV"] = 0.0
+                pred.at[i, "edge"] = 0.0
+                continue
+
+        # Buscar la mejor jugada entre líneas y lados
+        candidatos = []
         for line in lineas:
-            p_over = row[f"prob_over_{l}"]
-            # Lado over
+            p_over = pred.at[i, f"prob_over_{line}"]
+            # Over
             if p_over > PROB_MIN:
                 ev = expected_value(p_over, row["odds"])
                 if ev > EV_MIN:
-                    if mejor is None or ev > mejor["ev"]:
-                        mejor = {"line": line, "call": f"over {line}",
-                                 "prob": p_over, "ev": ev}
-            # Lado under
+                    candidatos.append(("over", line, p_over, ev))
+            # Under
             p_under = 1 - p_over
             if p_under > PROB_MIN:
                 ev = expected_value(p_under, row["odds"])
                 if ev > EV_MIN:
-                    if mejor is None or ev > mejor["ev"]:
-                        mejor = {"line": line, "call": f"under {line}",
-                                 "prob": p_under, "ev": ev}
-        if mejor is not None:
-            stake = calcular_stake(mejor["prob"], row["odds"], bankroll)
-            pred.at[i, "line"] = mejor["line"]
-            pred.at[i, "call"] = mejor["call"]
-            pred.at[i, "model_prob"] = mejor["prob"]
-            pred.at[i, "fair_prob"] = prob_break_even(row["odds"])
-            pred.at[i, "edge"] = mejor["prob"] - pred.at[i, "fair_prob"]
-            pred.at[i, "EV"] = mejor["ev"]
-            pred.at[i, "stake"] = stake
-            pred.at[i, "PLAY"] = mejor["call"] if stake > 0 else "— pass —"
-        else:
+                    candidatos.append(("under", line, p_under, ev))
+
+        if not candidatos:
             pred.at[i, "PLAY"] = "— pass —"
             pred.at[i, "stake"] = 0.0
+            continue
+
+        # Elegir la de mayor EV
+        mejor = max(candidatos, key=lambda x: x[3])
+        lado, line, prob_cruda, ev_cruda = mejor
+
+        # Acotar la probabilidad final del lado seleccionado
+        prob_final = limit_prob(prob_cruda)
+        ev_final = expected_value(prob_final, row["odds"])
+
+        # Si tras acotar el EV ya no supera el mínimo, pasar
+        if ev_final <= EV_MIN or prob_final <= prob_break_even(row["odds"]):
+            pred.at[i, "PLAY"] = "— pass —"
+            pred.at[i, "stake"] = 0.0
+            continue
+
+        # Calcular stake con Kelly fraccional, tope 1%
+        frac = kelly_fraction(prob_final, row["odds"]) * KELLY_FRACTION
+        stake = bankroll * min(frac, STAKE_MAX)
+        stake = max(0.0, stake)
+
+        pred.at[i, "line"] = line
+        pred.at[i, "call"] = f"{lado} {line}"
+        pred.at[i, "model_prob"] = prob_final
+        pred.at[i, "fair_prob"] = prob_break_even(row["odds"])
+        pred.at[i, "edge"] = prob_final - pred.at[i, "fair_prob"]
+        pred.at[i, "EV"] = ev_final
+        pred.at[i, "stake"] = stake
+        pred.at[i, "PLAY"] = f"{lado} {line}" if stake > 0 else "— pass —"
 
     # Guardar CSV sobrescrito
     pred.to_csv(pred_path, index=False)
