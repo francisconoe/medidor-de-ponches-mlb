@@ -6,8 +6,8 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.87,
-      "edge": 0.37,
+      "model_prob": 0.878,
+      "edge": 0.378,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
@@ -17,8 +17,19 @@
       "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.692,
-      "edge": 0.192,
+      "model_prob": 0.689,
+      "edge": 0.189,
+      "stake": 20.0,
+      "oddsindex": "-",
+      "agree": "no-pick"
+    },
+    {
+      "pitcher_name": "Eury Pérez",
+      "call": "over 6.5",
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.683,
+      "edge": 0.183,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
