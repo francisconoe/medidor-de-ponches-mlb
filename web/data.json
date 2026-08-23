@@ -2,82 +2,18 @@
   "fecha": "Desconocida",
   "juegos": [
     {
-      "pitcher_name": "Tarik Skubal",
-      "call": "over 6.5",
+      "pitcher_name": "Janson Junk",
+      "call": "under 3.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.878,
-      "edge": 0.378,
-      "stake": 20.0,
-      "oddsindex": "-",
-      "agree": "no-pick"
-    },
-    {
-      "pitcher_name": "Dylan Cease",
-      "call": "over 6.5",
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.705,
-      "edge": 0.205,
-      "stake": 20.0,
-      "oddsindex": "-",
-      "agree": "no-pick"
-    },
-    {
-      "pitcher_name": "Eury Pérez",
-      "call": "over 6.5",
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.683,
-      "edge": 0.183,
+      "model_prob": 0.669,
+      "edge": 0.169,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-08-10",
-      "pitcher_name": "Dean Kremer",
-      "call": "over 4.5",
-      "line": 4.5,
-      "odds": -125,
-      "book": "draftkings",
-      "model_prob": 0.733,
-      "edge": 0.219,
-      "stake": 20.0,
-      "actual_k": 7,
-      "result": "win",
-      "profit": 16.0
-    },
-    {
-      "game_date": "2026-08-10",
-      "pitcher_name": "Reid Detmers",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -134,
-      "book": "draftkings",
-      "model_prob": 0.67,
-      "edge": 0.13,
-      "stake": 20.0,
-      "actual_k": 6,
-      "result": "loss",
-      "profit": -20.0
-    },
-    {
-      "game_date": "2026-08-10",
-      "pitcher_name": "Jacob Lopez",
-      "call": "under 4.5",
-      "line": 4.5,
-      "odds": -149,
-      "book": "draftkings",
-      "model_prob": 0.667,
-      "edge": 0.102,
-      "stake": 20.0,
-      "actual_k": 5,
-      "result": "loss",
-      "profit": -20.0
-    },
     {
       "game_date": "2026-08-11",
       "pitcher_name": "Nick Martinez",
@@ -455,6 +391,48 @@
       "actual_k": 6,
       "result": "loss",
       "profit": -10.0
+    },
+    {
+      "game_date": "2026-08-22",
+      "pitcher_name": "Tarik Skubal",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.878,
+      "edge": 0.378,
+      "stake": 20.0,
+      "actual_k": 11,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-08-22",
+      "pitcher_name": "Dylan Cease",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.705,
+      "edge": 0.205,
+      "stake": 20.0,
+      "actual_k": 8,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-08-22",
+      "pitcher_name": "Eury Pérez",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.683,
+      "edge": 0.183,
+      "stake": 20.0,
+      "actual_k": 4,
+      "result": "loss",
+      "profit": -20.0
     }
   ]
 }

@@ -129,3 +129,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-21,Cam Schlittler,over 6.5,6.5,-110,(assumed),0.746,0.246,10.0,4,loss,-10.0
 2026-08-21,Jesús Luzardo,over 6.5,6.5,-110,(assumed),0.673,0.173,10.0,9,win,9.09
 2026-08-21,Chris Sale,over 6.5,6.5,-110,(assumed),0.665,0.165,10.0,6,loss,-10.0
+2026-08-22,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.878,0.378,20.0,11,win,18.18
+2026-08-22,Dylan Cease,over 6.5,6.5,-110,(assumed),0.705,0.205,20.0,8,win,18.18
+2026-08-22,Eury Pérez,over 6.5,6.5,-110,(assumed),0.683,0.183,20.0,4,loss,-20.0
