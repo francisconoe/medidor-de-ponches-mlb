@@ -6,8 +6,19 @@
       "call": "under 3.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.669,
-      "edge": 0.169,
+      "model_prob": 0.717,
+      "edge": 0.217,
+      "stake": 20.0,
+      "oddsindex": "-",
+      "agree": "no-pick"
+    },
+    {
+      "pitcher_name": "Tomoyuki Sugano",
+      "call": "under 3.5",
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.673,
+      "edge": 0.173,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
