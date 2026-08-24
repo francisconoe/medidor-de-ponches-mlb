@@ -1,80 +1,107 @@
-# MLB Strikeout Prediction
+# ⚾ Medidor de Ponches MLB
 
-## Objective
-Predict pitcher-game strikeouts using MLB Statcast pitch-level data.
-Evaluate regression performance and frame predictions into Over/Under decisions.
-Compare traditional ML, deep learning, and Bayesian uncertainty approaches.
+Aplicación para predecir strikeouts de lanzadores abridores de MLB y convertirlos en decisiones de apuestas Over/Under con valor esperado.
 
-## Models
-- Mean baseline
-- Linear regression
-- XGBoost
-- Feed-forward Neural Network
-- Bayesian Neural Network
+## 📌 Descripción
 
-## Pipeline Stages
-1. Data acquisition (Statcast pitch-level data)
-2. Data cleaning and preprocessing
-3. Label engineering (strikeouts per pitcher-game)
-4. Feature engineering (pitch → game aggregation)
-5. Time-aware train/test split
-6. Model training and evaluation
-7. Over/Under framing
-8. SHAP explainability
-9. Uncertainty evaluation (BNN)
+Este proyecto entrena modelos de machine learning sobre datos pitch-level de Statcast para estimar cuántos ponches realizará un pitcher en su próxima apertura. Luego, esas predicciones se transforman en recomendaciones de apuestas según la línea y cuota que fije la casa de apuestas.
 
-## Reproducibility
-1. Install requirements
-2. Run data_pull.py
-3. Run cleaning.py
-4. Run labels.py
-5. Run features.py
-6. Run training scripts
+La web permite al usuario ingresar la línea de strikeouts y la cuota actual, y el modelo responde si hay valor o no, mostrando:
+- Probabilidad estimada de Over/Under.
+- EV (valor esperado).
+- Cuota mínima recomendada para que la apuesta sea rentable.
 
-## Decision Framing
-Regression predictions converted into Over/Under classification.
+## 🌐 Web App
 
-## Daily automated run (GitHub Actions)
+La web está construida como sitio estático y desplegada en Vercel.
 
-The whole daily workflow runs unattended via `run_daily.py`, scheduled by
-[.github/workflows/daily.yml](.github/workflows/daily.yml).
+### Secciones
+- **Predicciones de hoy**: muestra todos los juegos con probabilidad ≥ 55% en alguna línea.
+- **Historial**: resultados de apuestas desde el 24/08/2026.
 
-**What it does each day:** settles yesterday's flagged plays against MLB
-boxscores, predicts *today's* slate (real DraftKings/FanDuel odds + confirmed
-lineups + short-outing correction), cross-checks each play against oddsindex.com,
-and posts a compact summary to Discord.
+### Cómo usar
+1. Ve a la pestaña "Predicciones de hoy".
+2. Para cada pitcher, ingresa:
+   - **Línea de la casa** (ej. 7.5)
+   - **Cuota americana** (ej. -110)
+3. Haz clic en **Evaluar**.
+4. El sistema te dirá si hay valor y te sugerirá una cuota mínima.
 
-**Run it manually (local):**
-```
-python run_daily.py                 # targets today (US Eastern)
-RUN_DATE=2026-08-10 python run_daily.py   # a specific date
-```
-Needs `ODDS_API_KEY` (in `.env` or env) for real odds, and
-`DISCORD_WEBHOOK_URL` for the notification — both optional; the run degrades
-gracefully (assumed lines / skipped notification) without them.
+## 📂 Estructura del repositorio
+├── web/ # Frontend estático (HTML, CSS, JS, data.json)
+├── src/ # Código fuente del pipeline
+├── scripts/ # Utilidades (generación de web/data.json)
+├── reports/ # Predicciones diarias, ledger, métricas
+├── models/ # Modelos entrenados (BNN, XGBoost, etc.)
+├── data/ # Datos crudos y procesados
+├── run_daily.py # Flujo diario completo
+└── vercel.json # Configuración de despliegue
 
-**Schedule:** cron `0 13 * * *` = **13:00 UTC = 2:00 PM UK**. The MLB season is
-entirely in BST, so this is 2 PM UK every day it matters. To change it, edit
-the `cron:` line (UTC; GitHub does not adjust for BST/GMT). You can also trigger a
-run any time from the repo's **Actions → daily-strikeout-run → Run workflow**.
+text
 
-Note that 2 PM UK is 9 AM ET — early in the game day. Yesterday's plays settle
-fully, but today's slate is predicted before confirmed lineups post and while
-sportsbooks are still filling in K-props, so expect the team-K% proxy instead of
-confirmed lineups and partial real-odds coverage. Each notification reports its
-own `real odds n/N | lineups n/N` readiness so you can see how ready the slate
-was; a later run (18:00–20:00 UTC) is what catches both posted.
+## 🚀 Flujo diario automatizado
 
-**Secrets** (repo → Settings → Secrets and variables → Actions):
-`ODDS_API_KEY`, `DISCORD_WEBHOOK_URL`. Never commit these.
+El repositorio incluye un workflow de GitHub Actions (`daily.yml`) que se ejecuta tres veces al día en horario de Hermosillo (08:00, 12:45, 15:00).
 
-**Results persist back to the repo.** Each run commits `reports/predictions/` and
-the updated `reports/bets_ledger.csv` to the default branch. This is what makes
-settling work at all in CI: the settle step looks for past prediction CSVs on
-disk, so without committing them a fresh checkout finds nothing outstanding and
-the ledger — and the lifetime ROI in the Discord message — never moves. It also
-keeps the repo active, so the schedule can't be auto-disabled for inactivity.
+### Qué hace cada corrida
+1. Liquida las apuestas del día anterior contra resultados reales.
+2. Predice la jornada actual usando el modelo BNN v5 + XGBoost.
+3. Aplica calibración walk-forward con ventana de 30 días.
+4. Genera `web/data.json` para la web.
+5. Sube los cambios al repositorio.
+6. Notifica por Discord (si está configurado).
 
-**When it fails:** GitHub emails you (the job exits non-zero on failure). Check
-**Actions → the failed run → logs**; the predictions/ledger are also uploaded as
-a run artifact. Scheduled runs can fire a little late during busy periods.
+## 🧠 Modelo
+
+El modelo principal es una **red neuronal bayesiana con NB-Dropout** combinada con **XGBoost-Poisson**. La BNN produce una distribución de probabilidad de strikeouts mediante muestreo Monte Carlo, y luego se calibra para obtener probabilidades over/under confiables.
+
+## ⚙️ Instalación local
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+▶️ Ejecutar localmente
+bash
+# Ejecutar flujo diario completo
+python run_daily.py
+
+# Generar web/data.json
+python scripts\generate_site_data.py
+
+# Probar la web localmente
+cd web
+python -m http.server 8000
+Abrir http://localhost:8000.
+
+🔧 Variables de entorno opcionales
+ODDS_API_KEY: para obtener cuotas reales (si no se define, se asumen -110).
+
+DISCORD_WEBHOOK_URL: para notificaciones.
+
+RUN_DATE: para forzar una fecha específica (YYYY-MM-DD).
+
+BANKROLL: bankroll para cálculo de stakes (default 1000).
+
+📅 Historial
+El historial muestra apuestas liquidadas desde el 24/08/2026. Los registros anteriores no se muestran.
+
+👨‍💻 Autor
+Construida por Francisco Noe Renteria Nevarez.
+
+📄 Licencia
+Este proyecto es solo con fines educativos y de análisis. No constituye consejo de apuestas.
+
+text
+
+## Paso 3: Guardar y subir
+
+1. Guarda el archivo (`Ctrl+S`).
+2. Cierra el bloc de notas.
+3. Ejecuta:
+
+```cmd
+git add README.md
+git commit -m "Actualizar README en español"
+git push origin main
+Vercel no necesita redeploy por cambios en README, pero GitHub lo reflejará.
