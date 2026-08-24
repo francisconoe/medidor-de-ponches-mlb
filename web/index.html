@@ -9,28 +9,28 @@
 <body>
   <header>
     <h1>⚾ Medidor de Ponches MLB</h1>
-    <p class="subtitle">Valor de apuestas Over/Under basado en el modelo de strikeouts</p>
+    <p class="subtitle">Ingresa la línea y cuota de la casa, y el modelo te dirá si hay valor</p>
   </header>
 
-  <main>
-    <section id="fecha-section" class="card">
-      <h2>Jornada del <span id="fecha"></span></h2>
-      <p>Ingresa la cuota americana actual (ej. -110) para cada jugada y pulsa <strong>Evaluar</strong>.</p>
-    </section>
+  <nav>
+    <button class="tab-btn active" onclick="showSection('predicciones')">Predicciones de hoy</button>
+    <button class="tab-btn" onclick="showSection('historial')">Historial</button>
+  </nav>
 
-    <section id="juegos-section" class="card">
-      <h2>Predicciones de hoy</h2>
+  <main>
+    <section id="predicciones" class="section active">
+      <h2>Jornada del <span id="fecha"></span></h2>
       <div id="tabla-juegos"></div>
     </section>
 
-    <section id="historial-section" class="card">
-      <h2>Historial de apuestas</h2>
+    <section id="historial" class="section">
+      <h2>Historial desde 24/08/2026</h2>
       <div id="tabla-historial"></div>
     </section>
   </main>
 
   <footer>
-    <p>Modelo: BNN v5 + XGBoost | Cuotas asumidas: -110 | No es consejo de apuestas</p>
+    <p>Construida por Francisco Noe Renteria Nevarez</p>
   </footer>
 
   <script src="app.js"></script>

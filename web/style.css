@@ -43,12 +43,49 @@ header h1 {
   font-size: 1.1rem;
 }
 
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background: #334155;
+  color: var(--text);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.tab-btn:hover {
+  background: #475569;
+}
+
+.tab-btn.active {
+  background: var(--accent);
+  color: #0f172a;
+}
+
 main {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
 }
 
 .card {
@@ -86,6 +123,7 @@ tr:nth-child(even) {
   background: #1a2536;
 }
 
+input[type="number"],
 input[type="text"] {
   background: #0f172a;
   color: var(--text);
@@ -112,12 +150,12 @@ button:hover {
   background: #d97706;
 }
 
-.apostar {
+.valor {
   color: var(--green);
   font-weight: bold;
 }
 
-.pasar {
+.sin-valor {
   color: var(--red);
   font-weight: bold;
 }
@@ -129,8 +167,11 @@ button:hover {
 }
 
 footer {
-  margin-top: 2rem;
-  color: var(--text-muted);
+  margin-top: 3rem;
   text-align: center;
-  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+  width: 100%;
+  max-width: 1200px;
 }

@@ -64,7 +64,7 @@ def main():
     base_df = pd.read_csv("reports/baseline_predictions.csv")
     xgb_df = pd.read_csv("reports/xgb_predictions.csv")
     nn_df = pd.read_csv("reports/nn_predictions.csv")
-    # bnn_df = pd.read_csv("reports/bnn_predictions.csv")   # Excluido temporalmente
+    bnn_df = pd.read_csv("reports/bnn_predictions.csv")
 
     # Start from baseline file
     merged = base_df[
@@ -85,17 +85,17 @@ def main():
         how="inner"
     )
 
-    # Merge BNN predictions (comentado)
-    # bnn_cols = [
-    #     "game_pk", "pitcher", "pred_bnn_mean", "pred_bnn_std",
-    #     "prob_over_3.5", "prob_over_4.5", "prob_over_5.5", "prob_over_6.5",
-    #     "prob_under_3.5", "prob_under_4.5", "prob_under_5.5", "prob_under_6.5"
-    # ]
-    # merged = merged.merge(
-    #     bnn_df[bnn_cols],
-    #     on=["game_pk", "pitcher"],
-    #     how="inner"
-    # )
+    # Merge BNN predictions
+    bnn_cols = [
+        "game_pk", "pitcher", "pred_bnn_mean", "pred_bnn_std",
+        "prob_over_3.5", "prob_over_4.5", "prob_over_5.5", "prob_over_6.5",
+        "prob_under_3.5", "prob_under_4.5", "prob_under_5.5", "prob_under_6.5"
+    ]
+    merged = merged.merge(
+        bnn_df[bnn_cols],
+        on=["game_pk", "pitcher"],
+        how="inner"
+    )
 
     print("Merged evaluation dataset shape:", merged.shape)
 
@@ -109,7 +109,7 @@ def main():
         "linear_regression": "pred_linear",
         "xgboost": "pred_xgb",
         "neural_network": "pred_nn",
-        # "bayesian_nn_mean": "pred_bnn_mean",   # Excluido temporalmente
+        "bayesian_nn_mean": "pred_bnn_mean",
     }
 
     for model_name, pred_col in regression_models.items():
@@ -121,15 +121,15 @@ def main():
             row["decision_type"] = "thresholded_regression"
             results.append(row)
 
-    # BNN probability outputs (comentado)
-    # for threshold in THRESHOLDS:
-    #     prob_col = f"prob_over_{threshold}"
-    #     prob_over = merged[prob_col].values
-    #
-    #     row = evaluate_probability_threshold(y_true, prob_over, threshold, prob_cutoff=0.5)
-    #     row["model"] = "bayesian_nn_probability"
-    #     row["decision_type"] = "probability_cutoff"
-    #     results.append(row)
+    # BNN probability outputs
+    for threshold in THRESHOLDS:
+        prob_col = f"prob_over_{threshold}"
+        prob_over = merged[prob_col].values
+
+        row = evaluate_probability_threshold(y_true, prob_over, threshold, prob_cutoff=0.5)
+        row["model"] = "bayesian_nn_probability"
+        row["decision_type"] = "probability_cutoff"
+        results.append(row)
 
     results_df = pd.DataFrame(results)
 

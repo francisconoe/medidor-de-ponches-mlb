@@ -155,6 +155,36 @@ def main():
     pd.DataFrame([{"model": "bnn_v5_vsopp_whiff", "n_test_2026": len(test_df),
                    "mae": mae, "mae_recent_avg_baseline": mean_absolute_error(yt, base_recent),
                    "ensemble_nn_weight": float(best_w)}]).to_csv("reports/metrics_bnn_v5.csv", index=False)
+
+    # -----------------------------------------------------------
+    # NUEVO: Exportar predicciones de BNN v5 para evaluación y web
+    # -----------------------------------------------------------
+    print("\nExporting BNN predictions to reports/bnn_predictions.csv ...")
+    mu_t_np = mu_t.cpu().numpy() if torch.is_tensor(mu_t) else mu_t
+    pred_rows = []
+    for i in range(len(test_df)):
+        row = {
+            "game_pk": test_df.iloc[i]["game_pk"],
+            "game_date": str(test_df.iloc[i]["game_date"]),
+            "game_year": test_df.iloc[i]["game_date"].year,   # <-- CORREGIDO
+            "pitcher": test_df.iloc[i]["pitcher"],
+            "strikeouts": yt[i],
+            "pred_bnn_mean": float(blend_t[i]),
+            "pred_bnn_std": float(np.std(mu_t_np[:, i])),
+            "prob_over_3.5": float(cal_probs[3.5][i]),
+            "prob_over_4.5": float(cal_probs[4.5][i]),
+            "prob_over_5.5": float(cal_probs[5.5][i]),
+            "prob_over_6.5": float(cal_probs[6.5][i]),
+            "prob_under_3.5": 1 - float(cal_probs[3.5][i]),
+            "prob_under_4.5": 1 - float(cal_probs[4.5][i]),
+            "prob_under_5.5": 1 - float(cal_probs[5.5][i]),
+            "prob_under_6.5": 1 - float(cal_probs[6.5][i]),
+        }
+        pred_rows.append(row)
+    pred_df = pd.DataFrame(pred_rows)
+    pred_df.to_csv("reports/bnn_predictions.csv", index=False)
+    print("Saved BNN predictions to reports/bnn_predictions.csv")
+
     print("\nSaved v5 artifacts (models/bnn_v5_*, reports/metrics_bnn_v5.csv). v4 untouched.")
 
 

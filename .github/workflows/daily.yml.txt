@@ -1,0 +1,91 @@
+name: daily-strikeout-run
+
+# Fires at 13:00 UTC = 2:00 PM BST. The MLB season (Apr-Oct) is entirely within
+# British Summer Time, so 13:00 UTC == 14:00 UK on every day this job matters -
+# no DST juggling needed. GitHub cron is UTC and does not adjust for BST/GMT.
+# Also runnable on demand via the "Run workflow" button (workflow_dispatch).
+#
+# TRADE-OFF at this hour: 14:00 UK = 09:00 ET, which is BEFORE the day's inputs
+# firm up. Confirmed lineups post ~3-4h pre-first-pitch (~3-4pm ET for night
+# games), DraftKings K-props fill in through the morning, and oddsindex posts
+# early afternoon ET. So this run settles yesterday cleanly (all West Coast
+# games final) but predicts today with the team-K% proxy instead of confirmed
+# lineups, partial real odds, and usually no oddsindex second opinion. The
+# readiness line in the Discord message reports the actual coverage each day.
+on:
+  schedule:
+    - cron: "0 13 * * *"    # 13:00 UTC / 14:00 UK (BST) daily
+  workflow_dispatch:
+
+# Note: scheduled runs can be queued/late during busy periods - don't assume it's punctual.
+# (The old "disabled after ~60 days without commits" risk no longer applies: the
+# commit-results step below pushes daily, which counts as repo activity.)
+
+jobs:
+  run-daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Needed by the commit-results step so each run's predictions and the updated
+    # ledger persist back to the repo instead of dying with the runner.
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps (CPU-only PyTorch)
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Run daily
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BANKROLL: "1000"
+        run: python run_daily.py
+
+      # NUEVO: Generar web/data.json para la web estática
+      - name: Generate web data
+        if: always()
+        run: python scripts/generate_site_data.py
+
+      # Without this the whole settle step is a no-op in CI: prediction CSVs are
+      # written into a fresh checkout, uploaded as an artifact, then destroyed
+      # with the runner. Next run globs an empty reports/predictions/, finds
+      # nothing outstanding, and the ledger stays frozen at whatever was last
+      # committed - so the lifetime ROI in the Discord message never moves.
+      # Pushing the results back makes tomorrow's settle step able to see today's
+      # plays. Runs even on failure so a settled ledger survives a broken predict.
+      - name: Commit results back
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/predictions/ reports/bets_ledger.csv web/data.json
+          if git diff --cached --quiet; then
+            echo "No new predictions, ledger changes, or web data to commit."
+            exit 0
+          fi
+          git commit -m "Daily run $(date -u +%Y-%m-%d): predictions + settled ledger + web data"
+          # The branch can move between checkout and here; rebase before pushing.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Upload predictions + ledger + web data
+        if: always()          # keep outputs even if a later step failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: predictions-${{ github.run_id }}
+          path: |
+            reports/predictions/
+            reports/bets_ledger.csv
+            web/data.json
+          if-no-files-found: warn
