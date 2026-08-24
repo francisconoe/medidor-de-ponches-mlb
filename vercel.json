@@ -1,7 +1,4 @@
 {
   "outputDirectory": "web",
-  "cleanUrls": true,
-  "build": {
-    "env": {}
-  }
+  "cleanUrls": true
 }
