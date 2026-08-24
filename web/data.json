@@ -2,57 +2,40 @@
   "fecha": "Desconocida",
   "juegos": [
     {
-      "pitcher_name": "Janson Junk",
-      "call": "under 3.5",
+      "pitcher_name": "Parker Messick",
+      "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.717,
-      "edge": 0.217,
+      "model_prob": 0.723,
+      "edge": 0.223,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
     },
     {
-      "pitcher_name": "Tomoyuki Sugano",
-      "call": "under 3.5",
+      "pitcher_name": "Zack Wheeler",
+      "call": "over 6.5",
       "odds": -110,
       "book": "(assumed)",
-      "model_prob": 0.675,
-      "edge": 0.175,
+      "model_prob": 0.678,
+      "edge": 0.178,
+      "stake": 20.0,
+      "oddsindex": "-",
+      "agree": "no-pick"
+    },
+    {
+      "pitcher_name": "Logan Gilbert",
+      "call": "over 6.5",
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.673,
+      "edge": 0.173,
       "stake": 20.0,
       "oddsindex": "-",
       "agree": "no-pick"
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-08-11",
-      "pitcher_name": "Nick Martinez",
-      "call": "under 3.5",
-      "line": 3.5,
-      "odds": -140,
-      "book": "draftkings",
-      "model_prob": 0.69,
-      "edge": 0.139,
-      "stake": 20.0,
-      "actual_k": 5,
-      "result": "loss",
-      "profit": -20.0
-    },
-    {
-      "game_date": "2026-08-11",
-      "pitcher_name": "Shota Imanaga",
-      "call": "under 5.5",
-      "line": 5.5,
-      "odds": -154,
-      "book": "draftkings",
-      "model_prob": 0.713,
-      "edge": 0.141,
-      "stake": 20.0,
-      "actual_k": 5,
-      "result": "win",
-      "profit": 12.99
-    },
     {
       "game_date": "2026-08-11",
       "pitcher_name": "Bailey Ober",
@@ -444,6 +427,34 @@
       "actual_k": 4,
       "result": "loss",
       "profit": -20.0
+    },
+    {
+      "game_date": "2026-08-23",
+      "pitcher_name": "Janson Junk",
+      "call": "under 3.5",
+      "line": 3.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.717,
+      "edge": 0.217,
+      "stake": 20.0,
+      "actual_k": 2,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-08-23",
+      "pitcher_name": "Tomoyuki Sugano",
+      "call": "under 3.5",
+      "line": 3.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.675,
+      "edge": 0.175,
+      "stake": 20.0,
+      "actual_k": 2,
+      "result": "win",
+      "profit": 18.18
     }
   ]
 }

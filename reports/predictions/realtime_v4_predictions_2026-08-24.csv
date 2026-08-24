@@ -1,0 +1,20 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Parker Messick,Cleveland Guardians,Los Angeles Angels,29,2026-08-19,proxy,2026-08-24,7.3,0.958,0.905,0.763,0.723,6.5,-110,(assumed),over 6.5,0.723,0.5,0.223,0.379,0.076,20.0,over 6.5
+Zack Wheeler,Philadelphia Phillies,Seattle Mariners,20,2026-08-18,proxy,2026-08-24,7.06,0.95,0.888,0.738,0.678,6.5,-110,(assumed),over 6.5,0.678,0.5,0.178,0.295,0.072,20.0,over 6.5
+Logan Gilbert,Seattle Mariners,Philadelphia Phillies,28,2026-08-19,proxy,2026-08-24,7.03,0.949,0.886,0.735,0.673,6.5,-110,(assumed),over 6.5,0.673,0.5,0.173,0.286,0.082,20.0,over 6.5
+Kumar Rocker,Texas Rangers,Chicago White Sox,27,2026-08-19,proxy,2026-08-24,4.97,0.77,0.586,0.407,0.251,4.5,-110,(assumed),over 4.5,0.586,0.5,0.086,0.119,0.057,0.0,— pass —
+Chase Burns,Cincinnati Reds,San Francisco Giants,28,2026-08-19,proxy,2026-08-24,6.52,0.924,0.836,0.671,0.566,6.5,-110,(assumed),over 6.5,0.566,0.5,0.066,0.08,0.063,0.0,— pass —
+Braxton Ashcraft,Pittsburgh Pirates,San Diego Padres,27,2026-08-18,proxy,2026-08-24,5.76,0.866,0.733,0.554,0.401,5.5,-110,(assumed),over 5.5,0.554,0.5,0.054,0.057,0.077,0.0,— pass —
+George Klassen,Los Angeles Angels,Cleveland Guardians,8,2026-08-18,proxy,2026-08-24,4.72,0.73,0.532,0.356,0.209,4.5,-110,(assumed),over 4.5,0.532,0.5,0.032,0.016,0.065,0.0,— pass —
+José Urquidy,Chicago White Sox,Texas Rangers,3,2026-08-19,proxy,2026-08-24,4.66,0.716,0.516,0.343,0.201,4.5,-110,(assumed),over 4.5,0.516,0.5,0.016,-0.014,0.079,0.0,— thin data —
+Sandy Alcantara,Miami Marlins,Boston Red Sox,30,2026-08-19,proxy,2026-08-24,4.62,0.713,0.51,0.335,0.194,4.5,-110,(assumed),over 4.5,0.51,0.5,0.01,-0.027,0.062,0.0,— pass —
+Kevin Gausman,Chicago Cubs,Arizona Diamondbacks,28,2026-08-18,proxy,2026-08-24,4.61,0.71,0.507,0.333,0.193,4.5,-110,(assumed),over 4.5,0.507,0.5,0.007,-0.033,0.067,0.0,— pass —
+Robbie Ray,San Diego Padres,Pittsburgh Pirates,29,2026-08-18,proxy,2026-08-24,5.47,0.837,0.685,0.503,0.342,5.5,-110,(assumed),over 5.5,0.503,0.5,0.003,-0.04,0.072,0.0,— pass —
+Ranger Suarez,Boston Red Sox,Miami Marlins,24,2026-08-18,proxy,2026-08-24,4.23,0.632,0.418,0.258,0.144,4.5,-110,(assumed),under 4.5,0.582,0.5,0.082,0.112,0.064,0.0,— pass —
+Drew Rasmussen,Tampa Bay Rays,Detroit Tigers,26,2026-08-19,proxy,2026-08-24,5.15,0.796,0.624,0.442,0.281,5.5,-110,(assumed),under 5.5,0.558,0.5,0.058,0.065,0.062,0.0,— pass —
+Merrill Kelly,Arizona Diamondbacks,Chicago Cubs,24,2026-08-18,proxy,2026-08-24,3.5,0.46,0.252,0.128,0.071,3.5,-110,(assumed),under 3.5,0.54,0.5,0.04,0.031,0.058,0.0,— pass —
+Zebby Matthews,Minnesota Twins,Athletics,20,2026-08-18,proxy,2026-08-24,4.42,0.671,0.462,0.295,0.167,4.5,-110,(assumed),under 4.5,0.538,0.5,0.038,0.028,0.057,0.0,— pass —
+Cade Cavalli,Washington Nationals,Colorado Rockies,30,2026-08-19,proxy,2026-08-24,6.09,0.896,0.785,0.61,0.473,6.5,-110,(assumed),under 6.5,0.527,0.5,0.027,0.006,0.073,0.0,— pass —
+Framber Valdez,Detroit Tigers,Tampa Bay Rays,29,2026-08-17,proxy,2026-08-24,3.61,0.489,0.277,0.146,0.08,3.5,-110,(assumed),under 3.5,0.511,0.5,0.011,-0.024,0.073,0.0,— pass —
+Ryan Feltner,Colorado Rockies,Washington Nationals,24,2026-08-18,proxy,2026-08-24,3.63,0.494,0.28,0.148,0.081,3.5,-110,(assumed),under 3.5,0.506,0.5,0.006,-0.033,0.049,0.0,— pass —
+Jeffrey Springs,Athletics,Minnesota Twins,25,2026-08-19,proxy,2026-08-24,3.64,0.496,0.283,0.15,0.082,3.5,-110,(assumed),under 3.5,0.504,0.5,0.004,-0.038,0.055,0.0,— pass —
