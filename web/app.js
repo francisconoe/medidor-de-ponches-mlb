@@ -1,8 +1,10 @@
-function showSection(id) {
+function showSection(id, event) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  event.currentTarget.classList.add('active');
+  if (event && event.currentTarget) {
+    event.currentTarget.classList.add('active');
+  }
 }
 
 function formatearFecha(fecha) {
@@ -45,12 +47,18 @@ fetch('data.json')
   .catch(error => console.error('Error:', error));
 
 function renderGames(juegos) {
+  // Filtrar juegos con probabilidad >= 0.55 en cualquier línea over/under
   const filtrados = juegos.filter(j => {
+    const p3 = j["prob_over_3.5"] || 0;
+    const p4 = j["prob_over_4.5"] || 0;
+    const p5 = j["prob_over_5.5"] || 0;
+    const p6 = j["prob_over_6.5"] || 0;
     return Math.max(
-      j.prob_over_3_5, j.prob_over_4_5, j.prob_over_5_5, j.prob_over_6_5,
-      1 - j.prob_over_3_5, 1 - j.prob_over_4_5, 1 - j.prob_over_5_5, 1 - j.prob_over_6_5
+      p3, p4, p5, p6,
+      1 - p3, 1 - p4, 1 - p5, 1 - p6
     ) >= 0.55;
   });
+
   const container = document.getElementById('tabla-juegos');
   if (!filtrados.length) {
     container.innerHTML = '<p class="sin-juegos">No hay juegos con probabilidad ≥ 55%.</p>';
@@ -59,10 +67,11 @@ function renderGames(juegos) {
 
   let html = '<table><thead><tr><th>Pitcher</th><th>Equipo</th><th>Línea casa</th><th>Cuota</th><th>Evaluar</th><th>Resultado</th></tr></thead><tbody>';
   filtrados.forEach((juego, idx) => {
+    const lineaDefault = juego.line || 6.5;
     html += `<tr>
       <td>${juego.pitcher_name}</td>
       <td>${juego.team || ''}</td>
-      <td><input type="number" step="0.5" id="line-${idx}" value="${juego.line || 6.5}"></td>
+      <td><input type="number" step="0.5" id="line-${idx}" value="${lineaDefault}"></td>
       <td><input type="text" id="odds-${idx}" value="-110"></td>
       <td><button onclick="evaluar(${idx})">Evaluar</button></td>
       <td id="result-${idx}"></td>
@@ -70,10 +79,14 @@ function renderGames(juegos) {
   });
   html += '</tbody></table>';
   container.innerHTML = html;
+
+  // Guardar los juegos filtrados en variable global para evaluar correctamente
+  datos.juegosFiltrados = filtrados;
 }
 
 function evaluar(idx) {
-  const juego = datos.juegos[idx];
+  const juego = datos.juegosFiltrados ? datos.juegosFiltrados[idx] : datos.juegos[idx];
+  if (!juego) return;
   const linea = parseFloat(document.getElementById(`line-${idx}`).value);
   const odds = parseInt(document.getElementById(`odds-${idx}`).value, 10);
   if (isNaN(linea) || isNaN(odds)) {
@@ -91,8 +104,8 @@ function evaluar(idx) {
     pOver = probsOver[3];
   } else {
     const i = Math.min(2, Math.floor((linea - 3.5) / 1));
-    const x0 = lineasConocidas[i], x1 = lineasConocidas[i+1];
-    const y0 = probsOver[i], y1 = probsOver[i+1];
+    const x0 = lineasConocidas[i], x1 = lineasConocidas[i + 1];
+    const y0 = probsOver[i], y1 = probsOver[i + 1];
     pOver = y0 + (linea - x0) * (y1 - y0) / (x1 - x0);
   }
   pOver = Math.max(0.05, Math.min(0.95, pOver));
@@ -106,7 +119,7 @@ function evaluar(idx) {
     const lado = evOver > evUnder ? 'Over' : 'Under';
     const prob = evOver > evUnder ? pOver : pUnder;
     const cuotaRec = cuotaMinima(prob);
-    resultadoHTML = `<span class="valor">Valor en ${lado} ${linea} · Prob ${(prob*100).toFixed(1)}% · EV +${mejorEV.toFixed(3)} · Cuota mínima: ${cuotaRec}</span>`;
+    resultadoHTML = `<span class="valor">Valor en ${lado} ${linea} · Prob ${(prob * 100).toFixed(1)}% · EV +${mejorEV.toFixed(3)} · Cuota mínima: ${cuotaRec}</span>`;
   } else {
     resultadoHTML = `<span class="sin-valor">Sin valor · EV máximo ${mejorEV.toFixed(3)}</span>`;
   }
