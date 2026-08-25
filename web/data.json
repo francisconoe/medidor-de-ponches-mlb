@@ -22,24 +22,24 @@
       "prob_over_6.5": 0.66
     },
     {
-      "pitcher_name": "Chris Bassitt",
-      "team": "Baltimore Orioles",
-      "opponent": "St. Louis Cardinals",
-      "line": 3.5,
-      "prob_over_3.5": 0.34,
-      "prob_over_4.5": 0.163,
-      "prob_over_5.5": 0.07,
-      "prob_over_6.5": 0.041
+      "pitcher_name": "Tyler Glasnow",
+      "team": "Los Angeles Dodgers",
+      "opponent": "Atlanta Braves",
+      "line": 6.5,
+      "prob_over_3.5": 0.928,
+      "prob_over_4.5": 0.844,
+      "prob_over_5.5": 0.68,
+      "prob_over_6.5": 0.58
     },
     {
-      "pitcher_name": "Bryce Elder",
-      "team": "Atlanta Braves",
-      "opponent": "Los Angeles Dodgers",
-      "line": 3.5,
-      "prob_over_3.5": 0.582,
-      "prob_over_4.5": 0.364,
-      "prob_over_5.5": 0.213,
-      "prob_over_6.5": 0.117
+      "pitcher_name": "Payton Tolle",
+      "team": "Boston Red Sox",
+      "opponent": "Miami Marlins",
+      "line": 5.5,
+      "prob_over_3.5": 0.877,
+      "prob_over_4.5": 0.752,
+      "prob_over_5.5": 0.574,
+      "prob_over_6.5": 0.425
     },
     {
       "pitcher_name": "Adrian Houser",
@@ -52,14 +52,14 @@
       "prob_over_6.5": 0.238
     },
     {
-      "pitcher_name": "Payton Tolle",
-      "team": "Boston Red Sox",
-      "opponent": "Miami Marlins",
+      "pitcher_name": "Matthew Liberatore",
+      "team": "St. Louis Cardinals",
+      "opponent": "Baltimore Orioles",
       "line": 5.5,
       "prob_over_3.5": 0.875,
-      "prob_over_4.5": 0.747,
-      "prob_over_5.5": 0.569,
-      "prob_over_6.5": 0.419
+      "prob_over_4.5": 0.749,
+      "prob_over_5.5": 0.571,
+      "prob_over_6.5": 0.423
     },
     {
       "pitcher_name": "Aaron Nola",
@@ -76,20 +76,20 @@
       "team": "Houston Astros",
       "opponent": "New York Yankees",
       "line": 4.5,
-      "prob_over_3.5": 0.757,
-      "prob_over_4.5": 0.568,
-      "prob_over_5.5": 0.388,
-      "prob_over_6.5": 0.234
+      "prob_over_3.5": 0.744,
+      "prob_over_4.5": 0.55,
+      "prob_over_5.5": 0.371,
+      "prob_over_6.5": 0.221
     },
     {
-      "pitcher_name": "Tyler Glasnow",
-      "team": "Los Angeles Dodgers",
-      "opponent": "Atlanta Braves",
-      "line": 6.5,
-      "prob_over_3.5": 0.922,
-      "prob_over_4.5": 0.833,
-      "prob_over_5.5": 0.666,
-      "prob_over_6.5": 0.558
+      "pitcher_name": "Bryce Elder",
+      "team": "Atlanta Braves",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.548,
+      "prob_over_4.5": 0.331,
+      "prob_over_5.5": 0.187,
+      "prob_over_6.5": 0.103
     },
     {
       "pitcher_name": "Michael King",
@@ -97,7 +97,7 @@
       "opponent": "Pittsburgh Pirates",
       "line": 5.5,
       "prob_over_3.5": 0.856,
-      "prob_over_4.5": 0.717,
+      "prob_over_4.5": 0.716,
       "prob_over_5.5": 0.536,
       "prob_over_6.5": 0.38
     },
@@ -112,24 +112,14 @@
       "prob_over_6.5": 0.198
     },
     {
-      "pitcher_name": "Ian Seymour",
-      "team": "Tampa Bay Rays",
-      "opponent": "Detroit Tigers",
-      "line": 5.5,
-      "prob_over_3.5": 0.84,
-      "prob_over_4.5": 0.691,
-      "prob_over_5.5": 0.51,
-      "prob_over_6.5": 0.35
-    },
-    {
-      "pitcher_name": "Kyle Harrison",
-      "team": "Milwaukee Brewers",
-      "opponent": "New York Mets",
-      "line": 5.5,
-      "prob_over_3.5": 0.837,
-      "prob_over_4.5": 0.685,
-      "prob_over_5.5": 0.504,
-      "prob_over_6.5": 0.344
+      "pitcher_name": "Chris Bassitt",
+      "team": "Baltimore Orioles",
+      "opponent": "St. Louis Cardinals",
+      "line": 3.5,
+      "prob_over_3.5": 0.35,
+      "prob_over_4.5": 0.17,
+      "prob_over_5.5": 0.074,
+      "prob_over_6.5": 0.044
     },
     {
       "pitcher_name": "Clay Holmes",
@@ -142,6 +132,16 @@
       "prob_over_6.5": 0.045
     },
     {
+      "pitcher_name": "Max Scherzer",
+      "team": "Toronto Blue Jays",
+      "opponent": "Kansas City Royals",
+      "line": 3.5,
+      "prob_over_3.5": 0.369,
+      "prob_over_4.5": 0.183,
+      "prob_over_5.5": 0.082,
+      "prob_over_6.5": 0.048
+    },
+    {
       "pitcher_name": "Brandon Pfaadt",
       "team": "Arizona Diamondbacks",
       "opponent": "Chicago Cubs",
@@ -150,16 +150,6 @@
       "prob_over_4.5": 0.383,
       "prob_over_5.5": 0.228,
       "prob_over_6.5": 0.125
-    },
-    {
-      "pitcher_name": "Max Scherzer",
-      "team": "Toronto Blue Jays",
-      "opponent": "Kansas City Royals",
-      "line": 3.5,
-      "prob_over_3.5": 0.389,
-      "prob_over_4.5": 0.197,
-      "prob_over_5.5": 0.091,
-      "prob_over_6.5": 0.053
     },
     {
       "pitcher_name": "Andrew Alvarez",
@@ -177,16 +167,46 @@
       "opponent": "Philadelphia Phillies",
       "line": 5.5,
       "prob_over_3.5": 0.781,
-      "prob_over_4.5": 0.601,
+      "prob_over_4.5": 0.602,
       "prob_over_5.5": 0.42,
       "prob_over_6.5": 0.262
+    },
+    {
+      "pitcher_name": "Jackson Jobe",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "line": 3.5,
+      "prob_over_3.5": 0.43,
+      "prob_over_4.5": 0.228,
+      "prob_over_5.5": 0.112,
+      "prob_over_6.5": 0.063
+    },
+    {
+      "pitcher_name": "Tyler Phillips",
+      "team": "Miami Marlins",
+      "opponent": "Boston Red Sox",
+      "line": 3.5,
+      "prob_over_3.5": 0.431,
+      "prob_over_4.5": 0.231,
+      "prob_over_5.5": 0.115,
+      "prob_over_6.5": 0.065
+    },
+    {
+      "pitcher_name": "Seth Lugo",
+      "team": "Kansas City Royals",
+      "opponent": "Toronto Blue Jays",
+      "line": 3.5,
+      "prob_over_3.5": 0.447,
+      "prob_over_4.5": 0.242,
+      "prob_over_5.5": 0.121,
+      "prob_over_6.5": 0.067
     },
     {
       "pitcher_name": "Brady Singer",
       "team": "Cincinnati Reds",
       "opponent": "San Francisco Giants",
       "line": 4.5,
-      "prob_over_3.5": 0.66,
+      "prob_over_3.5": 0.661,
       "prob_over_4.5": 0.447,
       "prob_over_5.5": 0.28,
       "prob_over_6.5": 0.157
@@ -202,23 +222,13 @@
       "prob_over_6.5": 0.289
     },
     {
-      "pitcher_name": "Seth Lugo",
-      "team": "Kansas City Royals",
-      "opponent": "Toronto Blue Jays",
+      "pitcher_name": "Zac Thornton",
+      "team": "New York Mets",
+      "opponent": "Milwaukee Brewers",
       "line": 3.5,
       "prob_over_3.5": 0.455,
-      "prob_over_4.5": 0.248,
-      "prob_over_5.5": 0.125,
-      "prob_over_6.5": 0.07
-    },
-    {
-      "pitcher_name": "Jackson Jobe",
-      "team": "Detroit Tigers",
-      "opponent": "Tampa Bay Rays",
-      "line": 3.5,
-      "prob_over_3.5": 0.46,
-      "prob_over_4.5": 0.252,
-      "prob_over_5.5": 0.128,
+      "prob_over_4.5": 0.25,
+      "prob_over_5.5": 0.127,
       "prob_over_6.5": 0.071
     },
     {
@@ -232,6 +242,16 @@
       "prob_over_6.5": 0.463
     },
     {
+      "pitcher_name": "Kyle Harrison",
+      "team": "Milwaukee Brewers",
+      "opponent": "New York Mets",
+      "line": 5.5,
+      "prob_over_3.5": 0.815,
+      "prob_over_4.5": 0.653,
+      "prob_over_5.5": 0.471,
+      "prob_over_6.5": 0.31
+    },
+    {
       "pitcher_name": "Paul Skenes",
       "team": "Pittsburgh Pirates",
       "opponent": "San Diego Padres",
@@ -242,24 +262,24 @@
       "prob_over_6.5": 0.477
     },
     {
-      "pitcher_name": "Zac Thornton",
-      "team": "New York Mets",
-      "opponent": "Milwaukee Brewers",
-      "line": 3.5,
-      "prob_over_3.5": 0.478,
-      "prob_over_4.5": 0.269,
-      "prob_over_5.5": 0.141,
-      "prob_over_6.5": 0.078
-    },
-    {
       "pitcher_name": "Walbert Ureña",
       "team": "Los Angeles Angels",
       "opponent": "Cleveland Guardians",
       "line": 6.5,
       "prob_over_3.5": 0.897,
-      "prob_over_4.5": 0.787,
+      "prob_over_4.5": 0.788,
       "prob_over_5.5": 0.614,
       "prob_over_6.5": 0.48
+    },
+    {
+      "pitcher_name": "Ian Seymour",
+      "team": "Tampa Bay Rays",
+      "opponent": "Detroit Tigers",
+      "line": 5.5,
+      "prob_over_3.5": 0.825,
+      "prob_over_4.5": 0.668,
+      "prob_over_5.5": 0.486,
+      "prob_over_6.5": 0.325
     },
     {
       "pitcher_name": "Gage Jump",
