@@ -18,11 +18,8 @@ function americanToProb(odds) {
 }
 
 function expectedValue(prob, odds) {
-  if (odds > 0) {
-    return prob * (odds / 100) - (1 - prob);
-  } else {
-    return prob * (100 / -odds) - (1 - prob);
-  }
+  if (odds > 0) return prob * (odds / 100) - (1 - prob);
+  else return prob * (100 / -odds) - (1 - prob);
 }
 
 function cuotaMinima(prob) {
@@ -45,8 +42,37 @@ fetch('data.json')
   })
   .catch(error => console.error('Error:', error));
 
-function elegirMejorLado(juego) {
-  // Busca la línea y lado con mayor probabilidad ≥ 0.55, o la más alta disponible
+function probabilidadParaLinea(juego, linea) {
+  // Interpolar o extrapolar prob_over para una línea dada
+  const lineasConocidas = [3.5, 4.5, 5.5, 6.5];
+  const probsOver = lineasConocidas.map(l => juego[`prob_over_${l}`] || 0.5);
+
+  let pOver;
+  if (linea <= 3.5) {
+    pOver = probsOver[0];
+  } else if (linea >= 6.5) {
+    pOver = probsOver[3];
+  } else {
+    const i = Math.min(2, Math.floor((linea - 3.5) / 1));
+    const x0 = lineasConocidas[i], x1 = lineasConocidas[i + 1];
+    const y0 = probsOver[i], y1 = probsOver[i + 1];
+    pOver = y0 + (linea - x0) * (y1 - y0) / (x1 - x0);
+  }
+  pOver = Math.max(0.05, Math.min(0.95, pOver));
+  return pOver;
+}
+
+function elegirMejorLado(juego, linea = null) {
+  if (linea !== null) {
+    const pOver = probabilidadParaLinea(juego, linea);
+    const pUnder = 1 - pOver;
+    if (pOver >= pUnder) {
+      return { lado: 'Over', linea: linea, prob: pOver };
+    } else {
+      return { lado: 'Under', linea: linea, prob: pUnder };
+    }
+  }
+
   const lineas = [3.5, 4.5, 5.5, 6.5];
   let mejor = null;
   for (const l of lineas) {
@@ -57,26 +83,8 @@ function elegirMejorLado(juego) {
       { lado: 'Under', linea: l, prob: pUnder }
     ];
     for (const c of candidatos) {
-      if (c.prob >= 0.55) {
-        if (!mejor || c.prob > mejor.prob) {
-          mejor = c;
-        }
-      }
-    }
-  }
-  // Si ningún lado llega a 55%, tomar el más alto
-  if (!mejor) {
-    for (const l of lineas) {
-      const pOver = juego[`prob_over_${l}`] || 0;
-      const pUnder = 1 - pOver;
-      const candidatos = [
-        { lado: 'Over', linea: l, prob: pOver },
-        { lado: 'Under', linea: l, prob: pUnder }
-      ];
-      for (const c of candidatos) {
-        if (!mejor || c.prob > mejor.prob) {
-          mejor = c;
-        }
+      if (!mejor || c.prob > mejor.prob) {
+        mejor = c;
       }
     }
   }
@@ -101,8 +109,8 @@ function renderGames(juegos) {
     html += `<tr>
       <td>${juego.pitcher_name}</td>
       <td>${juego.team || ''}</td>
-      <td>${ladoSugerido}</td>
-      <td>${probSugerida}%</td>
+      <td id="lado-${idx}">${ladoSugerido}</td>
+      <td id="prob-${idx}">${probSugerida}%</td>
       <td><input type="number" step="0.5" id="line-${idx}" value="${lineaDefault}"></td>
       <td><input type="text" id="odds-${idx}" value="-110"></td>
       <td><button onclick="evaluar(${idx})">Evaluar</button></td>
@@ -125,18 +133,15 @@ function evaluar(idx) {
     return;
   }
 
-  const mejor = elegirMejorLado(juego);
-  if (!mejor) {
-    document.getElementById(`result-${idx}`).innerHTML = '<span class="sin-valor">Sin probabilidades</span>';
-    return;
-  }
-
-  const lado = mejor.lado;
+  const mejor = elegirMejorLado(juego, linea);
   const prob = mejor.prob;
-
-  // Calcular EV para el lado sugerido con la cuota ingresada
+  const lado = mejor.lado;
   const ev = expectedValue(prob, odds);
   const cuotaRec = cuotaMinima(prob);
+
+  // Actualizar columnas de lado sugerido y probabilidad
+  document.getElementById(`lado-${idx}`).textContent = `${lado} ${linea}`;
+  document.getElementById(`prob-${idx}`).textContent = `${(prob * 100).toFixed(1)}%`;
 
   let resultadoHTML = '';
   if (ev > 0) {
