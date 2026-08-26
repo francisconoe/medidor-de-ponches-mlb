@@ -136,3 +136,5 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-23,Tomoyuki Sugano,under 3.5,3.5,-110,(assumed),0.675,0.175,20.0,2,win,18.18
 2026-08-24,Parker Messick,over 6.5,6.5,-110,(assumed),0.787,0.287,20.0,4,loss,-20.0
 2026-08-24,Zack Wheeler,over 6.5,6.5,-110,(assumed),0.685,0.185,20.0,4,loss,-20.0
+2026-08-25,Gavin Williams,over 6.5,6.5,-110,(assumed),0.908,0.408,20.0,3,loss,-20.0
+2026-08-25,Jacob deGrom,over 6.5,6.5,-110,(assumed),0.658,0.158,20.0,2,loss,-20.0
