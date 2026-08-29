@@ -143,3 +143,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-26,Randy Dobnak,under 3.5,3.5,-110,(assumed),0.654,0.154,20.0,5,loss,-20.0
 2026-08-27,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.815,0.315,20.0,6,loss,-20.0
 2026-08-27,Chris Sale,over 6.5,6.5,-110,(assumed),0.724,0.224,20.0,11,win,18.18
+2026-08-28,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.7,0.2,15.0,7,win,13.64
+2026-08-28,Dylan Cease,over 6.5,6.5,-110,(assumed),0.7,0.2,15.0,8,win,13.64
+2026-08-28,Cam Schlittler,over 6.5,6.5,-110,(assumed),0.66,0.16,15.0,8,win,13.64
+2026-08-28,Logan Henderson,over 6.5,6.5,-110,(assumed),0.651,0.151,15.0,7,win,13.64
