@@ -16,8 +16,8 @@
       "team": "Colorado Rockies",
       "opponent": "Atlanta Braves",
       "line": 3.5,
-      "prob_over_3.5": 0.22,
-      "prob_over_4.5": 0.09,
+      "prob_over_3.5": 0.219,
+      "prob_over_4.5": 0.089,
       "prob_over_5.5": 0.03,
       "prob_over_6.5": 0.021
     },
@@ -36,20 +36,20 @@
       "team": "Chicago Cubs",
       "opponent": "Cincinnati Reds",
       "line": 6.5,
-      "prob_over_3.5": 0.942,
-      "prob_over_4.5": 0.872,
-      "prob_over_5.5": 0.716,
-      "prob_over_6.5": 0.641
+      "prob_over_3.5": 0.941,
+      "prob_over_4.5": 0.869,
+      "prob_over_5.5": 0.713,
+      "prob_over_6.5": 0.634
     },
     {
       "pitcher_name": "José Soriano",
       "team": "Toronto Blue Jays",
       "opponent": "Seattle Mariners",
       "line": 4.5,
-      "prob_over_3.5": 0.773,
-      "prob_over_4.5": 0.591,
-      "prob_over_5.5": 0.41,
-      "prob_over_6.5": 0.252
+      "prob_over_3.5": 0.775,
+      "prob_over_4.5": 0.593,
+      "prob_over_5.5": 0.412,
+      "prob_over_6.5": 0.254
     },
     {
       "pitcher_name": "Max Fried",
@@ -92,6 +92,16 @@
       "prob_over_6.5": 0.392
     },
     {
+      "pitcher_name": "Ryan Johnson",
+      "team": "Los Angeles Angels",
+      "opponent": "Philadelphia Phillies",
+      "line": 3.5,
+      "prob_over_3.5": 0.545,
+      "prob_over_4.5": 0.328,
+      "prob_over_5.5": 0.185,
+      "prob_over_6.5": 0.102
+    },
+    {
       "pitcher_name": "Andrew Abbott",
       "team": "Cincinnati Reds",
       "opponent": "Chicago Cubs",
@@ -102,24 +112,24 @@
       "prob_over_6.5": 0.099
     },
     {
-      "pitcher_name": "Carlos Rodón",
-      "team": "New York Yankees",
-      "opponent": "Boston Red Sox",
-      "line": 5.5,
-      "prob_over_3.5": 0.856,
-      "prob_over_4.5": 0.716,
-      "prob_over_5.5": 0.537,
-      "prob_over_6.5": 0.381
-    },
-    {
       "pitcher_name": "Kade Anderson",
       "team": "Seattle Mariners",
       "opponent": "Toronto Blue Jays",
       "line": 3.5,
-      "prob_over_3.5": 0.534,
-      "prob_over_4.5": 0.318,
-      "prob_over_5.5": 0.178,
+      "prob_over_3.5": 0.536,
+      "prob_over_4.5": 0.32,
+      "prob_over_5.5": 0.179,
       "prob_over_6.5": 0.098
+    },
+    {
+      "pitcher_name": "Carlos Rodón",
+      "team": "New York Yankees",
+      "opponent": "Boston Red Sox",
+      "line": 5.5,
+      "prob_over_3.5": 0.855,
+      "prob_over_4.5": 0.715,
+      "prob_over_5.5": 0.535,
+      "prob_over_6.5": 0.379
     },
     {
       "pitcher_name": "Bailey Ober",
@@ -136,10 +146,10 @@
       "team": "San Diego Padres",
       "opponent": "Tampa Bay Rays",
       "line": 3.5,
-      "prob_over_3.5": 0.52,
-      "prob_over_4.5": 0.304,
-      "prob_over_5.5": 0.165,
-      "prob_over_6.5": 0.09
+      "prob_over_3.5": 0.515,
+      "prob_over_4.5": 0.299,
+      "prob_over_5.5": 0.161,
+      "prob_over_6.5": 0.088
     },
     {
       "pitcher_name": "Merrill Kelly",
@@ -147,9 +157,19 @@
       "opponent": "San Francisco Giants",
       "line": 3.5,
       "prob_over_3.5": 0.513,
-      "prob_over_4.5": 0.297,
-      "prob_over_5.5": 0.16,
+      "prob_over_4.5": 0.298,
+      "prob_over_5.5": 0.161,
       "prob_over_6.5": 0.088
+    },
+    {
+      "pitcher_name": "Shane Drohan",
+      "team": "Milwaukee Brewers",
+      "opponent": "Texas Rangers",
+      "line": 6.5,
+      "prob_over_3.5": 0.907,
+      "prob_over_4.5": 0.805,
+      "prob_over_5.5": 0.634,
+      "prob_over_6.5": 0.509
     },
     {
       "pitcher_name": "Lake Bachar",
@@ -196,20 +216,10 @@
       "team": "Texas Rangers",
       "opponent": "Milwaukee Brewers",
       "line": 4.5,
-      "prob_over_3.5": 0.614,
-      "prob_over_4.5": 0.396,
-      "prob_over_5.5": 0.238,
-      "prob_over_6.5": 0.131
-    },
-    {
-      "pitcher_name": "Ryan Johnson",
-      "team": "Los Angeles Angels",
-      "opponent": "Philadelphia Phillies",
-      "line": 4.5,
-      "prob_over_3.5": 0.626,
-      "prob_over_4.5": 0.411,
-      "prob_over_5.5": 0.251,
-      "prob_over_6.5": 0.139
+      "prob_over_3.5": 0.617,
+      "prob_over_4.5": 0.4,
+      "prob_over_5.5": 0.241,
+      "prob_over_6.5": 0.133
     },
     {
       "pitcher_name": "Keider Montero",
@@ -267,7 +277,7 @@
       "opponent": "Detroit Tigers",
       "line": 6.5,
       "prob_over_3.5": 0.892,
-      "prob_over_4.5": 0.777,
+      "prob_over_4.5": 0.778,
       "prob_over_5.5": 0.602,
       "prob_over_6.5": 0.463
     },
@@ -286,10 +296,10 @@
       "team": "Washington Nationals",
       "opponent": "Miami Marlins",
       "line": 6.5,
-      "prob_over_3.5": 0.894,
-      "prob_over_4.5": 0.782,
-      "prob_over_5.5": 0.607,
-      "prob_over_6.5": 0.469
+      "prob_over_3.5": 0.895,
+      "prob_over_4.5": 0.783,
+      "prob_over_5.5": 0.608,
+      "prob_over_6.5": 0.472
     },
     {
       "pitcher_name": "Sandy Alcantara",
@@ -302,24 +312,14 @@
       "prob_over_6.5": 0.171
     },
     {
-      "pitcher_name": "Shane Drohan",
-      "team": "Milwaukee Brewers",
-      "opponent": "Texas Rangers",
-      "line": 6.5,
-      "prob_over_3.5": 0.901,
-      "prob_over_4.5": 0.795,
-      "prob_over_5.5": 0.622,
-      "prob_over_6.5": 0.491
-    },
-    {
       "pitcher_name": "Foster Griffin",
       "team": "Cleveland Guardians",
       "opponent": "Kansas City Royals",
       "line": 5.5,
-      "prob_over_3.5": 0.831,
-      "prob_over_4.5": 0.676,
-      "prob_over_5.5": 0.493,
-      "prob_over_6.5": 0.332
+      "prob_over_3.5": 0.834,
+      "prob_over_4.5": 0.681,
+      "prob_over_5.5": 0.499,
+      "prob_over_6.5": 0.338
     }
   ],
   "historial": [
