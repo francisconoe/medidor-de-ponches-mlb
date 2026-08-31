@@ -6,10 +6,10 @@
       "team": "Philadelphia Phillies",
       "opponent": "Los Angeles Angels",
       "line": 6.5,
-      "prob_over_3.5": 0.984,
+      "prob_over_3.5": 0.983,
       "prob_over_4.5": 0.96,
       "prob_over_5.5": 0.856,
-      "prob_over_6.5": 0.883
+      "prob_over_6.5": 0.882
     },
     {
       "pitcher_name": "Janson Junk",
@@ -46,8 +46,8 @@
       "team": "Colorado Rockies",
       "opponent": "Atlanta Braves",
       "line": 4.5,
-      "prob_over_3.5": 0.762,
-      "prob_over_4.5": 0.577,
+      "prob_over_3.5": 0.763,
+      "prob_over_4.5": 0.578,
       "prob_over_5.5": 0.399,
       "prob_over_6.5": 0.246
     },
@@ -68,8 +68,18 @@
       "line": 5.5,
       "prob_over_3.5": 0.877,
       "prob_over_4.5": 0.752,
-      "prob_over_5.5": 0.575,
+      "prob_over_5.5": 0.574,
       "prob_over_6.5": 0.427
+    },
+    {
+      "pitcher_name": "Ranger Suarez",
+      "team": "Boston Red Sox",
+      "opponent": "New York Yankees",
+      "line": 4.5,
+      "prob_over_3.5": 0.75,
+      "prob_over_4.5": 0.56,
+      "prob_over_5.5": 0.382,
+      "prob_over_6.5": 0.231
     },
     {
       "pitcher_name": "Parker Messick",
@@ -80,16 +90,6 @@
       "prob_over_4.5": 0.739,
       "prob_over_5.5": 0.56,
       "prob_over_6.5": 0.408
-    },
-    {
-      "pitcher_name": "Ranger Suarez",
-      "team": "Boston Red Sox",
-      "opponent": "New York Yankees",
-      "line": 4.5,
-      "prob_over_3.5": 0.75,
-      "prob_over_4.5": 0.559,
-      "prob_over_5.5": 0.382,
-      "prob_over_6.5": 0.231
     },
     {
       "pitcher_name": "Drew Rasmussen",
@@ -166,7 +166,7 @@
       "team": "Los Angeles Angels",
       "opponent": "Philadelphia Phillies",
       "line": 5.5,
-      "prob_over_3.5": 0.84,
+      "prob_over_3.5": 0.841,
       "prob_over_4.5": 0.692,
       "prob_over_5.5": 0.511,
       "prob_over_6.5": 0.352
@@ -177,7 +177,7 @@
       "opponent": "Boston Red Sox",
       "line": 4.5,
       "prob_over_3.5": 0.711,
-      "prob_over_4.5": 0.51,
+      "prob_over_4.5": 0.509,
       "prob_over_5.5": 0.337,
       "prob_over_6.5": 0.196
     },
@@ -196,10 +196,10 @@
       "team": "Houston Astros",
       "opponent": "New York Mets",
       "line": 3.5,
-      "prob_over_3.5": 0.395,
-      "prob_over_4.5": 0.2,
+      "prob_over_3.5": 0.394,
+      "prob_over_4.5": 0.199,
       "prob_over_5.5": 0.092,
-      "prob_over_6.5": 0.053
+      "prob_over_6.5": 0.052
     },
     {
       "pitcher_name": "Seth Lugo",
@@ -218,7 +218,7 @@
       "line": 3.5,
       "prob_over_3.5": 0.417,
       "prob_over_4.5": 0.218,
-      "prob_over_5.5": 0.106,
+      "prob_over_5.5": 0.105,
       "prob_over_6.5": 0.06
     },
     {
@@ -236,10 +236,10 @@
       "team": "Baltimore Orioles",
       "opponent": "Athletics",
       "line": 3.5,
-      "prob_over_3.5": 0.432,
-      "prob_over_4.5": 0.229,
-      "prob_over_5.5": 0.112,
-      "prob_over_6.5": 0.062
+      "prob_over_3.5": 0.433,
+      "prob_over_4.5": 0.23,
+      "prob_over_5.5": 0.113,
+      "prob_over_6.5": 0.063
     },
     {
       "pitcher_name": "Logan Gilbert",
@@ -283,34 +283,6 @@
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-08-10",
-      "pitcher_name": "Reid Detmers",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -134,
-      "book": "draftkings",
-      "model_prob": 0.67,
-      "edge": 0.13,
-      "stake": 20.0,
-      "actual_k": 6,
-      "result": "loss",
-      "profit": -20.0
-    },
-    {
-      "game_date": "2026-08-10",
-      "pitcher_name": "Jacob Lopez",
-      "call": "under 4.5",
-      "line": 4.5,
-      "odds": -149,
-      "book": "draftkings",
-      "model_prob": 0.667,
-      "edge": 0.102,
-      "stake": 20.0,
-      "actual_k": 5,
-      "result": "loss",
-      "profit": -20.0
-    },
     {
       "game_date": "2026-08-11",
       "pitcher_name": "Nick Martinez",
@@ -982,6 +954,34 @@
       "actual_k": 4,
       "result": "loss",
       "profit": -20.0
+    },
+    {
+      "game_date": "2026-08-30",
+      "pitcher_name": "Zack Wheeler",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.883,
+      "edge": 0.383,
+      "stake": 20.0,
+      "actual_k": 6,
+      "result": "loss",
+      "profit": -20.0
+    },
+    {
+      "game_date": "2026-08-30",
+      "pitcher_name": "Janson Junk",
+      "call": "under 3.5",
+      "line": 3.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.73,
+      "edge": 0.23,
+      "stake": 20.0,
+      "actual_k": 2,
+      "result": "win",
+      "profit": 18.18
     }
   ]
 }
