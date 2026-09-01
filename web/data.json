@@ -6,10 +6,10 @@
       "team": "Pittsburgh Pirates",
       "opponent": "San Francisco Giants",
       "line": 6.5,
-      "prob_over_3.5": 0.946,
-      "prob_over_4.5": 0.88,
-      "prob_over_5.5": 0.728,
-      "prob_over_6.5": 0.661
+      "prob_over_3.5": 0.947,
+      "prob_over_4.5": 0.882,
+      "prob_over_5.5": 0.73,
+      "prob_over_6.5": 0.664
     },
     {
       "pitcher_name": "Gerrit Cole",
@@ -46,10 +46,20 @@
       "team": "Texas Rangers",
       "opponent": "Athletics",
       "line": 6.5,
-      "prob_over_3.5": 0.928,
-      "prob_over_4.5": 0.844,
-      "prob_over_5.5": 0.681,
-      "prob_over_6.5": 0.582
+      "prob_over_3.5": 0.922,
+      "prob_over_4.5": 0.833,
+      "prob_over_5.5": 0.667,
+      "prob_over_6.5": 0.559
+    },
+    {
+      "pitcher_name": "AJ Smith-Shawver",
+      "team": "Atlanta Braves",
+      "opponent": "Washington Nationals",
+      "line": 3.5,
+      "prob_over_3.5": 0.552,
+      "prob_over_4.5": 0.333,
+      "prob_over_5.5": 0.187,
+      "prob_over_6.5": 0.101
     },
     {
       "pitcher_name": "Matthew Boyd",
@@ -72,6 +82,16 @@
       "prob_over_6.5": 0.222
     },
     {
+      "pitcher_name": "Gabriel Hughes",
+      "team": "Colorado Rockies",
+      "opponent": "Baltimore Orioles",
+      "line": 4.5,
+      "prob_over_3.5": 0.735,
+      "prob_over_4.5": 0.539,
+      "prob_over_5.5": 0.361,
+      "prob_over_6.5": 0.214
+    },
+    {
       "pitcher_name": "Grayson Rodriguez",
       "team": "Los Angeles Angels",
       "opponent": "New York Yankees",
@@ -90,36 +110,6 @@
       "prob_over_4.5": 0.717,
       "prob_over_5.5": 0.536,
       "prob_over_6.5": 0.379
-    },
-    {
-      "pitcher_name": "Eduardo Rodriguez",
-      "team": "Arizona Diamondbacks",
-      "opponent": "Philadelphia Phillies",
-      "line": 4.5,
-      "prob_over_3.5": 0.726,
-      "prob_over_4.5": 0.528,
-      "prob_over_5.5": 0.352,
-      "prob_over_6.5": 0.207
-    },
-    {
-      "pitcher_name": "Michael McGreevy",
-      "team": "St. Louis Cardinals",
-      "opponent": "Los Angeles Dodgers",
-      "line": 3.5,
-      "prob_over_3.5": 0.528,
-      "prob_over_4.5": 0.312,
-      "prob_over_5.5": 0.172,
-      "prob_over_6.5": 0.094
-    },
-    {
-      "pitcher_name": "Freddy Peralta",
-      "team": "Tampa Bay Rays",
-      "opponent": "New York Mets",
-      "line": 5.5,
-      "prob_over_3.5": 0.848,
-      "prob_over_4.5": 0.703,
-      "prob_over_5.5": 0.521,
-      "prob_over_6.5": 0.362
     },
     {
       "pitcher_name": "Randy Dobnak",
@@ -142,6 +132,26 @@
       "prob_over_6.5": 0.201
     },
     {
+      "pitcher_name": "Michael McGreevy",
+      "team": "St. Louis Cardinals",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.518,
+      "prob_over_4.5": 0.302,
+      "prob_over_5.5": 0.165,
+      "prob_over_6.5": 0.09
+    },
+    {
+      "pitcher_name": "Eduardo Rodriguez",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Philadelphia Phillies",
+      "line": 4.5,
+      "prob_over_3.5": 0.714,
+      "prob_over_4.5": 0.513,
+      "prob_over_5.5": 0.339,
+      "prob_over_6.5": 0.198
+    },
+    {
       "pitcher_name": "Bryan Woo",
       "team": "Seattle Mariners",
       "opponent": "Boston Red Sox",
@@ -162,14 +172,34 @@
       "prob_over_6.5": 0.089
     },
     {
+      "pitcher_name": "Freddy Peralta",
+      "team": "Tampa Bay Rays",
+      "opponent": "New York Mets",
+      "line": 5.5,
+      "prob_over_3.5": 0.839,
+      "prob_over_4.5": 0.689,
+      "prob_over_5.5": 0.507,
+      "prob_over_6.5": 0.347
+    },
+    {
       "pitcher_name": "Jake Irvin",
       "team": "Washington Nationals",
       "opponent": "Atlanta Braves",
       "line": 4.5,
-      "prob_over_3.5": 0.706,
-      "prob_over_4.5": 0.501,
-      "prob_over_5.5": 0.327,
-      "prob_over_6.5": 0.188
+      "prob_over_3.5": 0.709,
+      "prob_over_4.5": 0.505,
+      "prob_over_5.5": 0.331,
+      "prob_over_6.5": 0.191
+    },
+    {
+      "pitcher_name": "Jedixson Paez",
+      "team": "Boston Red Sox",
+      "opponent": "Seattle Mariners",
+      "line": 3.5,
+      "prob_over_3.5": 0.128,
+      "prob_over_4.5": 0.044,
+      "prob_over_5.5": 0.011,
+      "prob_over_6.5": 0.009
     },
     {
       "pitcher_name": "Brady Basso",
@@ -180,16 +210,6 @@
       "prob_over_4.5": 0.055,
       "prob_over_5.5": 0.015,
       "prob_over_6.5": 0.012
-    },
-    {
-      "pitcher_name": "Jedixson Paez",
-      "team": "Boston Red Sox",
-      "opponent": "Seattle Mariners",
-      "line": 3.5,
-      "prob_over_3.5": 0.162,
-      "prob_over_4.5": 0.059,
-      "prob_over_5.5": 0.017,
-      "prob_over_6.5": 0.013
     },
     {
       "pitcher_name": "Spencer Miles",
@@ -242,44 +262,24 @@
       "prob_over_6.5": 0.058
     },
     {
-      "pitcher_name": "AJ Smith-Shawver",
-      "team": "Atlanta Braves",
-      "opponent": "Washington Nationals",
-      "line": 3.5,
-      "prob_over_3.5": 0.422,
-      "prob_over_4.5": 0.223,
-      "prob_over_5.5": 0.108,
-      "prob_over_6.5": 0.061
-    },
-    {
       "pitcher_name": "Randy Vásquez",
       "team": "San Diego Padres",
       "opponent": "Cincinnati Reds",
       "line": 4.5,
-      "prob_over_3.5": 0.642,
-      "prob_over_4.5": 0.425,
-      "prob_over_5.5": 0.261,
+      "prob_over_3.5": 0.64,
+      "prob_over_4.5": 0.424,
+      "prob_over_5.5": 0.26,
       "prob_over_6.5": 0.144
-    },
-    {
-      "pitcher_name": "Gabriel Hughes",
-      "team": "Colorado Rockies",
-      "opponent": "Baltimore Orioles",
-      "line": 4.5,
-      "prob_over_3.5": 0.642,
-      "prob_over_4.5": 0.426,
-      "prob_over_5.5": 0.263,
-      "prob_over_6.5": 0.146
     },
     {
       "pitcher_name": "Sean Manaea",
       "team": "New York Mets",
       "opponent": "Tampa Bay Rays",
       "line": 4.5,
-      "prob_over_3.5": 0.648,
-      "prob_over_4.5": 0.433,
-      "prob_over_5.5": 0.269,
-      "prob_over_6.5": 0.15
+      "prob_over_3.5": 0.651,
+      "prob_over_4.5": 0.436,
+      "prob_over_5.5": 0.272,
+      "prob_over_6.5": 0.152
     },
     {
       "pitcher_name": "Eric Lauer",
