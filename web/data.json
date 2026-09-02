@@ -36,30 +36,30 @@
       "team": "Los Angeles Angels",
       "opponent": "New York Yankees",
       "line": 6.5,
-      "prob_over_3.5": 0.941,
-      "prob_over_4.5": 0.87,
-      "prob_over_5.5": 0.714,
-      "prob_over_6.5": 0.637
+      "prob_over_3.5": 0.948,
+      "prob_over_4.5": 0.883,
+      "prob_over_5.5": 0.731,
+      "prob_over_6.5": 0.667
+    },
+    {
+      "pitcher_name": "Yoshinobu Yamamoto",
+      "team": "Los Angeles Dodgers",
+      "opponent": "St. Louis Cardinals",
+      "line": 6.5,
+      "prob_over_3.5": 0.937,
+      "prob_over_4.5": 0.861,
+      "prob_over_5.5": 0.703,
+      "prob_over_6.5": 0.617
     },
     {
       "pitcher_name": "Griffin Jax",
       "team": "Tampa Bay Rays",
       "opponent": "New York Mets",
       "line": 4.5,
-      "prob_over_3.5": 0.771,
-      "prob_over_4.5": 0.589,
-      "prob_over_5.5": 0.41,
-      "prob_over_6.5": 0.254
-    },
-    {
-      "pitcher_name": "Trevor Rogers",
-      "team": "Baltimore Orioles",
-      "opponent": "Colorado Rockies",
-      "line": 5.5,
-      "prob_over_3.5": 0.883,
-      "prob_over_4.5": 0.762,
-      "prob_over_5.5": 0.585,
-      "prob_over_6.5": 0.44
+      "prob_over_3.5": 0.77,
+      "prob_over_4.5": 0.587,
+      "prob_over_5.5": 0.408,
+      "prob_over_6.5": 0.253
     },
     {
       "pitcher_name": "Dylan Cease",
@@ -67,7 +67,7 @@
       "opponent": "Cleveland Guardians",
       "line": 5.5,
       "prob_over_3.5": 0.866,
-      "prob_over_4.5": 0.732,
+      "prob_over_4.5": 0.731,
       "prob_over_5.5": 0.551,
       "prob_over_6.5": 0.396
     },
@@ -100,16 +100,6 @@
       "prob_over_4.5": 0.319,
       "prob_over_5.5": 0.177,
       "prob_over_6.5": 0.097
-    },
-    {
-      "pitcher_name": "Yoshinobu Yamamoto",
-      "team": "Los Angeles Dodgers",
-      "opponent": "St. Louis Cardinals",
-      "line": 6.5,
-      "prob_over_3.5": 0.916,
-      "prob_over_4.5": 0.82,
-      "prob_over_5.5": 0.651,
-      "prob_over_6.5": 0.534
     },
     {
       "pitcher_name": "Jacob Lopez",
@@ -159,7 +149,17 @@
       "prob_over_3.5": 0.202,
       "prob_over_4.5": 0.08,
       "prob_over_5.5": 0.026,
-      "prob_over_6.5": 0.018
+      "prob_over_6.5": 0.019
+    },
+    {
+      "pitcher_name": "Brycen Mautz",
+      "team": "St. Louis Cardinals",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.285,
+      "prob_over_4.5": 0.127,
+      "prob_over_5.5": 0.049,
+      "prob_over_6.5": 0.031
     },
     {
       "pitcher_name": "Casey Mize",
@@ -169,7 +169,17 @@
       "prob_over_3.5": 0.586,
       "prob_over_4.5": 0.366,
       "prob_over_5.5": 0.213,
-      "prob_over_6.5": 0.117
+      "prob_over_6.5": 0.116
+    },
+    {
+      "pitcher_name": "Tomoyuki Sugano",
+      "team": "Colorado Rockies",
+      "opponent": "Baltimore Orioles",
+      "line": 4.5,
+      "prob_over_3.5": 0.607,
+      "prob_over_4.5": 0.388,
+      "prob_over_5.5": 0.231,
+      "prob_over_6.5": 0.127
     },
     {
       "pitcher_name": "Davis Martin",
@@ -182,22 +192,12 @@
       "prob_over_6.5": 0.052
     },
     {
-      "pitcher_name": "Tomoyuki Sugano",
-      "team": "Colorado Rockies",
-      "opponent": "Baltimore Orioles",
-      "line": 4.5,
-      "prob_over_3.5": 0.614,
-      "prob_over_4.5": 0.396,
-      "prob_over_5.5": 0.237,
-      "prob_over_6.5": 0.13
-    },
-    {
       "pitcher_name": "Andrew Painter",
       "team": "Philadelphia Phillies",
       "opponent": "Arizona Diamondbacks",
       "line": 4.5,
       "prob_over_3.5": 0.63,
-      "prob_over_4.5": 0.413,
+      "prob_over_4.5": 0.414,
       "prob_over_5.5": 0.252,
       "prob_over_6.5": 0.14
     },
@@ -218,7 +218,7 @@
       "line": 4.5,
       "prob_over_3.5": 0.65,
       "prob_over_4.5": 0.436,
-      "prob_over_5.5": 0.273,
+      "prob_over_5.5": 0.272,
       "prob_over_6.5": 0.153
     },
     {
@@ -236,20 +236,30 @@
       "team": "Boston Red Sox",
       "opponent": "Seattle Mariners",
       "line": 5.5,
-      "prob_over_3.5": 0.804,
-      "prob_over_4.5": 0.637,
+      "prob_over_3.5": 0.805,
+      "prob_over_4.5": 0.638,
       "prob_over_5.5": 0.457,
-      "prob_over_6.5": 0.297
+      "prob_over_6.5": 0.298
     },
     {
       "pitcher_name": "Bubba Chandler",
       "team": "Pittsburgh Pirates",
       "opponent": "San Francisco Giants",
       "line": 5.5,
-      "prob_over_3.5": 0.809,
-      "prob_over_4.5": 0.643,
-      "prob_over_5.5": 0.461,
-      "prob_over_6.5": 0.3
+      "prob_over_3.5": 0.811,
+      "prob_over_4.5": 0.646,
+      "prob_over_5.5": 0.464,
+      "prob_over_6.5": 0.303
+    },
+    {
+      "pitcher_name": "Trevor Rogers",
+      "team": "Baltimore Orioles",
+      "opponent": "Colorado Rockies",
+      "line": 6.5,
+      "prob_over_3.5": 0.896,
+      "prob_over_4.5": 0.784,
+      "prob_over_5.5": 0.61,
+      "prob_over_6.5": 0.474
     },
     {
       "pitcher_name": "Dean Kremer",
@@ -279,7 +289,7 @@
       "prob_over_3.5": 0.493,
       "prob_over_4.5": 0.28,
       "prob_over_5.5": 0.148,
-      "prob_over_6.5": 0.081
+      "prob_over_6.5": 0.082
     }
   ],
   "historial": [
