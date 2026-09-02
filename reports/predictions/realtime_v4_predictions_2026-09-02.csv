@@ -1,0 +1,29 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Cam Schlittler,New York Yankees,Los Angeles Angels,30,2026-08-28,proxy,2026-09-02,8.2,0.98,0.952,0.841,0.858,6.5,-110,(assumed),over 6.5,0.858,0.5,0.358,0.637,0.079,20.0,over 6.5
+Brad Lord,Washington Nationals,Atlanta Braves,16,2026-08-25,confirmed,2026-09-02,2.8,0.279,0.123,0.047,0.03,3.5,-110,(assumed),under 3.5,0.721,0.5,0.221,0.377,0.093,20.0,under 3.5
+Jacob Misiorowski,Milwaukee Brewers,Chicago Cubs,28,2026-08-27,proxy,2026-09-02,7.07,0.951,0.89,0.74,0.681,6.5,-110,(assumed),over 6.5,0.681,0.5,0.181,0.3,0.076,20.0,over 6.5
+Reid Detmers,Los Angeles Angels,New York Yankees,30,2026-08-28,proxy,2026-09-02,6.85,0.941,0.87,0.714,0.637,6.5,-110,(assumed),over 6.5,0.637,0.5,0.137,0.216,0.07,0.0,— pass —
+Dylan Cease,Toronto Blue Jays,Cleveland Guardians,27,2026-08-28,proxy,2026-09-02,6.76,0.937,0.862,0.703,0.617,6.5,-110,(assumed),over 6.5,0.617,0.5,0.117,0.179,0.078,0.0,— pass —
+Bubba Chandler,Pittsburgh Pirates,San Francisco Giants,29,2026-08-26,proxy,2026-09-02,4.98,0.772,0.589,0.409,0.252,4.5,-110,(assumed),over 4.5,0.589,0.5,0.089,0.124,0.068,0.0,— pass —
+Dean Kremer,Minnesota Twins,Detroit Tigers,14,2026-08-28,proxy,2026-09-02,4.98,0.771,0.588,0.408,0.251,4.5,-110,(assumed),over 4.5,0.588,0.5,0.088,0.123,0.051,0.0,— pass —
+Drew Anderson,Detroit Tigers,Minnesota Twins,15,2026-08-28,proxy,2026-09-02,4.0,0.583,0.365,0.213,0.117,3.5,-110,(assumed),over 3.5,0.583,0.5,0.083,0.114,0.062,0.0,— pass —
+Trevor Rogers,Baltimore Orioles,Colorado Rockies,27,2026-08-27,confirmed,2026-09-02,5.87,0.877,0.752,0.574,0.425,5.5,-110,(assumed),over 5.5,0.574,0.5,0.074,0.095,0.075,0.0,— pass —
+Grant Holmes,Atlanta Braves,Washington Nationals,30,2026-08-28,confirmed,2026-09-02,3.86,0.55,0.332,0.187,0.102,3.5,-110,(assumed),over 3.5,0.55,0.5,0.05,0.051,0.054,0.0,— pass —
+Eury Pérez,Miami Marlins,Kansas City Royals,28,2026-08-28,proxy,2026-09-02,5.68,0.86,0.722,0.541,0.385,5.5,-110,(assumed),over 5.5,0.541,0.5,0.041,0.034,0.07,0.0,— pass —
+Hayden Wesneski,Houston Astros,Chicago White Sox,6,2026-08-27,proxy,2026-09-02,5.67,0.856,0.718,0.538,0.383,5.5,-110,(assumed),over 5.5,0.538,0.5,0.038,0.028,0.061,0.0,— thin data —
+Cody Bradford,Texas Rangers,Athletics,5,2026-08-28,confirmed,2026-09-02,3.8,0.536,0.319,0.177,0.096,3.5,-110,(assumed),over 3.5,0.536,0.5,0.036,0.023,0.053,0.0,— thin data —
+Yoshinobu Yamamoto,Los Angeles Dodgers,St. Louis Cardinals,26,2026-08-27,proxy,2026-09-02,6.37,0.916,0.82,0.651,0.534,6.5,-110,(assumed),over 6.5,0.534,0.5,0.034,0.02,0.078,0.0,— pass —
+Jacob Lopez,Athletics,Texas Rangers,23,2026-08-28,confirmed,2026-09-02,4.68,0.723,0.523,0.347,0.203,4.5,-110,(assumed),over 4.5,0.523,0.5,0.023,-0.002,0.075,0.0,— pass —
+Justin Hagenman,New York Mets,Tampa Bay Rays,3,2026-03-05,proxy,2026-09-02,2.53,0.214,0.087,0.029,0.02,3.5,-110,(assumed),under 3.5,0.786,0.5,0.286,0.5,0.057,0.0,— thin data —
+Brandon Williamson,Cincinnati Reds,San Diego Padres,9,2026-04-29,confirmed,2026-09-02,3.04,0.34,0.164,0.072,0.043,3.5,-110,(assumed),under 3.5,0.66,0.5,0.16,0.26,0.05,0.0,— thin data —
+Casey Mize,San Diego Padres,Cincinnati Reds,25,2026-08-28,confirmed,2026-09-02,4.02,0.589,0.37,0.216,0.118,4.5,-110,(assumed),under 4.5,0.63,0.5,0.13,0.203,0.073,0.0,— pass —
+Davis Martin,Chicago White Sox,Houston Astros,25,2026-08-04,proxy,2026-09-02,3.23,0.391,0.199,0.092,0.053,3.5,-110,(assumed),under 3.5,0.609,0.5,0.109,0.162,0.098,0.0,— thin data —
+Tomoyuki Sugano,Colorado Rockies,Baltimore Orioles,25,2026-08-28,confirmed,2026-09-02,4.17,0.623,0.406,0.245,0.135,4.5,-110,(assumed),under 4.5,0.594,0.5,0.094,0.135,0.065,0.0,— pass —
+Andrew Painter,Philadelphia Phillies,Arizona Diamondbacks,22,2026-08-28,confirmed,2026-09-02,4.19,0.625,0.408,0.248,0.137,4.5,-110,(assumed),under 4.5,0.592,0.5,0.092,0.13,0.06,0.0,— pass —
+Griffin Jax,Tampa Bay Rays,New York Mets,16,2026-08-02,proxy,2026-09-02,5.14,0.794,0.621,0.44,0.281,5.5,-110,(assumed),under 5.5,0.56,0.5,0.06,0.068,0.071,0.0,— thin data —
+Joey Cantillo,Cleveland Guardians,Toronto Blue Jays,32,2026-08-26,proxy,2026-09-02,4.35,0.658,0.446,0.281,0.158,4.5,-110,(assumed),under 4.5,0.554,0.5,0.054,0.058,0.069,0.0,— pass —
+Bryce Miller,Seattle Mariners,Boston Red Sox,17,2026-08-23,confirmed,2026-09-02,4.36,0.662,0.45,0.283,0.159,4.5,-110,(assumed),under 4.5,0.55,0.5,0.05,0.051,0.071,0.0,— pass —
+Patrick Sandoval,Boston Red Sox,Seattle Mariners,9,2026-08-28,confirmed,2026-09-02,5.23,0.805,0.638,0.457,0.297,5.5,-110,(assumed),under 5.5,0.543,0.5,0.043,0.037,0.057,0.0,— pass —
+David Peterson,Chicago Cubs,Milwaukee Brewers,29,2026-08-28,proxy,2026-09-02,4.42,0.674,0.464,0.296,0.168,4.5,-110,(assumed),under 4.5,0.536,0.5,0.036,0.024,0.065,0.0,— pass —
+Landen Roupp,San Francisco Giants,Pittsburgh Pirates,29,2026-08-27,proxy,2026-09-02,5.27,0.812,0.647,0.465,0.303,5.5,-110,(assumed),under 5.5,0.535,0.5,0.035,0.022,0.06,0.0,— pass —
+Noah Cameron,Kansas City Royals,Miami Marlins,30,2026-08-27,proxy,2026-09-02,4.5,0.689,0.482,0.311,0.177,4.5,-110,(assumed),under 4.5,0.518,0.5,0.018,-0.01,0.057,0.0,— pass —
