@@ -12,6 +12,16 @@
       "prob_over_6.5": 0.746
     },
     {
+      "pitcher_name": "Kevin Gausman",
+      "team": "Chicago Cubs",
+      "opponent": "Milwaukee Brewers",
+      "line": 5.5,
+      "prob_over_3.5": 0.885,
+      "prob_over_4.5": 0.766,
+      "prob_over_5.5": 0.589,
+      "prob_over_6.5": 0.446
+    },
+    {
       "pitcher_name": "Jack Perkins",
       "team": "Athletics",
       "opponent": "Seattle Mariners",
@@ -19,57 +29,57 @@
       "prob_over_3.5": 0.771,
       "prob_over_4.5": 0.589,
       "prob_over_5.5": 0.409,
-      "prob_over_6.5": 0.254
+      "prob_over_6.5": 0.253
     },
     {
-      "pitcher_name": "Kevin Gausman",
-      "team": "Chicago Cubs",
-      "opponent": "Milwaukee Brewers",
-      "line": 5.5,
-      "prob_over_3.5": 0.882,
-      "prob_over_4.5": 0.761,
-      "prob_over_5.5": 0.585,
-      "prob_over_6.5": 0.44
-    },
-    {
-      "pitcher_name": "Brandon Young",
-      "team": "Baltimore Orioles",
-      "opponent": "Boston Red Sox",
+      "pitcher_name": "Cal Quantrill",
+      "team": "Texas Rangers",
+      "opponent": "Tampa Bay Rays",
       "line": 3.5,
-      "prob_over_3.5": 0.583,
-      "prob_over_4.5": 0.365,
-      "prob_over_5.5": 0.213,
-      "prob_over_6.5": 0.117
+      "prob_over_3.5": 0.582,
+      "prob_over_4.5": 0.363,
+      "prob_over_5.5": 0.212,
+      "prob_over_6.5": 0.116
     },
     {
       "pitcher_name": "Luis Castillo",
       "team": "Chicago White Sox",
       "opponent": "Houston Astros",
       "line": 3.5,
-      "prob_over_3.5": 0.579,
-      "prob_over_4.5": 0.36,
-      "prob_over_5.5": 0.208,
-      "prob_over_6.5": 0.113
+      "prob_over_3.5": 0.575,
+      "prob_over_4.5": 0.355,
+      "prob_over_5.5": 0.204,
+      "prob_over_6.5": 0.111
     },
     {
       "pitcher_name": "Logan Henderson",
       "team": "Milwaukee Brewers",
       "opponent": "Chicago Cubs",
       "line": 5.5,
-      "prob_over_3.5": 0.873,
-      "prob_over_4.5": 0.746,
-      "prob_over_5.5": 0.567,
-      "prob_over_6.5": 0.418
+      "prob_over_3.5": 0.872,
+      "prob_over_4.5": 0.744,
+      "prob_over_5.5": 0.565,
+      "prob_over_6.5": 0.416
+    },
+    {
+      "pitcher_name": "Tanner Bibee",
+      "team": "Cleveland Guardians",
+      "opponent": "Toronto Blue Jays",
+      "line": 3.5,
+      "prob_over_3.5": 0.564,
+      "prob_over_4.5": 0.345,
+      "prob_over_5.5": 0.198,
+      "prob_over_6.5": 0.108
     },
     {
       "pitcher_name": "Kade Anderson",
       "team": "Seattle Mariners",
       "opponent": "Athletics",
       "line": 4.5,
-      "prob_over_3.5": 0.752,
+      "prob_over_3.5": 0.751,
       "prob_over_4.5": 0.561,
       "prob_over_5.5": 0.383,
-      "prob_over_6.5": 0.231
+      "prob_over_6.5": 0.232
     },
     {
       "pitcher_name": "Hunter Brown",
@@ -82,84 +92,74 @@
       "prob_over_6.5": 0.547
     },
     {
-      "pitcher_name": "Tanner Bibee",
-      "team": "Cleveland Guardians",
-      "opponent": "Toronto Blue Jays",
-      "line": 3.5,
-      "prob_over_3.5": 0.546,
-      "prob_over_4.5": 0.329,
-      "prob_over_5.5": 0.185,
-      "prob_over_6.5": 0.101
-    },
-    {
       "pitcher_name": "Michael Wacha",
       "team": "Kansas City Royals",
       "opponent": "Miami Marlins",
       "line": 4.5,
-      "prob_over_3.5": 0.711,
-      "prob_over_4.5": 0.508,
-      "prob_over_5.5": 0.335,
-      "prob_over_6.5": 0.194
+      "prob_over_3.5": 0.737,
+      "prob_over_4.5": 0.541,
+      "prob_over_5.5": 0.364,
+      "prob_over_6.5": 0.216
+    },
+    {
+      "pitcher_name": "Brandon Young",
+      "team": "Baltimore Orioles",
+      "opponent": "Boston Red Sox",
+      "line": 3.5,
+      "prob_over_3.5": 0.527,
+      "prob_over_4.5": 0.311,
+      "prob_over_5.5": 0.172,
+      "prob_over_6.5": 0.094
+    },
+    {
+      "pitcher_name": "Jake Bennett",
+      "team": "Boston Red Sox",
+      "opponent": "Baltimore Orioles",
+      "line": 5.5,
+      "prob_over_3.5": 0.837,
+      "prob_over_4.5": 0.687,
+      "prob_over_5.5": 0.506,
+      "prob_over_6.5": 0.346
     },
     {
       "pitcher_name": "Lake Bachar",
       "team": "Pittsburgh Pirates",
       "opponent": "San Francisco Giants",
       "line": 3.5,
-      "prob_over_3.5": 0.194,
-      "prob_over_4.5": 0.076,
+      "prob_over_3.5": 0.192,
+      "prob_over_4.5": 0.075,
       "prob_over_5.5": 0.024,
       "prob_over_6.5": 0.017
-    },
-    {
-      "pitcher_name": "Cal Quantrill",
-      "team": "Texas Rangers",
-      "opponent": "Tampa Bay Rays",
-      "line": 4.5,
-      "prob_over_3.5": 0.587,
-      "prob_over_4.5": 0.368,
-      "prob_over_5.5": 0.215,
-      "prob_over_6.5": 0.118
     },
     {
       "pitcher_name": "Blade Tidwell",
       "team": "San Francisco Giants",
       "opponent": "Pittsburgh Pirates",
       "line": 4.5,
-      "prob_over_3.5": 0.605,
-      "prob_over_4.5": 0.387,
-      "prob_over_5.5": 0.231,
-      "prob_over_6.5": 0.127
+      "prob_over_3.5": 0.598,
+      "prob_over_4.5": 0.38,
+      "prob_over_5.5": 0.226,
+      "prob_over_6.5": 0.124
     },
     {
       "pitcher_name": "José Soriano",
       "team": "Toronto Blue Jays",
       "opponent": "Cleveland Guardians",
       "line": 4.5,
-      "prob_over_3.5": 0.623,
-      "prob_over_4.5": 0.406,
-      "prob_over_5.5": 0.246,
-      "prob_over_6.5": 0.136
+      "prob_over_3.5": 0.626,
+      "prob_over_4.5": 0.409,
+      "prob_over_5.5": 0.248,
+      "prob_over_6.5": 0.137
     },
     {
       "pitcher_name": "Shane McClanahan",
       "team": "Tampa Bay Rays",
       "opponent": "Texas Rangers",
       "line": 4.5,
-      "prob_over_3.5": 0.639,
-      "prob_over_4.5": 0.425,
-      "prob_over_5.5": 0.263,
-      "prob_over_6.5": 0.147
-    },
-    {
-      "pitcher_name": "Sandy Alcantara",
-      "team": "Miami Marlins",
-      "opponent": "Kansas City Royals",
-      "line": 4.5,
-      "prob_over_3.5": 0.664,
-      "prob_over_4.5": 0.451,
-      "prob_over_5.5": 0.284,
-      "prob_over_6.5": 0.159
+      "prob_over_3.5": 0.631,
+      "prob_over_4.5": 0.416,
+      "prob_over_5.5": 0.256,
+      "prob_over_6.5": 0.143
     },
     {
       "pitcher_name": "Quinn Mathews",
@@ -172,14 +172,14 @@
       "prob_over_6.5": 0.162
     },
     {
-      "pitcher_name": "Jake Bennett",
-      "team": "Boston Red Sox",
-      "opponent": "Baltimore Orioles",
-      "line": 5.5,
-      "prob_over_3.5": 0.823,
-      "prob_over_4.5": 0.665,
-      "prob_over_5.5": 0.485,
-      "prob_over_6.5": 0.324
+      "pitcher_name": "Sandy Alcantara",
+      "team": "Miami Marlins",
+      "opponent": "Kansas City Royals",
+      "line": 4.5,
+      "prob_over_3.5": 0.669,
+      "prob_over_4.5": 0.456,
+      "prob_over_5.5": 0.288,
+      "prob_over_6.5": 0.162
     }
   ],
   "historial": [
