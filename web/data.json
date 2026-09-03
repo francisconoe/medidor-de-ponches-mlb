@@ -6,30 +6,20 @@
       "team": "Los Angeles Dodgers",
       "opponent": "St. Louis Cardinals",
       "line": 6.5,
-      "prob_over_3.5": 0.963,
-      "prob_over_4.5": 0.914,
-      "prob_over_5.5": 0.776,
-      "prob_over_6.5": 0.746
+      "prob_over_3.5": 0.967,
+      "prob_over_4.5": 0.923,
+      "prob_over_5.5": 0.79,
+      "prob_over_6.5": 0.77
     },
     {
       "pitcher_name": "Kevin Gausman",
       "team": "Chicago Cubs",
       "opponent": "Milwaukee Brewers",
       "line": 5.5,
-      "prob_over_3.5": 0.885,
-      "prob_over_4.5": 0.766,
-      "prob_over_5.5": 0.589,
-      "prob_over_6.5": 0.446
-    },
-    {
-      "pitcher_name": "Jack Perkins",
-      "team": "Athletics",
-      "opponent": "Seattle Mariners",
-      "line": 4.5,
-      "prob_over_3.5": 0.771,
-      "prob_over_4.5": 0.589,
-      "prob_over_5.5": 0.409,
-      "prob_over_6.5": 0.253
+      "prob_over_3.5": 0.884,
+      "prob_over_4.5": 0.764,
+      "prob_over_5.5": 0.587,
+      "prob_over_6.5": 0.443
     },
     {
       "pitcher_name": "Cal Quantrill",
@@ -52,14 +42,24 @@
       "prob_over_6.5": 0.111
     },
     {
+      "pitcher_name": "Kade Anderson",
+      "team": "Seattle Mariners",
+      "opponent": "Athletics",
+      "line": 4.5,
+      "prob_over_3.5": 0.756,
+      "prob_over_4.5": 0.568,
+      "prob_over_5.5": 0.389,
+      "prob_over_6.5": 0.236
+    },
+    {
       "pitcher_name": "Logan Henderson",
       "team": "Milwaukee Brewers",
       "opponent": "Chicago Cubs",
       "line": 5.5,
-      "prob_over_3.5": 0.872,
-      "prob_over_4.5": 0.744,
-      "prob_over_5.5": 0.565,
-      "prob_over_6.5": 0.416
+      "prob_over_3.5": 0.873,
+      "prob_over_4.5": 0.745,
+      "prob_over_5.5": 0.566,
+      "prob_over_6.5": 0.417
     },
     {
       "pitcher_name": "Tanner Bibee",
@@ -70,16 +70,6 @@
       "prob_over_4.5": 0.345,
       "prob_over_5.5": 0.198,
       "prob_over_6.5": 0.108
-    },
-    {
-      "pitcher_name": "Kade Anderson",
-      "team": "Seattle Mariners",
-      "opponent": "Athletics",
-      "line": 4.5,
-      "prob_over_3.5": 0.751,
-      "prob_over_4.5": 0.561,
-      "prob_over_5.5": 0.383,
-      "prob_over_6.5": 0.232
     },
     {
       "pitcher_name": "Hunter Brown",
@@ -102,6 +92,16 @@
       "prob_over_6.5": 0.216
     },
     {
+      "pitcher_name": "Jack Perkins",
+      "team": "Athletics",
+      "opponent": "Seattle Mariners",
+      "line": 4.5,
+      "prob_over_3.5": 0.735,
+      "prob_over_4.5": 0.54,
+      "prob_over_5.5": 0.364,
+      "prob_over_6.5": 0.217
+    },
+    {
       "pitcher_name": "Brandon Young",
       "team": "Baltimore Orioles",
       "opponent": "Boston Red Sox",
@@ -117,9 +117,9 @@
       "opponent": "Baltimore Orioles",
       "line": 5.5,
       "prob_over_3.5": 0.837,
-      "prob_over_4.5": 0.687,
-      "prob_over_5.5": 0.506,
-      "prob_over_6.5": 0.346
+      "prob_over_4.5": 0.686,
+      "prob_over_5.5": 0.505,
+      "prob_over_6.5": 0.345
     },
     {
       "pitcher_name": "Lake Bachar",
@@ -130,6 +130,16 @@
       "prob_over_4.5": 0.075,
       "prob_over_5.5": 0.024,
       "prob_over_6.5": 0.017
+    },
+    {
+      "pitcher_name": "Quinn Mathews",
+      "team": "St. Louis Cardinals",
+      "opponent": "Los Angeles Dodgers",
+      "line": 4.5,
+      "prob_over_3.5": 0.593,
+      "prob_over_4.5": 0.375,
+      "prob_over_5.5": 0.221,
+      "prob_over_6.5": 0.122
     },
     {
       "pitcher_name": "Blade Tidwell",
@@ -160,16 +170,6 @@
       "prob_over_4.5": 0.416,
       "prob_over_5.5": 0.256,
       "prob_over_6.5": 0.143
-    },
-    {
-      "pitcher_name": "Quinn Mathews",
-      "team": "St. Louis Cardinals",
-      "opponent": "Los Angeles Dodgers",
-      "line": 4.5,
-      "prob_over_3.5": 0.665,
-      "prob_over_4.5": 0.453,
-      "prob_over_5.5": 0.287,
-      "prob_over_6.5": 0.162
     },
     {
       "pitcher_name": "Sandy Alcantara",
