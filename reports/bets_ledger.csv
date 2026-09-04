@@ -157,3 +157,4 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-02,Brad Lord,under 3.5,3.5,-110,(assumed),0.728,0.228,20.0,6,loss,-20.0
 2026-09-02,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.676,0.176,20.0,5,loss,-20.0
 2026-09-02,Reid Detmers,over 6.5,6.5,-110,(assumed),0.667,0.167,20.0,8,win,18.18
+2026-09-03,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.77,0.27,20.0,6,loss,-20.0
