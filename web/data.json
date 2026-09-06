@@ -27,7 +27,7 @@
       "opponent": "Los Angeles Angels",
       "line": 6.5,
       "prob_over_3.5": 0.942,
-      "prob_over_4.5": 0.871,
+      "prob_over_4.5": 0.872,
       "prob_over_5.5": 0.716,
       "prob_over_6.5": 0.64
     },
@@ -36,10 +36,10 @@
       "team": "Seattle Mariners",
       "opponent": "Athletics",
       "line": 6.5,
-      "prob_over_3.5": 0.936,
-      "prob_over_4.5": 0.86,
-      "prob_over_5.5": 0.701,
-      "prob_over_6.5": 0.614
+      "prob_over_3.5": 0.937,
+      "prob_over_4.5": 0.861,
+      "prob_over_5.5": 0.703,
+      "prob_over_6.5": 0.618
     },
     {
       "pitcher_name": "Christian Scott",
@@ -52,6 +52,16 @@
       "prob_over_6.5": 0.451
     },
     {
+      "pitcher_name": "Gerrit Cole",
+      "team": "New York Yankees",
+      "opponent": "San Diego Padres",
+      "line": 5.5,
+      "prob_over_3.5": 0.885,
+      "prob_over_4.5": 0.765,
+      "prob_over_5.5": 0.588,
+      "prob_over_6.5": 0.444
+    },
+    {
       "pitcher_name": "Justin Wrobleski",
       "team": "Los Angeles Dodgers",
       "opponent": "Washington Nationals",
@@ -60,16 +70,6 @@
       "prob_over_4.5": 0.577,
       "prob_over_5.5": 0.398,
       "prob_over_6.5": 0.244
-    },
-    {
-      "pitcher_name": "Ian Seymour",
-      "team": "Tampa Bay Rays",
-      "opponent": "Texas Rangers",
-      "line": 5.5,
-      "prob_over_3.5": 0.877,
-      "prob_over_4.5": 0.752,
-      "prob_over_5.5": 0.574,
-      "prob_over_6.5": 0.427
     },
     {
       "pitcher_name": "Kyle Leahy",
@@ -82,21 +82,21 @@
       "prob_over_6.5": 0.241
     },
     {
-      "pitcher_name": "Andrew Alvarez",
-      "team": "Washington Nationals",
-      "opponent": "Los Angeles Dodgers",
-      "line": 3.5,
-      "prob_over_3.5": 0.554,
-      "prob_over_4.5": 0.338,
-      "prob_over_5.5": 0.193,
-      "prob_over_6.5": 0.106
+      "pitcher_name": "Ian Seymour",
+      "team": "Tampa Bay Rays",
+      "opponent": "Texas Rangers",
+      "line": 5.5,
+      "prob_over_3.5": 0.875,
+      "prob_over_4.5": 0.749,
+      "prob_over_5.5": 0.571,
+      "prob_over_6.5": 0.422
     },
     {
       "pitcher_name": "Walbert Ureña",
       "team": "Los Angeles Angels",
       "opponent": "Pittsburgh Pirates",
       "line": 5.5,
-      "prob_over_3.5": 0.864,
+      "prob_over_3.5": 0.865,
       "prob_over_4.5": 0.73,
       "prob_over_5.5": 0.55,
       "prob_over_6.5": 0.395
@@ -112,16 +112,6 @@
       "prob_over_6.5": 0.099
     },
     {
-      "pitcher_name": "Gage Jump",
-      "team": "Athletics",
-      "opponent": "Seattle Mariners",
-      "line": 6.5,
-      "prob_over_3.5": 0.916,
-      "prob_over_4.5": 0.821,
-      "prob_over_5.5": 0.652,
-      "prob_over_6.5": 0.536
-    },
-    {
       "pitcher_name": "Tyler Phillips",
       "team": "Miami Marlins",
       "opponent": "Chicago Cubs",
@@ -129,7 +119,7 @@
       "prob_over_3.5": 0.535,
       "prob_over_4.5": 0.32,
       "prob_over_5.5": 0.18,
-      "prob_over_6.5": 0.099
+      "prob_over_6.5": 0.1
     },
     {
       "pitcher_name": "Jackson Jobe",
@@ -138,7 +128,7 @@
       "line": 3.5,
       "prob_over_3.5": 0.524,
       "prob_over_4.5": 0.308,
-      "prob_over_5.5": 0.169,
+      "prob_over_5.5": 0.168,
       "prob_over_6.5": 0.092
     },
     {
@@ -157,9 +147,19 @@
       "opponent": "Philadelphia Phillies",
       "line": 4.5,
       "prob_over_3.5": 0.72,
-      "prob_over_4.5": 0.521,
+      "prob_over_4.5": 0.52,
       "prob_over_5.5": 0.346,
       "prob_over_6.5": 0.203
+    },
+    {
+      "pitcher_name": "Michael King",
+      "team": "San Diego Padres",
+      "opponent": "New York Yankees",
+      "line": 6.5,
+      "prob_over_3.5": 0.911,
+      "prob_over_4.5": 0.813,
+      "prob_over_5.5": 0.642,
+      "prob_over_6.5": 0.521
     },
     {
       "pitcher_name": "MacKenzie Gore",
@@ -170,6 +170,16 @@
       "prob_over_4.5": 0.519,
       "prob_over_5.5": 0.344,
       "prob_over_6.5": 0.2
+    },
+    {
+      "pitcher_name": "Andrew Alvarez",
+      "team": "Washington Nationals",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.517,
+      "prob_over_4.5": 0.303,
+      "prob_over_5.5": 0.166,
+      "prob_over_6.5": 0.092
     },
     {
       "pitcher_name": "Clay Holmes",
@@ -196,7 +206,7 @@
       "team": "Cincinnati Reds",
       "opponent": "Milwaukee Brewers",
       "line": 4.5,
-      "prob_over_3.5": 0.708,
+      "prob_over_3.5": 0.707,
       "prob_over_4.5": 0.504,
       "prob_over_5.5": 0.331,
       "prob_over_6.5": 0.191
@@ -206,8 +216,8 @@
       "team": "Chicago White Sox",
       "opponent": "Minnesota Twins",
       "line": 3.5,
-      "prob_over_3.5": 0.14,
-      "prob_over_4.5": 0.049,
+      "prob_over_3.5": 0.143,
+      "prob_over_4.5": 0.051,
       "prob_over_5.5": 0.013,
       "prob_over_6.5": 0.011
     },
@@ -216,10 +226,10 @@
       "team": "Colorado Rockies",
       "opponent": "St. Louis Cardinals",
       "line": 4.5,
-      "prob_over_3.5": 0.613,
-      "prob_over_4.5": 0.396,
-      "prob_over_5.5": 0.238,
-      "prob_over_6.5": 0.131
+      "prob_over_3.5": 0.612,
+      "prob_over_4.5": 0.394,
+      "prob_over_5.5": 0.237,
+      "prob_over_6.5": 0.13
     },
     {
       "pitcher_name": "Cesar Perdomo",
@@ -242,14 +252,14 @@
       "prob_over_6.5": 0.068
     },
     {
-      "pitcher_name": "Gerrit Cole",
-      "team": "New York Yankees",
-      "opponent": "San Diego Padres",
+      "pitcher_name": "Gage Jump",
+      "team": "Athletics",
+      "opponent": "Seattle Mariners",
       "line": 6.5,
       "prob_over_3.5": 0.893,
       "prob_over_4.5": 0.78,
-      "prob_over_5.5": 0.604,
-      "prob_over_6.5": 0.466
+      "prob_over_5.5": 0.605,
+      "prob_over_6.5": 0.467
     },
     {
       "pitcher_name": "Aaron Nola",
@@ -290,16 +300,6 @@
       "prob_over_4.5": 0.799,
       "prob_over_5.5": 0.627,
       "prob_over_6.5": 0.498
-    },
-    {
-      "pitcher_name": "Michael King",
-      "team": "San Diego Padres",
-      "opponent": "New York Yankees",
-      "line": 6.5,
-      "prob_over_3.5": 0.904,
-      "prob_over_4.5": 0.8,
-      "prob_over_5.5": 0.627,
-      "prob_over_6.5": 0.499
     }
   ],
   "historial": [
