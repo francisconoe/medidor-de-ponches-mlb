@@ -18,7 +18,7 @@
       "line": 6.5,
       "prob_over_3.5": 0.938,
       "prob_over_4.5": 0.864,
-      "prob_over_5.5": 0.705,
+      "prob_over_5.5": 0.706,
       "prob_over_6.5": 0.622
     },
     {
@@ -30,6 +30,16 @@
       "prob_over_4.5": 0.59,
       "prob_over_5.5": 0.409,
       "prob_over_6.5": 0.251
+    },
+    {
+      "pitcher_name": "Jacob Lopez",
+      "team": "Athletics",
+      "opponent": "Toronto Blue Jays",
+      "line": 3.5,
+      "prob_over_3.5": 0.583,
+      "prob_over_4.5": 0.363,
+      "prob_over_5.5": 0.211,
+      "prob_over_6.5": 0.115
     },
     {
       "pitcher_name": "Noah Cameron",
@@ -47,7 +57,7 @@
       "opponent": "Cleveland Guardians",
       "line": 4.5,
       "prob_over_3.5": 0.755,
-      "prob_over_4.5": 0.566,
+      "prob_over_4.5": 0.565,
       "prob_over_5.5": 0.387,
       "prob_over_6.5": 0.234
     },
@@ -56,10 +66,10 @@
       "team": "Cincinnati Reds",
       "opponent": "Los Angeles Dodgers",
       "line": 5.5,
-      "prob_over_3.5": 0.85,
-      "prob_over_4.5": 0.707,
-      "prob_over_5.5": 0.525,
-      "prob_over_6.5": 0.367
+      "prob_over_3.5": 0.865,
+      "prob_over_4.5": 0.731,
+      "prob_over_5.5": 0.551,
+      "prob_over_6.5": 0.397
     },
     {
       "pitcher_name": "Jake Irvin",
@@ -68,7 +78,7 @@
       "line": 4.5,
       "prob_over_3.5": 0.718,
       "prob_over_4.5": 0.518,
-      "prob_over_5.5": 0.344,
+      "prob_over_5.5": 0.343,
       "prob_over_6.5": 0.201
     },
     {
@@ -130,16 +140,6 @@
       "prob_over_4.5": 0.232,
       "prob_over_5.5": 0.115,
       "prob_over_6.5": 0.065
-    },
-    {
-      "pitcher_name": "Jacob Lopez",
-      "team": "Athletics",
-      "opponent": "Toronto Blue Jays",
-      "line": 4.5,
-      "prob_over_3.5": 0.651,
-      "prob_over_4.5": 0.436,
-      "prob_over_5.5": 0.27,
-      "prob_over_6.5": 0.15
     },
     {
       "pitcher_name": "Joey Cantillo",
