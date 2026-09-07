@@ -1,0 +1,21 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Jesús Luzardo,Philadelphia Phillies,Atlanta Braves,31,2026-09-01,confirmed,2026-09-07,7.26,0.958,0.903,0.76,0.716,6.5,-110,(assumed),over 6.5,0.716,0.5,0.216,0.368,0.073,20.0,over 6.5
+Dylan Cease,Toronto Blue Jays,Athletics,28,2026-09-02,proxy,2026-09-07,6.9,0.944,0.875,0.72,0.647,6.5,-110,(assumed),over 6.5,0.647,0.5,0.147,0.235,0.077,0.0,— pass —
+Jake Irvin,Washington Nationals,San Diego Padres,22,2026-09-01,confirmed,2026-09-07,4.9,0.759,0.571,0.393,0.239,4.5,-110,(assumed),over 4.5,0.571,0.5,0.071,0.091,0.064,0.0,— pass —
+Trevor Rogers,Baltimore Orioles,Cleveland Guardians,28,2026-09-02,confirmed,2026-09-07,4.89,0.757,0.568,0.39,0.236,4.5,-110,(assumed),over 4.5,0.568,0.5,0.068,0.085,0.063,0.0,— pass —
+Noah Cameron,Kansas City Royals,Arizona Diamondbacks,31,2026-09-02,confirmed,2026-09-07,3.93,0.568,0.349,0.2,0.109,3.5,-110,(assumed),over 3.5,0.568,0.5,0.068,0.084,0.067,0.0,— pass —
+Brayan Bello,Boston Red Sox,Los Angeles Angels,23,2026-09-02,confirmed,2026-09-07,4.85,0.753,0.561,0.381,0.228,4.5,-110,(assumed),over 4.5,0.561,0.5,0.061,0.071,0.073,0.0,— pass —
+Eury Pérez,Miami Marlins,New York Mets,29,2026-09-02,confirmed,2026-09-07,6.47,0.922,0.832,0.665,0.556,6.5,-110,(assumed),over 6.5,0.556,0.5,0.056,0.061,0.075,0.0,— pass —
+Chase Burns,Cincinnati Reds,Los Angeles Dodgers,30,2026-08-30,proxy,2026-09-07,5.59,0.85,0.707,0.525,0.367,5.5,-110,(assumed),over 5.5,0.525,0.5,0.025,0.003,0.06,0.0,— pass —
+Michael McGreevy,St. Louis Cardinals,San Francisco Giants,31,2026-09-01,proxy,2026-09-07,3.73,0.519,0.303,0.165,0.091,3.5,-110,(assumed),over 3.5,0.519,0.5,0.019,-0.009,0.055,0.0,— pass —
+Matthew Boyd,Chicago Cubs,Milwaukee Brewers,19,2026-09-01,confirmed,2026-09-07,3.68,0.506,0.292,0.157,0.086,3.5,-110,(assumed),over 3.5,0.506,0.5,0.006,-0.034,0.055,0.0,— pass —
+Jonah Tong,New York Mets,Miami Marlins,4,2026-06-02,confirmed,2026-09-07,3.18,0.377,0.189,0.086,0.049,3.5,-110,(assumed),under 3.5,0.623,0.5,0.123,0.188,0.095,0.0,— thin data —
+Logan Webb,San Francisco Giants,St. Louis Cardinals,26,2026-09-01,proxy,2026-09-07,4.09,0.602,0.385,0.23,0.127,4.5,-110,(assumed),under 4.5,0.615,0.5,0.115,0.174,0.067,0.0,— pass —
+Joe Ryan,Minnesota Twins,Detroit Tigers,25,2026-08-04,confirmed,2026-09-07,4.26,0.64,0.425,0.262,0.146,4.5,-110,(assumed),under 4.5,0.575,0.5,0.075,0.097,0.064,0.0,— thin data —
+Grant Holmes,Atlanta Braves,Philadelphia Phillies,30,2026-08-28,confirmed,2026-09-07,3.4,0.433,0.232,0.114,0.064,3.5,-110,(assumed),under 3.5,0.567,0.5,0.067,0.082,0.048,0.0,— pass —
+Jacob Lopez,Athletics,Toronto Blue Jays,24,2026-09-02,proxy,2026-09-07,4.3,0.651,0.436,0.27,0.15,4.5,-110,(assumed),under 4.5,0.564,0.5,0.064,0.077,0.064,0.0,— pass —
+Joey Cantillo,Cleveland Guardians,Baltimore Orioles,33,2026-09-02,confirmed,2026-09-07,5.22,0.807,0.638,0.455,0.293,5.5,-110,(assumed),under 5.5,0.545,0.5,0.045,0.04,0.069,0.0,— pass —
+Nick Pivetta,San Diego Padres,Washington Nationals,7,2026-04-12,proxy,2026-09-07,4.48,0.684,0.477,0.308,0.176,4.5,-110,(assumed),under 4.5,0.523,0.5,0.023,-0.001,0.109,0.0,— thin data —
+Troy Melton,Detroit Tigers,Minnesota Twins,17,2026-09-01,confirmed,2026-09-07,4.5,0.688,0.481,0.31,0.177,4.5,-110,(assumed),under 4.5,0.519,0.5,0.019,-0.008,0.054,0.0,— pass —
+Grayson Rodriguez,Los Angeles Angels,Boston Red Sox,20,2026-09-01,confirmed,2026-09-07,4.55,0.699,0.493,0.321,0.184,4.5,-110,(assumed),under 4.5,0.507,0.5,0.007,-0.032,0.062,0.0,— pass —
+Robert Gasser,Milwaukee Brewers,Chicago Cubs,20,2026-09-01,confirmed,2026-09-07,4.57,0.7,0.497,0.325,0.188,4.5,-110,(assumed),under 4.5,0.503,0.5,0.003,-0.039,0.07,0.0,— pass —
