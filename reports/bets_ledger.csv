@@ -169,3 +169,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-06,Payton Tolle,over 6.5,6.5,-110,(assumed),0.806,0.306,20.0,12,win,18.18
 2026-09-06,Gavin Williams,over 6.5,6.5,-110,(assumed),0.791,0.291,20.0,11,win,18.18
 2026-09-07,Jesús Luzardo,over 6.5,6.5,-110,(assumed),0.716,0.216,20.0,12,win,18.18
+2026-09-08,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.91,0.41,20.0,9,win,18.18
+2026-09-08,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.861,0.361,20.0,5,loss,-20.0
+2026-09-08,Cam Schlittler,over 6.5,6.5,-110,(assumed),0.837,0.337,20.0,10,win,18.18
+2026-09-08,Riley Cornelio,under 3.5,3.5,-110,(assumed),0.707,0.207,20.0,4,loss,-20.0
