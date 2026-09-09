@@ -6,30 +6,30 @@
       "team": "Los Angeles Dodgers",
       "opponent": "Cincinnati Reds",
       "line": 6.5,
-      "prob_over_3.5": 0.964,
-      "prob_over_4.5": 0.916,
-      "prob_over_5.5": 0.779,
-      "prob_over_6.5": 0.751
+      "prob_over_3.5": 0.961,
+      "prob_over_4.5": 0.911,
+      "prob_over_5.5": 0.771,
+      "prob_over_6.5": 0.736
     },
     {
       "pitcher_name": "Janson Junk",
       "team": "Miami Marlins",
       "opponent": "New York Mets",
       "line": 3.5,
-      "prob_over_3.5": 0.294,
-      "prob_over_4.5": 0.134,
-      "prob_over_5.5": 0.053,
-      "prob_over_6.5": 0.033
+      "prob_over_3.5": 0.289,
+      "prob_over_4.5": 0.13,
+      "prob_over_5.5": 0.051,
+      "prob_over_6.5": 0.032
     },
     {
       "pitcher_name": "Cristopher Sánchez",
       "team": "Philadelphia Phillies",
       "opponent": "Houston Astros",
       "line": 6.5,
-      "prob_over_3.5": 0.944,
-      "prob_over_4.5": 0.875,
-      "prob_over_5.5": 0.721,
-      "prob_over_6.5": 0.65
+      "prob_over_3.5": 0.943,
+      "prob_over_4.5": 0.874,
+      "prob_over_5.5": 0.719,
+      "prob_over_6.5": 0.646
     },
     {
       "pitcher_name": "Logan Henderson",
@@ -46,10 +46,10 @@
       "team": "Boston Red Sox",
       "opponent": "Los Angeles Angels",
       "line": 5.5,
-      "prob_over_3.5": 0.888,
-      "prob_over_4.5": 0.77,
-      "prob_over_5.5": 0.594,
-      "prob_over_6.5": 0.452
+      "prob_over_3.5": 0.884,
+      "prob_over_4.5": 0.763,
+      "prob_over_5.5": 0.586,
+      "prob_over_6.5": 0.442
     },
     {
       "pitcher_name": "Zebby Matthews",
@@ -67,7 +67,7 @@
       "opponent": "Baltimore Orioles",
       "line": 5.5,
       "prob_over_3.5": 0.877,
-      "prob_over_4.5": 0.75,
+      "prob_over_4.5": 0.751,
       "prob_over_5.5": 0.571,
       "prob_over_6.5": 0.421
     },
@@ -80,6 +80,16 @@
       "prob_over_4.5": 0.331,
       "prob_over_5.5": 0.186,
       "prob_over_6.5": 0.101
+    },
+    {
+      "pitcher_name": "Rhett Lowder",
+      "team": "Cincinnati Reds",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.547,
+      "prob_over_4.5": 0.328,
+      "prob_over_5.5": 0.183,
+      "prob_over_6.5": 0.1
     },
     {
       "pitcher_name": "Ryan Johnson",
@@ -96,20 +106,20 @@
       "team": "Seattle Mariners",
       "opponent": "Texas Rangers",
       "line": 4.5,
-      "prob_over_3.5": 0.733,
-      "prob_over_4.5": 0.536,
-      "prob_over_5.5": 0.36,
-      "prob_over_6.5": 0.213
+      "prob_over_3.5": 0.728,
+      "prob_over_4.5": 0.53,
+      "prob_over_5.5": 0.355,
+      "prob_over_6.5": 0.209
     },
     {
       "pitcher_name": "Griffin Jax",
       "team": "Tampa Bay Rays",
       "opponent": "Atlanta Braves",
       "line": 5.5,
-      "prob_over_3.5": 0.843,
-      "prob_over_4.5": 0.697,
-      "prob_over_5.5": 0.516,
-      "prob_over_6.5": 0.358
+      "prob_over_3.5": 0.841,
+      "prob_over_4.5": 0.692,
+      "prob_over_5.5": 0.512,
+      "prob_over_6.5": 0.353
     },
     {
       "pitcher_name": "Brady Basso",
@@ -166,10 +176,10 @@
       "team": "St. Louis Cardinals",
       "opponent": "San Francisco Giants",
       "line": 4.5,
-      "prob_over_3.5": 0.6,
-      "prob_over_4.5": 0.381,
-      "prob_over_5.5": 0.225,
-      "prob_over_6.5": 0.123
+      "prob_over_3.5": 0.601,
+      "prob_over_4.5": 0.382,
+      "prob_over_5.5": 0.226,
+      "prob_over_6.5": 0.124
     },
     {
       "pitcher_name": "Robert Stock",
@@ -216,27 +226,37 @@
       "team": "Washington Nationals",
       "opponent": "San Diego Padres",
       "line": 4.5,
-      "prob_over_3.5": 0.675,
-      "prob_over_4.5": 0.464,
-      "prob_over_5.5": 0.296,
-      "prob_over_6.5": 0.167
+      "prob_over_3.5": 0.676,
+      "prob_over_4.5": 0.466,
+      "prob_over_5.5": 0.297,
+      "prob_over_6.5": 0.168
     },
     {
       "pitcher_name": "Cody Bradford",
       "team": "Texas Rangers",
       "opponent": "Seattle Mariners",
       "line": 3.5,
-      "prob_over_3.5": 0.465,
-      "prob_over_4.5": 0.256,
-      "prob_over_5.5": 0.131,
-      "prob_over_6.5": 0.072
+      "prob_over_3.5": 0.466,
+      "prob_over_4.5": 0.257,
+      "prob_over_5.5": 0.132,
+      "prob_over_6.5": 0.073
+    },
+    {
+      "pitcher_name": "Walker Buehler",
+      "team": "San Diego Padres",
+      "opponent": "Washington Nationals",
+      "line": 4.5,
+      "prob_over_3.5": 0.676,
+      "prob_over_4.5": 0.467,
+      "prob_over_5.5": 0.298,
+      "prob_over_6.5": 0.169
     },
     {
       "pitcher_name": "Keider Montero",
       "team": "Detroit Tigers",
       "opponent": "Minnesota Twins",
       "line": 3.5,
-      "prob_over_3.5": 0.467,
+      "prob_over_3.5": 0.468,
       "prob_over_4.5": 0.26,
       "prob_over_5.5": 0.134,
       "prob_over_6.5": 0.075
@@ -246,30 +266,20 @@
       "team": "New York Yankees",
       "opponent": "Colorado Rockies",
       "line": 5.5,
-      "prob_over_3.5": 0.819,
-      "prob_over_4.5": 0.659,
-      "prob_over_5.5": 0.478,
-      "prob_over_6.5": 0.317
-    },
-    {
-      "pitcher_name": "Walker Buehler",
-      "team": "San Diego Padres",
-      "opponent": "Washington Nationals",
-      "line": 4.5,
-      "prob_over_3.5": 0.687,
-      "prob_over_4.5": 0.48,
-      "prob_over_5.5": 0.309,
-      "prob_over_6.5": 0.177
+      "prob_over_3.5": 0.814,
+      "prob_over_4.5": 0.652,
+      "prob_over_5.5": 0.471,
+      "prob_over_6.5": 0.31
     },
     {
       "pitcher_name": "Hunter Brown",
       "team": "Houston Astros",
       "opponent": "Philadelphia Phillies",
       "line": 5.5,
-      "prob_over_3.5": 0.827,
-      "prob_over_4.5": 0.67,
-      "prob_over_5.5": 0.487,
-      "prob_over_6.5": 0.325
+      "prob_over_3.5": 0.826,
+      "prob_over_4.5": 0.668,
+      "prob_over_5.5": 0.486,
+      "prob_over_6.5": 0.324
     },
     {
       "pitcher_name": "Kevin Gausman",
@@ -280,16 +290,6 @@
       "prob_over_4.5": 0.671,
       "prob_over_5.5": 0.489,
       "prob_over_6.5": 0.327
-    },
-    {
-      "pitcher_name": "Rhett Lowder",
-      "team": "Cincinnati Reds",
-      "opponent": "Los Angeles Dodgers",
-      "line": 3.5,
-      "prob_over_3.5": 0.489,
-      "prob_over_4.5": 0.276,
-      "prob_over_5.5": 0.144,
-      "prob_over_6.5": 0.079
     }
   ],
   "historial": [
