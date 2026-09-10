@@ -7,7 +7,7 @@
       "opponent": "Texas Rangers",
       "line": 6.5,
       "prob_over_3.5": 0.963,
-      "prob_over_4.5": 0.914,
+      "prob_over_4.5": 0.915,
       "prob_over_5.5": 0.777,
       "prob_over_6.5": 0.748
     },
@@ -26,10 +26,10 @@
       "team": "Texas Rangers",
       "opponent": "Seattle Mariners",
       "line": 6.5,
-      "prob_over_3.5": 0.938,
-      "prob_over_4.5": 0.864,
-      "prob_over_5.5": 0.706,
-      "prob_over_6.5": 0.622
+      "prob_over_3.5": 0.942,
+      "prob_over_4.5": 0.871,
+      "prob_over_5.5": 0.715,
+      "prob_over_6.5": 0.638
     },
     {
       "pitcher_name": "Jared Jones",
@@ -46,20 +46,20 @@
       "team": "New York Yankees",
       "opponent": "Colorado Rockies",
       "line": 5.5,
-      "prob_over_3.5": 0.868,
-      "prob_over_4.5": 0.738,
-      "prob_over_5.5": 0.561,
-      "prob_over_6.5": 0.412
+      "prob_over_3.5": 0.869,
+      "prob_over_4.5": 0.739,
+      "prob_over_5.5": 0.562,
+      "prob_over_6.5": 0.414
     },
     {
       "pitcher_name": "Ryan Feltner",
       "team": "Colorado Rockies",
       "opponent": "New York Yankees",
       "line": 4.5,
-      "prob_over_3.5": 0.721,
-      "prob_over_4.5": 0.521,
-      "prob_over_5.5": 0.346,
-      "prob_over_6.5": 0.203
+      "prob_over_3.5": 0.73,
+      "prob_over_4.5": 0.532,
+      "prob_over_5.5": 0.356,
+      "prob_over_6.5": 0.21
     },
     {
       "pitcher_name": "Hagen Smith",
