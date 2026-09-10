@@ -6,10 +6,10 @@
       "team": "Seattle Mariners",
       "opponent": "Texas Rangers",
       "line": 6.5,
-      "prob_over_3.5": 0.962,
+      "prob_over_3.5": 0.963,
       "prob_over_4.5": 0.914,
-      "prob_over_5.5": 0.776,
-      "prob_over_6.5": 0.746
+      "prob_over_5.5": 0.777,
+      "prob_over_6.5": 0.748
     },
     {
       "pitcher_name": "Zack Wheeler",
@@ -26,20 +26,30 @@
       "team": "Texas Rangers",
       "opponent": "Seattle Mariners",
       "line": 6.5,
-      "prob_over_3.5": 0.936,
-      "prob_over_4.5": 0.86,
-      "prob_over_5.5": 0.7,
-      "prob_over_6.5": 0.613
+      "prob_over_3.5": 0.938,
+      "prob_over_4.5": 0.864,
+      "prob_over_5.5": 0.706,
+      "prob_over_6.5": 0.622
+    },
+    {
+      "pitcher_name": "Jared Jones",
+      "team": "Pittsburgh Pirates",
+      "opponent": "Chicago White Sox",
+      "line": 5.5,
+      "prob_over_3.5": 0.886,
+      "prob_over_4.5": 0.768,
+      "prob_over_5.5": 0.591,
+      "prob_over_6.5": 0.449
     },
     {
       "pitcher_name": "Max Fried",
       "team": "New York Yankees",
       "opponent": "Colorado Rockies",
       "line": 5.5,
-      "prob_over_3.5": 0.863,
-      "prob_over_4.5": 0.73,
-      "prob_over_5.5": 0.553,
-      "prob_over_6.5": 0.402
+      "prob_over_3.5": 0.868,
+      "prob_over_4.5": 0.738,
+      "prob_over_5.5": 0.561,
+      "prob_over_6.5": 0.412
     },
     {
       "pitcher_name": "Ryan Feltner",
@@ -47,7 +57,7 @@
       "opponent": "New York Yankees",
       "line": 4.5,
       "prob_over_3.5": 0.721,
-      "prob_over_4.5": 0.522,
+      "prob_over_4.5": 0.521,
       "prob_over_5.5": 0.346,
       "prob_over_6.5": 0.203
     },
@@ -56,10 +66,10 @@
       "team": "Chicago White Sox",
       "opponent": "Pittsburgh Pirates",
       "line": 3.5,
-      "prob_over_3.5": 0.201,
-      "prob_over_4.5": 0.079,
-      "prob_over_5.5": 0.025,
-      "prob_over_6.5": 0.018
+      "prob_over_3.5": 0.191,
+      "prob_over_4.5": 0.074,
+      "prob_over_5.5": 0.023,
+      "prob_over_6.5": 0.017
     },
     {
       "pitcher_name": "Martín Pérez",
@@ -76,20 +86,10 @@
       "team": "Houston Astros",
       "opponent": "Philadelphia Phillies",
       "line": 4.5,
-      "prob_over_3.5": 0.657,
-      "prob_over_4.5": 0.444,
-      "prob_over_5.5": 0.279,
-      "prob_over_6.5": 0.156
-    },
-    {
-      "pitcher_name": "Jared Jones",
-      "team": "Pittsburgh Pirates",
-      "opponent": "Chicago White Sox",
-      "line": 6.5,
-      "prob_over_3.5": 0.895,
-      "prob_over_4.5": 0.784,
-      "prob_over_5.5": 0.609,
-      "prob_over_6.5": 0.473
+      "prob_over_3.5": 0.668,
+      "prob_over_4.5": 0.457,
+      "prob_over_5.5": 0.29,
+      "prob_over_6.5": 0.163
     },
     {
       "pitcher_name": "Nick Martinez",
