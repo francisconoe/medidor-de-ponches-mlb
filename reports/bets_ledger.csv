@@ -175,3 +175,5 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-08,Riley Cornelio,under 3.5,3.5,-110,(assumed),0.707,0.207,20.0,4,loss,-20.0
 2026-09-09,Yoshinobu Yamamoto,over 6.5,6.5,-110,(assumed),0.736,0.236,20.0,10,win,18.18
 2026-09-09,Janson Junk,under 3.5,3.5,-110,(assumed),0.711,0.211,20.0,0,win,18.18
+2026-09-10,Logan Gilbert,over 6.5,6.5,-110,(assumed),0.748,0.248,20.0,11,win,18.18
+2026-09-10,Zack Wheeler,over 6.5,6.5,-110,(assumed),0.737,0.237,20.0,9,win,18.18
