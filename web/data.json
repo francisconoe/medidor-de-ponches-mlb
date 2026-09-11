@@ -6,10 +6,10 @@
       "team": "Atlanta Braves",
       "opponent": "Philadelphia Phillies",
       "line": 6.5,
-      "prob_over_3.5": 0.968,
-      "prob_over_4.5": 0.926,
-      "prob_over_5.5": 0.795,
-      "prob_over_6.5": 0.779
+      "prob_over_3.5": 0.967,
+      "prob_over_4.5": 0.923,
+      "prob_over_5.5": 0.791,
+      "prob_over_6.5": 0.773
     },
     {
       "pitcher_name": "Cade Cavalli",
@@ -17,59 +17,39 @@
       "opponent": "Los Angeles Angels",
       "line": 6.5,
       "prob_over_3.5": 0.961,
-      "prob_over_4.5": 0.91,
-      "prob_over_5.5": 0.771,
-      "prob_over_6.5": 0.736
+      "prob_over_4.5": 0.911,
+      "prob_over_5.5": 0.772,
+      "prob_over_6.5": 0.739
     },
     {
-      "pitcher_name": "Mason Adams",
-      "team": "Colorado Rockies",
-      "opponent": "Detroit Tigers",
-      "line": 4.5,
-      "prob_over_3.5": 0.768,
-      "prob_over_4.5": 0.586,
-      "prob_over_5.5": 0.408,
-      "prob_over_6.5": 0.253
+      "pitcher_name": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "opponent": "Houston Astros",
+      "line": 5.5,
+      "prob_over_3.5": 0.887,
+      "prob_over_4.5": 0.769,
+      "prob_over_5.5": 0.593,
+      "prob_over_6.5": 0.452
     },
     {
-      "pitcher_name": "Taj Bradley",
-      "team": "Minnesota Twins",
-      "opponent": "Cleveland Guardians",
-      "line": 6.5,
-      "prob_over_3.5": 0.929,
-      "prob_over_4.5": 0.845,
-      "prob_over_5.5": 0.682,
-      "prob_over_6.5": 0.584
-    },
-    {
-      "pitcher_name": "Anthony Kay",
-      "team": "Chicago White Sox",
-      "opponent": "St. Louis Cardinals",
-      "line": 3.5,
-      "prob_over_3.5": 0.582,
-      "prob_over_4.5": 0.363,
-      "prob_over_5.5": 0.212,
-      "prob_over_6.5": 0.116
+      "pitcher_name": "Carlos Rodón",
+      "team": "New York Yankees",
+      "opponent": "New York Mets",
+      "line": 5.5,
+      "prob_over_3.5": 0.884,
+      "prob_over_4.5": 0.764,
+      "prob_over_5.5": 0.588,
+      "prob_over_6.5": 0.444
     },
     {
       "pitcher_name": "Matthew Liberatore",
       "team": "St. Louis Cardinals",
       "opponent": "Chicago White Sox",
       "line": 5.5,
-      "prob_over_3.5": 0.877,
-      "prob_over_4.5": 0.752,
-      "prob_over_5.5": 0.574,
-      "prob_over_6.5": 0.426
-    },
-    {
-      "pitcher_name": "MacKenzie Gore",
-      "team": "Texas Rangers",
-      "opponent": "Arizona Diamondbacks",
-      "line": 3.5,
-      "prob_over_3.5": 0.572,
-      "prob_over_4.5": 0.353,
-      "prob_over_5.5": 0.203,
-      "prob_over_6.5": 0.111
+      "prob_over_3.5": 0.88,
+      "prob_over_4.5": 0.757,
+      "prob_over_5.5": 0.58,
+      "prob_over_6.5": 0.434
     },
     {
       "pitcher_name": "Nolan McLean",
@@ -82,44 +62,54 @@
       "prob_over_6.5": 0.566
     },
     {
-      "pitcher_name": "Carlos Rodón",
-      "team": "New York Yankees",
-      "opponent": "New York Mets",
+      "pitcher_name": "Yusei Kikuchi",
+      "team": "Los Angeles Angels",
+      "opponent": "Washington Nationals",
       "line": 5.5,
-      "prob_over_3.5": 0.871,
-      "prob_over_4.5": 0.742,
-      "prob_over_5.5": 0.564,
-      "prob_over_6.5": 0.414
+      "prob_over_3.5": 0.87,
+      "prob_over_4.5": 0.739,
+      "prob_over_5.5": 0.56,
+      "prob_over_6.5": 0.408
     },
     {
-      "pitcher_name": "Parker Messick",
-      "team": "Cleveland Guardians",
-      "opponent": "Minnesota Twins",
-      "line": 5.5,
-      "prob_over_3.5": 0.871,
-      "prob_over_4.5": 0.742,
-      "prob_over_5.5": 0.562,
-      "prob_over_6.5": 0.411
+      "pitcher_name": "MacKenzie Gore",
+      "team": "Texas Rangers",
+      "opponent": "Arizona Diamondbacks",
+      "line": 3.5,
+      "prob_over_3.5": 0.56,
+      "prob_over_4.5": 0.341,
+      "prob_over_5.5": 0.194,
+      "prob_over_6.5": 0.106
     },
     {
       "pitcher_name": "Andrew Abbott",
       "team": "Cincinnati Reds",
       "opponent": "Milwaukee Brewers",
       "line": 3.5,
-      "prob_over_3.5": 0.554,
-      "prob_over_4.5": 0.338,
-      "prob_over_5.5": 0.193,
+      "prob_over_3.5": 0.556,
+      "prob_over_4.5": 0.339,
+      "prob_over_5.5": 0.194,
       "prob_over_6.5": 0.106
     },
     {
-      "pitcher_name": "Shota Imanaga",
-      "team": "Chicago Cubs",
-      "opponent": "Pittsburgh Pirates",
-      "line": 6.5,
-      "prob_over_3.5": 0.918,
-      "prob_over_4.5": 0.826,
-      "prob_over_5.5": 0.66,
-      "prob_over_6.5": 0.548
+      "pitcher_name": "Framber Valdez",
+      "team": "Detroit Tigers",
+      "opponent": "Colorado Rockies",
+      "line": 4.5,
+      "prob_over_3.5": 0.745,
+      "prob_over_4.5": 0.552,
+      "prob_over_5.5": 0.374,
+      "prob_over_6.5": 0.223
+    },
+    {
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "opponent": "Kansas City Royals",
+      "line": 4.5,
+      "prob_over_3.5": 0.742,
+      "prob_over_4.5": 0.549,
+      "prob_over_5.5": 0.373,
+      "prob_over_6.5": 0.224
     },
     {
       "pitcher_name": "Ryan Gusto",
@@ -132,23 +122,53 @@
       "prob_over_6.5": 0.103
     },
     {
-      "pitcher_name": "Framber Valdez",
-      "team": "Detroit Tigers",
-      "opponent": "Colorado Rockies",
+      "pitcher_name": "Shota Imanaga",
+      "team": "Chicago Cubs",
+      "opponent": "Pittsburgh Pirates",
+      "line": 6.5,
+      "prob_over_3.5": 0.915,
+      "prob_over_4.5": 0.821,
+      "prob_over_5.5": 0.653,
+      "prob_over_6.5": 0.537
+    },
+    {
+      "pitcher_name": "Merrill Kelly",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Texas Rangers",
+      "line": 3.5,
+      "prob_over_3.5": 0.53,
+      "prob_over_4.5": 0.314,
+      "prob_over_5.5": 0.173,
+      "prob_over_6.5": 0.094
+    },
+    {
+      "pitcher_name": "Mason Adams",
+      "team": "Colorado Rockies",
+      "opponent": "Detroit Tigers",
       "line": 4.5,
-      "prob_over_3.5": 0.726,
+      "prob_over_3.5": 0.724,
       "prob_over_4.5": 0.528,
-      "prob_over_5.5": 0.352,
-      "prob_over_6.5": 0.207
+      "prob_over_5.5": 0.354,
+      "prob_over_6.5": 0.211
+    },
+    {
+      "pitcher_name": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "opponent": "Cleveland Guardians",
+      "line": 5.5,
+      "prob_over_3.5": 0.842,
+      "prob_over_4.5": 0.694,
+      "prob_over_5.5": 0.511,
+      "prob_over_6.5": 0.351
     },
     {
       "pitcher_name": "Miguel Ullola",
       "team": "Houston Astros",
       "opponent": "Tampa Bay Rays",
       "line": 3.5,
-      "prob_over_3.5": 0.211,
-      "prob_over_4.5": 0.084,
-      "prob_over_5.5": 0.028,
+      "prob_over_3.5": 0.207,
+      "prob_over_4.5": 0.082,
+      "prob_over_5.5": 0.027,
       "prob_over_6.5": 0.019
     },
     {
@@ -156,20 +176,40 @@
       "team": "Pittsburgh Pirates",
       "opponent": "Chicago Cubs",
       "line": 3.5,
-      "prob_over_3.5": 0.322,
-      "prob_over_4.5": 0.152,
+      "prob_over_3.5": 0.324,
+      "prob_over_4.5": 0.153,
       "prob_over_5.5": 0.064,
       "prob_over_6.5": 0.039
     },
     {
-      "pitcher_name": "Robbie Ray",
-      "team": "San Diego Padres",
-      "opponent": "San Francisco Giants",
+      "pitcher_name": "Anthony Kay",
+      "team": "Chicago White Sox",
+      "opponent": "St. Louis Cardinals",
       "line": 4.5,
       "prob_over_3.5": 0.586,
       "prob_over_4.5": 0.368,
-      "prob_over_5.5": 0.215,
+      "prob_over_5.5": 0.216,
       "prob_over_6.5": 0.118
+    },
+    {
+      "pitcher_name": "Chris Bassitt",
+      "team": "Baltimore Orioles",
+      "opponent": "Toronto Blue Jays",
+      "line": 3.5,
+      "prob_over_3.5": 0.397,
+      "prob_over_4.5": 0.202,
+      "prob_over_5.5": 0.094,
+      "prob_over_6.5": 0.053
+    },
+    {
+      "pitcher_name": "Anthony Molina",
+      "team": "San Francisco Giants",
+      "opponent": "San Diego Padres",
+      "line": 4.5,
+      "prob_over_3.5": 0.634,
+      "prob_over_4.5": 0.419,
+      "prob_over_5.5": 0.258,
+      "prob_over_6.5": 0.144
     },
     {
       "pitcher_name": "Jeffrey Springs",
@@ -182,104 +222,74 @@
       "prob_over_6.5": 0.147
     },
     {
-      "pitcher_name": "Chris Bassitt",
-      "team": "Baltimore Orioles",
-      "opponent": "Toronto Blue Jays",
+      "pitcher_name": "Seth Lugo",
+      "team": "Kansas City Royals",
+      "opponent": "Boston Red Sox",
       "line": 3.5,
-      "prob_over_3.5": 0.429,
-      "prob_over_4.5": 0.226,
-      "prob_over_5.5": 0.11,
-      "prob_over_6.5": 0.061
-    },
-    {
-      "pitcher_name": "Sonny Gray",
-      "team": "Boston Red Sox",
-      "opponent": "Kansas City Royals",
-      "line": 5.5,
-      "prob_over_3.5": 0.785,
-      "prob_over_4.5": 0.609,
-      "prob_over_5.5": 0.429,
-      "prob_over_6.5": 0.271
-    },
-    {
-      "pitcher_name": "Aaron Nola",
-      "team": "Philadelphia Phillies",
-      "opponent": "Atlanta Braves",
-      "line": 5.5,
-      "prob_over_3.5": 0.79,
-      "prob_over_4.5": 0.615,
-      "prob_over_5.5": 0.433,
-      "prob_over_6.5": 0.274
-    },
-    {
-      "pitcher_name": "Yusei Kikuchi",
-      "team": "Los Angeles Angels",
-      "opponent": "Washington Nationals",
-      "line": 5.5,
-      "prob_over_3.5": 0.791,
-      "prob_over_4.5": 0.615,
-      "prob_over_5.5": 0.434,
-      "prob_over_6.5": 0.274
-    },
-    {
-      "pitcher_name": "Anthony Molina",
-      "team": "San Francisco Giants",
-      "opponent": "San Diego Padres",
-      "line": 4.5,
-      "prob_over_3.5": 0.649,
-      "prob_over_4.5": 0.435,
-      "prob_over_5.5": 0.271,
-      "prob_over_6.5": 0.152
+      "prob_over_3.5": 0.432,
+      "prob_over_4.5": 0.23,
+      "prob_over_5.5": 0.112,
+      "prob_over_6.5": 0.063
     },
     {
       "pitcher_name": "Max Scherzer",
       "team": "Toronto Blue Jays",
       "opponent": "Baltimore Orioles",
       "line": 4.5,
-      "prob_over_3.5": 0.655,
-      "prob_over_4.5": 0.441,
-      "prob_over_5.5": 0.276,
-      "prob_over_6.5": 0.154
+      "prob_over_3.5": 0.66,
+      "prob_over_4.5": 0.447,
+      "prob_over_5.5": 0.281,
+      "prob_over_6.5": 0.157
     },
     {
-      "pitcher_name": "Seth Lugo",
-      "team": "Kansas City Royals",
-      "opponent": "Boston Red Sox",
-      "line": 3.5,
-      "prob_over_3.5": 0.445,
-      "prob_over_4.5": 0.24,
-      "prob_over_5.5": 0.119,
-      "prob_over_6.5": 0.066
+      "pitcher_name": "Robbie Ray",
+      "team": "San Diego Padres",
+      "opponent": "San Francisco Giants",
+      "line": 4.5,
+      "prob_over_3.5": 0.667,
+      "prob_over_4.5": 0.455,
+      "prob_over_5.5": 0.288,
+      "prob_over_6.5": 0.162
     },
     {
-      "pitcher_name": "Drew Rasmussen",
-      "team": "Tampa Bay Rays",
-      "opponent": "Houston Astros",
-      "line": 6.5,
-      "prob_over_3.5": 0.888,
-      "prob_over_4.5": 0.771,
-      "prob_over_5.5": 0.596,
-      "prob_over_6.5": 0.455
-    },
-    {
-      "pitcher_name": "Dustin May",
-      "team": "Milwaukee Brewers",
-      "opponent": "Cincinnati Reds",
-      "line": 6.5,
-      "prob_over_3.5": 0.891,
-      "prob_over_4.5": 0.777,
-      "prob_over_5.5": 0.602,
-      "prob_over_6.5": 0.463
+      "pitcher_name": "Aaron Nola",
+      "team": "Philadelphia Phillies",
+      "opponent": "Atlanta Braves",
+      "line": 5.5,
+      "prob_over_3.5": 0.809,
+      "prob_over_4.5": 0.642,
+      "prob_over_5.5": 0.46,
+      "prob_over_6.5": 0.298
     },
     {
       "pitcher_name": "George Kirby",
       "team": "Seattle Mariners",
       "opponent": "Athletics",
       "line": 4.5,
-      "prob_over_3.5": 0.703,
-      "prob_over_4.5": 0.498,
-      "prob_over_5.5": 0.325,
-      "prob_over_6.5": 0.187
+      "prob_over_3.5": 0.672,
+      "prob_over_4.5": 0.46,
+      "prob_over_5.5": 0.292,
+      "prob_over_6.5": 0.165
+    },
+    {
+      "pitcher_name": "Dustin May",
+      "team": "Milwaukee Brewers",
+      "opponent": "Cincinnati Reds",
+      "line": 6.5,
+      "prob_over_3.5": 0.899,
+      "prob_over_4.5": 0.791,
+      "prob_over_5.5": 0.617,
+      "prob_over_6.5": 0.485
+    },
+    {
+      "pitcher_name": "Parker Messick",
+      "team": "Cleveland Guardians",
+      "opponent": "Minnesota Twins",
+      "line": 5.5,
+      "prob_over_3.5": 0.832,
+      "prob_over_4.5": 0.677,
+      "prob_over_5.5": 0.495,
+      "prob_over_6.5": 0.333
     }
   ],
   "historial": [
