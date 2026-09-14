@@ -6,20 +6,20 @@
       "team": "Cleveland Guardians",
       "opponent": "Chicago White Sox",
       "line": 6.5,
-      "prob_over_3.5": 0.967,
-      "prob_over_4.5": 0.923,
-      "prob_over_5.5": 0.789,
-      "prob_over_6.5": 0.769
+      "prob_over_3.5": 0.97,
+      "prob_over_4.5": 0.93,
+      "prob_over_5.5": 0.801,
+      "prob_over_6.5": 0.79
     },
     {
       "pitcher_name": "Tarik Skubal",
       "team": "Los Angeles Dodgers",
       "opponent": "Cincinnati Reds",
       "line": 6.5,
-      "prob_over_3.5": 0.965,
-      "prob_over_4.5": 0.919,
-      "prob_over_5.5": 0.784,
-      "prob_over_6.5": 0.759
+      "prob_over_3.5": 0.967,
+      "prob_over_4.5": 0.923,
+      "prob_over_5.5": 0.791,
+      "prob_over_6.5": 0.771
     },
     {
       "pitcher_name": "Sean Newcomb",
@@ -36,20 +36,20 @@
       "team": "Los Angeles Angels",
       "opponent": "Seattle Mariners",
       "line": 6.5,
-      "prob_over_3.5": 0.944,
-      "prob_over_4.5": 0.875,
-      "prob_over_5.5": 0.721,
-      "prob_over_6.5": 0.649
+      "prob_over_3.5": 0.932,
+      "prob_over_4.5": 0.852,
+      "prob_over_5.5": 0.691,
+      "prob_over_6.5": 0.599
     },
     {
-      "pitcher_name": "Reynaldo López",
-      "team": "Atlanta Braves",
-      "opponent": "Chicago Cubs",
-      "line": 3.5,
-      "prob_over_3.5": 0.581,
-      "prob_over_4.5": 0.362,
-      "prob_over_5.5": 0.211,
-      "prob_over_6.5": 0.116
+      "pitcher_name": "Kade Anderson",
+      "team": "Seattle Mariners",
+      "opponent": "Los Angeles Angels",
+      "line": 4.5,
+      "prob_over_3.5": 0.769,
+      "prob_over_4.5": 0.584,
+      "prob_over_5.5": 0.404,
+      "prob_over_6.5": 0.247
     },
     {
       "pitcher_name": "Jonah Tong",
@@ -72,6 +72,16 @@
       "prob_over_6.5": 0.114
     },
     {
+      "pitcher_name": "Reynaldo López",
+      "team": "Atlanta Braves",
+      "opponent": "Chicago Cubs",
+      "line": 3.5,
+      "prob_over_3.5": 0.575,
+      "prob_over_4.5": 0.356,
+      "prob_over_5.5": 0.206,
+      "prob_over_6.5": 0.113
+    },
+    {
       "pitcher_name": "Will Warren",
       "team": "New York Yankees",
       "opponent": "Minnesota Twins",
@@ -80,16 +90,6 @@
       "prob_over_4.5": 0.564,
       "prob_over_5.5": 0.386,
       "prob_over_6.5": 0.234
-    },
-    {
-      "pitcher_name": "Kade Anderson",
-      "team": "Seattle Mariners",
-      "opponent": "Los Angeles Angels",
-      "line": 4.5,
-      "prob_over_3.5": 0.749,
-      "prob_over_4.5": 0.557,
-      "prob_over_5.5": 0.379,
-      "prob_over_6.5": 0.228
     },
     {
       "pitcher_name": "Troy Melton",
@@ -106,10 +106,20 @@
       "team": "Minnesota Twins",
       "opponent": "New York Yankees",
       "line": 5.5,
-      "prob_over_3.5": 0.852,
-      "prob_over_4.5": 0.71,
-      "prob_over_5.5": 0.529,
-      "prob_over_6.5": 0.372
+      "prob_over_3.5": 0.859,
+      "prob_over_4.5": 0.722,
+      "prob_over_5.5": 0.541,
+      "prob_over_6.5": 0.386
+    },
+    {
+      "pitcher_name": "José Soriano",
+      "team": "Toronto Blue Jays",
+      "opponent": "Detroit Tigers",
+      "line": 5.5,
+      "prob_over_3.5": 0.851,
+      "prob_over_4.5": 0.707,
+      "prob_over_5.5": 0.525,
+      "prob_over_6.5": 0.366
     },
     {
       "pitcher_name": "Casey Mize",
@@ -126,10 +136,20 @@
       "team": "Miami Marlins",
       "opponent": "Arizona Diamondbacks",
       "line": 3.5,
-      "prob_over_3.5": 0.514,
-      "prob_over_4.5": 0.298,
-      "prob_over_5.5": 0.16,
-      "prob_over_6.5": 0.087
+      "prob_over_3.5": 0.515,
+      "prob_over_4.5": 0.299,
+      "prob_over_5.5": 0.161,
+      "prob_over_6.5": 0.088
+    },
+    {
+      "pitcher_name": "David Peterson",
+      "team": "Chicago Cubs",
+      "opponent": "Atlanta Braves",
+      "line": 4.5,
+      "prob_over_3.5": 0.712,
+      "prob_over_4.5": 0.511,
+      "prob_over_5.5": 0.339,
+      "prob_over_6.5": 0.198
     },
     {
       "pitcher_name": "Quinn Mathews",
@@ -156,20 +176,10 @@
       "team": "Colorado Rockies",
       "opponent": "San Diego Padres",
       "line": 3.5,
-      "prob_over_3.5": 0.374,
-      "prob_over_4.5": 0.185,
-      "prob_over_5.5": 0.083,
-      "prob_over_6.5": 0.048
-    },
-    {
-      "pitcher_name": "José Soriano",
-      "team": "Toronto Blue Jays",
-      "opponent": "Detroit Tigers",
-      "line": 5.5,
-      "prob_over_3.5": 0.783,
-      "prob_over_4.5": 0.604,
-      "prob_over_5.5": 0.422,
-      "prob_over_6.5": 0.262
+      "prob_over_3.5": 0.354,
+      "prob_over_4.5": 0.172,
+      "prob_over_5.5": 0.075,
+      "prob_over_6.5": 0.044
     },
     {
       "pitcher_name": "Brandon Young",
@@ -190,16 +200,6 @@
       "prob_over_4.5": 0.433,
       "prob_over_5.5": 0.269,
       "prob_over_6.5": 0.15
-    },
-    {
-      "pitcher_name": "David Peterson",
-      "team": "Chicago Cubs",
-      "opponent": "Atlanta Braves",
-      "line": 4.5,
-      "prob_over_3.5": 0.67,
-      "prob_over_4.5": 0.461,
-      "prob_over_5.5": 0.294,
-      "prob_over_6.5": 0.167
     }
   ],
   "historial": [
