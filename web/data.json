@@ -6,20 +6,20 @@
       "team": "Milwaukee Brewers",
       "opponent": "Pittsburgh Pirates",
       "line": 6.5,
-      "prob_over_3.5": 0.971,
-      "prob_over_4.5": 0.933,
-      "prob_over_5.5": 0.806,
-      "prob_over_6.5": 0.798
+      "prob_over_3.5": 0.972,
+      "prob_over_4.5": 0.934,
+      "prob_over_5.5": 0.807,
+      "prob_over_6.5": 0.801
     },
     {
       "pitcher_name": "Janson Junk",
       "team": "Miami Marlins",
       "opponent": "Arizona Diamondbacks",
       "line": 3.5,
-      "prob_over_3.5": 0.206,
-      "prob_over_4.5": 0.082,
-      "prob_over_5.5": 0.027,
-      "prob_over_6.5": 0.019
+      "prob_over_3.5": 0.212,
+      "prob_over_4.5": 0.085,
+      "prob_over_5.5": 0.028,
+      "prob_over_6.5": 0.02
     },
     {
       "pitcher_name": "Logan Gilbert",
@@ -38,8 +38,8 @@
       "line": 6.5,
       "prob_over_3.5": 0.955,
       "prob_over_4.5": 0.898,
-      "prob_over_5.5": 0.751,
-      "prob_over_6.5": 0.701
+      "prob_over_5.5": 0.752,
+      "prob_over_6.5": 0.702
     },
     {
       "pitcher_name": "Jacob deGrom",
@@ -58,7 +58,7 @@
       "line": 3.5,
       "prob_over_3.5": 0.583,
       "prob_over_4.5": 0.365,
-      "prob_over_5.5": 0.213,
+      "prob_over_5.5": 0.214,
       "prob_over_6.5": 0.117
     },
     {
@@ -80,6 +80,16 @@
       "prob_over_4.5": 0.567,
       "prob_over_5.5": 0.388,
       "prob_over_6.5": 0.235
+    },
+    {
+      "pitcher_name": "Cristopher Sánchez",
+      "team": "Philadelphia Phillies",
+      "opponent": "Washington Nationals",
+      "line": 6.5,
+      "prob_over_3.5": 0.924,
+      "prob_over_4.5": 0.837,
+      "prob_over_5.5": 0.671,
+      "prob_over_6.5": 0.566
     },
     {
       "pitcher_name": "Sean Manaea",
@@ -112,16 +122,6 @@
       "prob_over_6.5": 0.227
     },
     {
-      "pitcher_name": "Cristopher Sánchez",
-      "team": "Philadelphia Phillies",
-      "opponent": "Washington Nationals",
-      "line": 6.5,
-      "prob_over_3.5": 0.92,
-      "prob_over_4.5": 0.83,
-      "prob_over_5.5": 0.663,
-      "prob_over_6.5": 0.553
-    },
-    {
       "pitcher_name": "Hunter Brown",
       "team": "Houston Astros",
       "opponent": "Kansas City Royals",
@@ -137,9 +137,9 @@
       "opponent": "Athletics",
       "line": 5.5,
       "prob_over_3.5": 0.85,
-      "prob_over_4.5": 0.709,
-      "prob_over_5.5": 0.53,
-      "prob_over_6.5": 0.375
+      "prob_over_4.5": 0.708,
+      "prob_over_5.5": 0.529,
+      "prob_over_6.5": 0.373
     },
     {
       "pitcher_name": "Ryan Johnson",
@@ -152,33 +152,23 @@
       "prob_over_6.5": 0.205
     },
     {
-      "pitcher_name": "Bailey Ober",
-      "team": "Minnesota Twins",
-      "opponent": "New York Yankees",
-      "line": 3.5,
-      "prob_over_3.5": 0.514,
-      "prob_over_4.5": 0.298,
-      "prob_over_5.5": 0.161,
-      "prob_over_6.5": 0.088
-    },
-    {
       "pitcher_name": "Lake Bachar",
       "team": "Pittsburgh Pirates",
       "opponent": "Milwaukee Brewers",
       "line": 3.5,
-      "prob_over_3.5": 0.163,
-      "prob_over_4.5": 0.061,
-      "prob_over_5.5": 0.018,
-      "prob_over_6.5": 0.014
+      "prob_over_3.5": 0.155,
+      "prob_over_4.5": 0.057,
+      "prob_over_5.5": 0.016,
+      "prob_over_6.5": 0.013
     },
     {
       "pitcher_name": "Chris Murphy",
       "team": "Chicago White Sox",
       "opponent": "Cleveland Guardians",
       "line": 3.5,
-      "prob_over_3.5": 0.203,
-      "prob_over_4.5": 0.081,
-      "prob_over_5.5": 0.027,
+      "prob_over_3.5": 0.201,
+      "prob_over_4.5": 0.08,
+      "prob_over_5.5": 0.026,
       "prob_over_6.5": 0.019
     },
     {
@@ -232,16 +222,6 @@
       "prob_over_6.5": 0.276
     },
     {
-      "pitcher_name": "Kyle Freeland",
-      "team": "Colorado Rockies",
-      "opponent": "San Diego Padres",
-      "line": 3.5,
-      "prob_over_3.5": 0.439,
-      "prob_over_4.5": 0.236,
-      "prob_over_5.5": 0.118,
-      "prob_over_6.5": 0.066
-    },
-    {
       "pitcher_name": "Foster Griffin",
       "team": "Cleveland Guardians",
       "opponent": "Chicago White Sox",
@@ -250,6 +230,26 @@
       "prob_over_4.5": 0.638,
       "prob_over_5.5": 0.456,
       "prob_over_6.5": 0.295
+    },
+    {
+      "pitcher_name": "Kyle Freeland",
+      "team": "Colorado Rockies",
+      "opponent": "San Diego Padres",
+      "line": 3.5,
+      "prob_over_3.5": 0.467,
+      "prob_over_4.5": 0.259,
+      "prob_over_5.5": 0.134,
+      "prob_over_6.5": 0.074
+    },
+    {
+      "pitcher_name": "Bailey Ober",
+      "team": "Minnesota Twins",
+      "opponent": "New York Yankees",
+      "line": 3.5,
+      "prob_over_3.5": 0.479,
+      "prob_over_4.5": 0.267,
+      "prob_over_5.5": 0.139,
+      "prob_over_6.5": 0.076
     },
     {
       "pitcher_name": "Rhett Lowder",
