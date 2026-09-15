@@ -7,9 +7,9 @@
       "opponent": "Chicago White Sox",
       "line": 6.5,
       "prob_over_3.5": 0.97,
-      "prob_over_4.5": 0.93,
-      "prob_over_5.5": 0.801,
-      "prob_over_6.5": 0.79
+      "prob_over_4.5": 0.931,
+      "prob_over_5.5": 0.803,
+      "prob_over_6.5": 0.793
     },
     {
       "pitcher_name": "Tarik Skubal",
@@ -26,10 +26,10 @@
       "team": "Chicago White Sox",
       "opponent": "Cleveland Guardians",
       "line": 3.5,
-      "prob_over_3.5": 0.257,
-      "prob_over_4.5": 0.11,
-      "prob_over_5.5": 0.04,
-      "prob_over_6.5": 0.026
+      "prob_over_3.5": 0.26,
+      "prob_over_4.5": 0.112,
+      "prob_over_5.5": 0.041,
+      "prob_over_6.5": 0.027
     },
     {
       "pitcher_name": "Reid Detmers",
@@ -106,30 +106,30 @@
       "team": "Minnesota Twins",
       "opponent": "New York Yankees",
       "line": 5.5,
-      "prob_over_3.5": 0.859,
-      "prob_over_4.5": 0.722,
-      "prob_over_5.5": 0.541,
-      "prob_over_6.5": 0.386
-    },
-    {
-      "pitcher_name": "José Soriano",
-      "team": "Toronto Blue Jays",
-      "opponent": "Detroit Tigers",
-      "line": 5.5,
-      "prob_over_3.5": 0.851,
-      "prob_over_4.5": 0.707,
-      "prob_over_5.5": 0.525,
-      "prob_over_6.5": 0.366
+      "prob_over_3.5": 0.862,
+      "prob_over_4.5": 0.726,
+      "prob_over_5.5": 0.546,
+      "prob_over_6.5": 0.391
     },
     {
       "pitcher_name": "Casey Mize",
       "team": "San Diego Padres",
       "opponent": "Colorado Rockies",
       "line": 3.5,
-      "prob_over_3.5": 0.521,
-      "prob_over_4.5": 0.306,
-      "prob_over_5.5": 0.167,
+      "prob_over_3.5": 0.524,
+      "prob_over_4.5": 0.308,
+      "prob_over_5.5": 0.169,
       "prob_over_6.5": 0.092
+    },
+    {
+      "pitcher_name": "José Soriano",
+      "team": "Toronto Blue Jays",
+      "opponent": "Detroit Tigers",
+      "line": 5.5,
+      "prob_over_3.5": 0.846,
+      "prob_over_4.5": 0.699,
+      "prob_over_5.5": 0.517,
+      "prob_over_6.5": 0.357
     },
     {
       "pitcher_name": "Sandy Alcantara",
@@ -156,20 +156,20 @@
       "team": "St. Louis Cardinals",
       "opponent": "San Francisco Giants",
       "line": 5.5,
-      "prob_over_3.5": 0.837,
-      "prob_over_4.5": 0.685,
-      "prob_over_5.5": 0.503,
-      "prob_over_6.5": 0.341
+      "prob_over_3.5": 0.843,
+      "prob_over_4.5": 0.694,
+      "prob_over_5.5": 0.511,
+      "prob_over_6.5": 0.35
     },
     {
       "pitcher_name": "Corbin Burnes",
       "team": "Arizona Diamondbacks",
       "opponent": "Miami Marlins",
       "line": 3.5,
-      "prob_over_3.5": 0.304,
-      "prob_over_4.5": 0.139,
-      "prob_over_5.5": 0.056,
-      "prob_over_6.5": 0.035
+      "prob_over_3.5": 0.291,
+      "prob_over_4.5": 0.131,
+      "prob_over_5.5": 0.052,
+      "prob_over_6.5": 0.032
     },
     {
       "pitcher_name": "Tomoyuki Sugano",
@@ -186,7 +186,7 @@
       "team": "Baltimore Orioles",
       "opponent": "New York Mets",
       "line": 4.5,
-      "prob_over_3.5": 0.638,
+      "prob_over_3.5": 0.639,
       "prob_over_4.5": 0.423,
       "prob_over_5.5": 0.261,
       "prob_over_6.5": 0.145
