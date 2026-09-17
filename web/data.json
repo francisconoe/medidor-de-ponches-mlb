@@ -28,8 +28,8 @@
       "line": 6.5,
       "prob_over_3.5": 0.961,
       "prob_over_4.5": 0.911,
-      "prob_over_5.5": 0.772,
-      "prob_over_6.5": 0.737
+      "prob_over_5.5": 0.771,
+      "prob_over_6.5": 0.736
     },
     {
       "pitcher_name": "Carlos Rodón",
@@ -42,14 +42,24 @@
       "prob_over_6.5": 0.454
     },
     {
-      "pitcher_name": "Zebby Matthews",
-      "team": "Minnesota Twins",
-      "opponent": "New York Yankees",
-      "line": 4.5,
-      "prob_over_3.5": 0.771,
-      "prob_over_4.5": 0.588,
-      "prob_over_5.5": 0.408,
-      "prob_over_6.5": 0.252
+      "pitcher_name": "Yusei Kikuchi",
+      "team": "Los Angeles Angels",
+      "opponent": "Seattle Mariners",
+      "line": 5.5,
+      "prob_over_3.5": 0.884,
+      "prob_over_4.5": 0.764,
+      "prob_over_5.5": 0.587,
+      "prob_over_6.5": 0.443
+    },
+    {
+      "pitcher_name": "Merrill Kelly",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Miami Marlins",
+      "line": 3.5,
+      "prob_over_3.5": 0.548,
+      "prob_over_4.5": 0.33,
+      "prob_over_5.5": 0.186,
+      "prob_over_6.5": 0.101
     },
     {
       "pitcher_name": "Zack Wheeler",
@@ -60,16 +70,6 @@
       "prob_over_4.5": 0.816,
       "prob_over_5.5": 0.646,
       "prob_over_6.5": 0.526
-    },
-    {
-      "pitcher_name": "Merrill Kelly",
-      "team": "Arizona Diamondbacks",
-      "opponent": "Miami Marlins",
-      "line": 3.5,
-      "prob_over_3.5": 0.524,
-      "prob_over_4.5": 0.308,
-      "prob_over_5.5": 0.168,
-      "prob_over_6.5": 0.092
     },
     {
       "pitcher_name": "Robbie Ray",
@@ -96,30 +96,20 @@
       "team": "Milwaukee Brewers",
       "opponent": "Pittsburgh Pirates",
       "line": 6.5,
-      "prob_over_3.5": 0.907,
-      "prob_over_4.5": 0.805,
-      "prob_over_5.5": 0.634,
-      "prob_over_6.5": 0.509
-    },
-    {
-      "pitcher_name": "Yusei Kikuchi",
-      "team": "Los Angeles Angels",
-      "opponent": "Seattle Mariners",
-      "line": 6.5,
-      "prob_over_3.5": 0.907,
-      "prob_over_4.5": 0.804,
-      "prob_over_5.5": 0.633,
-      "prob_over_6.5": 0.508
+      "prob_over_3.5": 0.905,
+      "prob_over_4.5": 0.802,
+      "prob_over_5.5": 0.63,
+      "prob_over_6.5": 0.504
     },
     {
       "pitcher_name": "Brady Basso",
       "team": "Athletics",
       "opponent": "Tampa Bay Rays",
       "line": 3.5,
-      "prob_over_3.5": 0.208,
-      "prob_over_4.5": 0.083,
-      "prob_over_5.5": 0.027,
-      "prob_over_6.5": 0.019
+      "prob_over_3.5": 0.202,
+      "prob_over_4.5": 0.08,
+      "prob_over_5.5": 0.026,
+      "prob_over_6.5": 0.018
     },
     {
       "pitcher_name": "Daniel Lynch IV",
@@ -170,6 +160,16 @@
       "prob_over_4.5": 0.603,
       "prob_over_5.5": 0.422,
       "prob_over_6.5": 0.263
+    },
+    {
+      "pitcher_name": "Zebby Matthews",
+      "team": "Minnesota Twins",
+      "opponent": "New York Yankees",
+      "line": 5.5,
+      "prob_over_3.5": 0.786,
+      "prob_over_4.5": 0.609,
+      "prob_over_5.5": 0.427,
+      "prob_over_6.5": 0.268
     },
     {
       "pitcher_name": "JR Ritchie",
@@ -256,20 +256,20 @@
       "team": "Tampa Bay Rays",
       "opponent": "Athletics",
       "line": 3.5,
-      "prob_over_3.5": 0.477,
-      "prob_over_4.5": 0.267,
-      "prob_over_5.5": 0.139,
-      "prob_over_6.5": 0.077
+      "prob_over_3.5": 0.476,
+      "prob_over_4.5": 0.265,
+      "prob_over_5.5": 0.138,
+      "prob_over_6.5": 0.076
     },
     {
       "pitcher_name": "Jared Jones",
       "team": "Pittsburgh Pirates",
       "opponent": "Milwaukee Brewers",
       "line": 6.5,
-      "prob_over_3.5": 0.897,
-      "prob_over_4.5": 0.787,
-      "prob_over_5.5": 0.613,
-      "prob_over_6.5": 0.478
+      "prob_over_3.5": 0.899,
+      "prob_over_4.5": 0.79,
+      "prob_over_5.5": 0.616,
+      "prob_over_6.5": 0.482
     },
     {
       "pitcher_name": "Cristian Javier",
@@ -286,9 +286,9 @@
       "team": "Baltimore Orioles",
       "opponent": "New York Mets",
       "line": 3.5,
-      "prob_over_3.5": 0.498,
-      "prob_over_4.5": 0.284,
-      "prob_over_5.5": 0.151,
+      "prob_over_3.5": 0.496,
+      "prob_over_4.5": 0.282,
+      "prob_over_5.5": 0.149,
       "prob_over_6.5": 0.082
     }
   ],
