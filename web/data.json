@@ -76,10 +76,10 @@
       "team": "Detroit Tigers",
       "opponent": "Chicago White Sox",
       "line": 4.5,
-      "prob_over_3.5": 0.728,
-      "prob_over_4.5": 0.529,
-      "prob_over_5.5": 0.352,
-      "prob_over_6.5": 0.207
+      "prob_over_3.5": 0.727,
+      "prob_over_4.5": 0.528,
+      "prob_over_5.5": 0.351,
+      "prob_over_6.5": 0.206
     },
     {
       "pitcher_name": "Tyler Alexander",
@@ -146,10 +146,10 @@
       "team": "Chicago White Sox",
       "opponent": "Detroit Tigers",
       "line": 3.5,
-      "prob_over_3.5": 0.439,
-      "prob_over_4.5": 0.236,
-      "prob_over_5.5": 0.117,
-      "prob_over_6.5": 0.066
+      "prob_over_3.5": 0.43,
+      "prob_over_4.5": 0.228,
+      "prob_over_5.5": 0.112,
+      "prob_over_6.5": 0.063
     },
     {
       "pitcher_name": "Tanner Gordon",
@@ -166,10 +166,10 @@
       "team": "New York Mets",
       "opponent": "Philadelphia Phillies",
       "line": 5.5,
-      "prob_over_3.5": 0.834,
-      "prob_over_4.5": 0.681,
-      "prob_over_5.5": 0.498,
-      "prob_over_6.5": 0.337
+      "prob_over_3.5": 0.833,
+      "prob_over_4.5": 0.679,
+      "prob_over_5.5": 0.497,
+      "prob_over_6.5": 0.336
     },
     {
       "pitcher_name": "Seth Lugo",
