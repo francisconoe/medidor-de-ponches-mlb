@@ -192,3 +192,5 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-15,Logan Gilbert,over 6.5,6.5,-110,(assumed),0.733,0.233,15.0,7,win,13.64
 2026-09-15,Yoshinobu Yamamoto,over 6.5,6.5,-110,(assumed),0.702,0.202,15.0,7,win,13.64
 2026-09-15,Jacob deGrom,over 6.5,6.5,-110,(assumed),0.668,0.168,15.0,8,win,13.64
+2026-09-16,Parker Messick,over 6.5,6.5,-110,(assumed),0.772,0.272,20.0,8,win,18.18
+2026-09-16,Keider Montero,under 3.5,3.5,-110,(assumed),0.668,0.168,20.0,4,loss,-20.0
