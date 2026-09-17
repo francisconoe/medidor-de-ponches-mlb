@@ -1,18 +1,19 @@
 pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
-Taj Bradley,Minnesota Twins,Los Angeles Angels,34,2026-09-11,proxy,2026-09-17,7.15,0.954,0.895,0.749,0.697,6.5,-110,(assumed),over 6.5,0.697,0.5,0.197,0.33,0.071,20.0,over 6.5
-Sonny Gray,Boston Red Sox,Texas Rangers,30,2026-09-11,proxy,2026-09-17,4.99,0.771,0.589,0.41,0.254,4.5,-110,(assumed),over 4.5,0.589,0.5,0.089,0.125,0.067,0.0,— pass —
-Aaron Nola,Philadelphia Phillies,New York Mets,31,2026-09-11,proxy,2026-09-17,4.96,0.769,0.585,0.405,0.248,4.5,-110,(assumed),over 4.5,0.585,0.5,0.085,0.117,0.061,0.0,— pass —
-Drew Rasmussen,Tampa Bay Rays,Athletics,30,2026-09-11,confirmed,2026-09-17,5.91,0.88,0.757,0.579,0.433,5.5,-110,(assumed),over 5.5,0.579,0.5,0.079,0.105,0.065,0.0,— pass —
-Kyle Harrison,Milwaukee Brewers,Pittsburgh Pirates,27,2026-09-06,confirmed,2026-09-17,4.8,0.744,0.551,0.373,0.223,4.5,-110,(assumed),over 4.5,0.551,0.5,0.051,0.051,0.081,0.0,— pass —
-Justin Wrobleski,Los Angeles Dodgers,Cincinnati Reds,25,2026-09-06,confirmed,2026-09-17,5.66,0.856,0.717,0.537,0.382,5.5,-110,(assumed),over 5.5,0.537,0.5,0.037,0.025,0.065,0.0,— pass —
-Michael King,San Diego Padres,Colorado Rockies,34,2026-09-12,confirmed,2026-09-17,4.67,0.722,0.521,0.346,0.202,4.5,-110,(assumed),over 4.5,0.521,0.5,0.021,-0.005,0.057,0.0,— pass —
-Seth Lugo,Kansas City Royals,Houston Astros,32,2026-09-11,proxy,2026-09-17,3.72,0.516,0.3,0.163,0.089,3.5,-110,(assumed),over 3.5,0.516,0.5,0.016,-0.015,0.065,0.0,— pass —
-Erick Fedde,Chicago White Sox,Detroit Tigers,30,2026-09-10,proxy,2026-09-17,3.7,0.511,0.296,0.161,0.088,3.5,-110,(assumed),over 3.5,0.511,0.5,0.011,-0.025,0.05,0.0,— pass —
-Tyler Alexander,Texas Rangers,Boston Red Sox,1,2026-03-14,proxy,2026-09-17,2.05,0.116,0.039,0.009,0.008,3.5,-110,(assumed),under 3.5,0.884,0.5,0.384,0.688,0.063,0.0,— thin data —
-Wilber Dotel,Pittsburgh Pirates,Milwaukee Brewers,4,2026-07-20,confirmed,2026-09-17,2.92,0.309,0.143,0.058,0.036,3.5,-110,(assumed),under 3.5,0.691,0.5,0.191,0.319,0.097,0.0,— thin data —
-Brady Singer,Cincinnati Reds,Los Angeles Dodgers,34,2026-09-12,confirmed,2026-09-17,4.02,0.587,0.369,0.217,0.119,4.5,-110,(assumed),under 4.5,0.631,0.5,0.131,0.204,0.058,0.0,— pass —
-Jeffrey Springs,Athletics,Tampa Bay Rays,29,2026-09-11,confirmed,2026-09-17,3.27,0.402,0.206,0.097,0.055,3.5,-110,(assumed),under 3.5,0.598,0.5,0.098,0.143,0.062,0.0,— pass —
-Framber Valdez,Detroit Tigers,Chicago White Sox,33,2026-09-11,proxy,2026-09-17,4.36,0.661,0.448,0.282,0.158,4.5,-110,(assumed),under 4.5,0.552,0.5,0.052,0.053,0.062,0.0,— pass —
-Nolan McLean,New York Mets,Philadelphia Phillies,30,2026-09-11,proxy,2026-09-17,6.06,0.894,0.78,0.605,0.467,6.5,-110,(assumed),under 6.5,0.533,0.5,0.033,0.018,0.061,0.0,— pass —
-Tanner Gordon,Colorado Rockies,San Diego Padres,23,2026-09-12,confirmed,2026-09-17,3.58,0.481,0.271,0.142,0.078,3.5,-110,(assumed),under 3.5,0.519,0.5,0.019,-0.009,0.053,0.0,— pass —
-Walbert Ureña,Los Angeles Angels,Minnesota Twins,29,2026-09-12,proxy,2026-09-17,6.15,0.9,0.792,0.618,0.485,6.5,-110,(assumed),under 6.5,0.515,0.5,0.015,-0.017,0.072,0.0,— pass —
+Taj Bradley,Minnesota Twins,Los Angeles Angels,34,2026-09-11,confirmed,2026-09-17,7.18,0.954,0.897,0.751,0.701,6.5,-110,(assumed),over 6.5,0.701,0.5,0.201,0.338,0.072,20.0,over 6.5
+Walbert Ureña,Los Angeles Angels,Minnesota Twins,29,2026-09-12,confirmed,2026-09-17,6.82,0.94,0.867,0.71,0.63,6.5,-110,(assumed),over 6.5,0.63,0.5,0.13,0.202,0.076,0.0,— pass —
+Drew Rasmussen,Tampa Bay Rays,Athletics,30,2026-09-11,confirmed,2026-09-17,5.92,0.881,0.759,0.582,0.436,5.5,-110,(assumed),over 5.5,0.582,0.5,0.082,0.111,0.06,0.0,— pass —
+Sonny Gray,Boston Red Sox,Texas Rangers,30,2026-09-11,confirmed,2026-09-17,4.94,0.764,0.579,0.401,0.246,4.5,-110,(assumed),over 4.5,0.579,0.5,0.079,0.105,0.065,0.0,— pass —
+Kyle Harrison,Milwaukee Brewers,Pittsburgh Pirates,27,2026-09-06,confirmed,2026-09-17,4.82,0.746,0.554,0.376,0.225,4.5,-110,(assumed),over 4.5,0.554,0.5,0.054,0.057,0.072,0.0,— pass —
+Justin Wrobleski,Los Angeles Dodgers,Cincinnati Reds,25,2026-09-06,confirmed,2026-09-17,5.73,0.863,0.728,0.549,0.396,5.5,-110,(assumed),over 5.5,0.549,0.5,0.049,0.048,0.06,0.0,— pass —
+Michael King,San Diego Padres,Colorado Rockies,34,2026-09-12,confirmed,2026-09-17,4.74,0.733,0.536,0.359,0.212,4.5,-110,(assumed),over 4.5,0.536,0.5,0.036,0.024,0.06,0.0,— pass —
+Framber Valdez,Detroit Tigers,Chicago White Sox,33,2026-09-11,confirmed,2026-09-17,4.71,0.728,0.529,0.352,0.207,4.5,-110,(assumed),over 4.5,0.529,0.5,0.029,0.01,0.066,0.0,— pass —
+Tyler Alexander,Texas Rangers,Boston Red Sox,1,2026-03-14,confirmed,2026-09-17,2.17,0.138,0.048,0.013,0.011,3.5,-110,(assumed),under 3.5,0.862,0.5,0.362,0.646,0.075,0.0,— thin data —
+Miguel Ullola,Houston Astros,Kansas City Royals,1,2026-03-04,confirmed,2026-09-17,2.43,0.192,0.075,0.023,0.017,3.5,-110,(assumed),under 3.5,0.808,0.5,0.308,0.543,0.071,0.0,— thin data —
+Wilber Dotel,Pittsburgh Pirates,Milwaukee Brewers,4,2026-07-20,confirmed,2026-09-17,2.92,0.311,0.144,0.059,0.036,3.5,-110,(assumed),under 3.5,0.689,0.5,0.189,0.316,0.09,0.0,— thin data —
+Brady Singer,Cincinnati Reds,Los Angeles Dodgers,34,2026-09-12,confirmed,2026-09-17,4.02,0.587,0.369,0.217,0.119,4.5,-110,(assumed),under 4.5,0.631,0.5,0.131,0.204,0.063,0.0,— pass —
+Jeffrey Springs,Athletics,Tampa Bay Rays,29,2026-09-11,confirmed,2026-09-17,3.27,0.401,0.207,0.097,0.056,3.5,-110,(assumed),under 3.5,0.599,0.5,0.099,0.143,0.065,0.0,— pass —
+Aaron Nola,Philadelphia Phillies,New York Mets,31,2026-09-11,confirmed,2026-09-17,5.05,0.782,0.603,0.422,0.263,5.5,-110,(assumed),under 5.5,0.578,0.5,0.078,0.104,0.065,0.0,— pass —
+Erick Fedde,Chicago White Sox,Detroit Tigers,30,2026-09-10,confirmed,2026-09-17,3.42,0.439,0.236,0.117,0.066,3.5,-110,(assumed),under 3.5,0.561,0.5,0.061,0.071,0.045,0.0,— pass —
+Tanner Gordon,Colorado Rockies,San Diego Padres,23,2026-09-12,confirmed,2026-09-17,3.58,0.481,0.271,0.142,0.078,3.5,-110,(assumed),under 3.5,0.519,0.5,0.019,-0.009,0.057,0.0,— pass —
+Nolan McLean,New York Mets,Philadelphia Phillies,30,2026-09-11,confirmed,2026-09-17,5.44,0.834,0.681,0.498,0.337,5.5,-110,(assumed),under 5.5,0.502,0.5,0.002,-0.042,0.065,0.0,— pass —
+Seth Lugo,Kansas City Royals,Houston Astros,32,2026-09-11,confirmed,2026-09-17,3.65,0.499,0.285,0.151,0.083,3.5,-110,(assumed),under 3.5,0.501,0.5,0.001,-0.043,0.062,0.0,— pass —

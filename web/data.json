@@ -7,108 +7,108 @@
       "opponent": "Los Angeles Angels",
       "line": 6.5,
       "prob_over_3.5": 0.954,
-      "prob_over_4.5": 0.895,
-      "prob_over_5.5": 0.749,
-      "prob_over_6.5": 0.697
+      "prob_over_4.5": 0.897,
+      "prob_over_5.5": 0.751,
+      "prob_over_6.5": 0.701
     },
     {
-      "pitcher_name": "Sonny Gray",
-      "team": "Boston Red Sox",
-      "opponent": "Texas Rangers",
-      "line": 4.5,
-      "prob_over_3.5": 0.771,
-      "prob_over_4.5": 0.589,
-      "prob_over_5.5": 0.41,
-      "prob_over_6.5": 0.254
-    },
-    {
-      "pitcher_name": "Aaron Nola",
-      "team": "Philadelphia Phillies",
-      "opponent": "New York Mets",
-      "line": 4.5,
-      "prob_over_3.5": 0.769,
-      "prob_over_4.5": 0.585,
-      "prob_over_5.5": 0.405,
-      "prob_over_6.5": 0.248
+      "pitcher_name": "Walbert Ureña",
+      "team": "Los Angeles Angels",
+      "opponent": "Minnesota Twins",
+      "line": 6.5,
+      "prob_over_3.5": 0.94,
+      "prob_over_4.5": 0.867,
+      "prob_over_5.5": 0.71,
+      "prob_over_6.5": 0.63
     },
     {
       "pitcher_name": "Drew Rasmussen",
       "team": "Tampa Bay Rays",
       "opponent": "Athletics",
       "line": 5.5,
-      "prob_over_3.5": 0.88,
-      "prob_over_4.5": 0.757,
-      "prob_over_5.5": 0.579,
-      "prob_over_6.5": 0.433
+      "prob_over_3.5": 0.881,
+      "prob_over_4.5": 0.759,
+      "prob_over_5.5": 0.582,
+      "prob_over_6.5": 0.436
+    },
+    {
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "opponent": "Texas Rangers",
+      "line": 4.5,
+      "prob_over_3.5": 0.764,
+      "prob_over_4.5": 0.579,
+      "prob_over_5.5": 0.401,
+      "prob_over_6.5": 0.246
     },
     {
       "pitcher_name": "Kyle Harrison",
       "team": "Milwaukee Brewers",
       "opponent": "Pittsburgh Pirates",
       "line": 4.5,
-      "prob_over_3.5": 0.744,
-      "prob_over_4.5": 0.551,
-      "prob_over_5.5": 0.373,
-      "prob_over_6.5": 0.223
+      "prob_over_3.5": 0.746,
+      "prob_over_4.5": 0.554,
+      "prob_over_5.5": 0.376,
+      "prob_over_6.5": 0.225
     },
     {
       "pitcher_name": "Justin Wrobleski",
       "team": "Los Angeles Dodgers",
       "opponent": "Cincinnati Reds",
       "line": 5.5,
-      "prob_over_3.5": 0.856,
-      "prob_over_4.5": 0.717,
-      "prob_over_5.5": 0.537,
-      "prob_over_6.5": 0.382
+      "prob_over_3.5": 0.863,
+      "prob_over_4.5": 0.728,
+      "prob_over_5.5": 0.549,
+      "prob_over_6.5": 0.396
     },
     {
       "pitcher_name": "Michael King",
       "team": "San Diego Padres",
       "opponent": "Colorado Rockies",
       "line": 4.5,
-      "prob_over_3.5": 0.722,
-      "prob_over_4.5": 0.521,
-      "prob_over_5.5": 0.346,
-      "prob_over_6.5": 0.202
+      "prob_over_3.5": 0.733,
+      "prob_over_4.5": 0.536,
+      "prob_over_5.5": 0.359,
+      "prob_over_6.5": 0.212
     },
     {
-      "pitcher_name": "Seth Lugo",
-      "team": "Kansas City Royals",
-      "opponent": "Houston Astros",
-      "line": 3.5,
-      "prob_over_3.5": 0.516,
-      "prob_over_4.5": 0.3,
-      "prob_over_5.5": 0.163,
-      "prob_over_6.5": 0.089
-    },
-    {
-      "pitcher_name": "Erick Fedde",
-      "team": "Chicago White Sox",
-      "opponent": "Detroit Tigers",
-      "line": 3.5,
-      "prob_over_3.5": 0.511,
-      "prob_over_4.5": 0.296,
-      "prob_over_5.5": 0.161,
-      "prob_over_6.5": 0.088
+      "pitcher_name": "Framber Valdez",
+      "team": "Detroit Tigers",
+      "opponent": "Chicago White Sox",
+      "line": 4.5,
+      "prob_over_3.5": 0.728,
+      "prob_over_4.5": 0.529,
+      "prob_over_5.5": 0.352,
+      "prob_over_6.5": 0.207
     },
     {
       "pitcher_name": "Tyler Alexander",
       "team": "Texas Rangers",
       "opponent": "Boston Red Sox",
       "line": 3.5,
-      "prob_over_3.5": 0.116,
-      "prob_over_4.5": 0.039,
-      "prob_over_5.5": 0.009,
-      "prob_over_6.5": 0.008
+      "prob_over_3.5": 0.138,
+      "prob_over_4.5": 0.048,
+      "prob_over_5.5": 0.013,
+      "prob_over_6.5": 0.011
+    },
+    {
+      "pitcher_name": "Miguel Ullola",
+      "team": "Houston Astros",
+      "opponent": "Kansas City Royals",
+      "line": 3.5,
+      "prob_over_3.5": 0.192,
+      "prob_over_4.5": 0.075,
+      "prob_over_5.5": 0.023,
+      "prob_over_6.5": 0.017
     },
     {
       "pitcher_name": "Wilber Dotel",
       "team": "Pittsburgh Pirates",
       "opponent": "Milwaukee Brewers",
       "line": 3.5,
-      "prob_over_3.5": 0.309,
-      "prob_over_4.5": 0.143,
-      "prob_over_5.5": 0.058,
+      "prob_over_3.5": 0.311,
+      "prob_over_4.5": 0.144,
+      "prob_over_5.5": 0.059,
       "prob_over_6.5": 0.036
     },
     {
@@ -126,30 +126,30 @@
       "team": "Athletics",
       "opponent": "Tampa Bay Rays",
       "line": 3.5,
-      "prob_over_3.5": 0.402,
-      "prob_over_4.5": 0.206,
+      "prob_over_3.5": 0.401,
+      "prob_over_4.5": 0.207,
       "prob_over_5.5": 0.097,
-      "prob_over_6.5": 0.055
+      "prob_over_6.5": 0.056
     },
     {
-      "pitcher_name": "Framber Valdez",
-      "team": "Detroit Tigers",
-      "opponent": "Chicago White Sox",
-      "line": 4.5,
-      "prob_over_3.5": 0.661,
-      "prob_over_4.5": 0.448,
-      "prob_over_5.5": 0.282,
-      "prob_over_6.5": 0.158
+      "pitcher_name": "Aaron Nola",
+      "team": "Philadelphia Phillies",
+      "opponent": "New York Mets",
+      "line": 5.5,
+      "prob_over_3.5": 0.782,
+      "prob_over_4.5": 0.603,
+      "prob_over_5.5": 0.422,
+      "prob_over_6.5": 0.263
     },
     {
-      "pitcher_name": "Nolan McLean",
-      "team": "New York Mets",
-      "opponent": "Philadelphia Phillies",
-      "line": 6.5,
-      "prob_over_3.5": 0.894,
-      "prob_over_4.5": 0.78,
-      "prob_over_5.5": 0.605,
-      "prob_over_6.5": 0.467
+      "pitcher_name": "Erick Fedde",
+      "team": "Chicago White Sox",
+      "opponent": "Detroit Tigers",
+      "line": 3.5,
+      "prob_over_3.5": 0.439,
+      "prob_over_4.5": 0.236,
+      "prob_over_5.5": 0.117,
+      "prob_over_6.5": 0.066
     },
     {
       "pitcher_name": "Tanner Gordon",
@@ -162,14 +162,24 @@
       "prob_over_6.5": 0.078
     },
     {
-      "pitcher_name": "Walbert Ureña",
-      "team": "Los Angeles Angels",
-      "opponent": "Minnesota Twins",
-      "line": 6.5,
-      "prob_over_3.5": 0.9,
-      "prob_over_4.5": 0.792,
-      "prob_over_5.5": 0.618,
-      "prob_over_6.5": 0.485
+      "pitcher_name": "Nolan McLean",
+      "team": "New York Mets",
+      "opponent": "Philadelphia Phillies",
+      "line": 5.5,
+      "prob_over_3.5": 0.834,
+      "prob_over_4.5": 0.681,
+      "prob_over_5.5": 0.498,
+      "prob_over_6.5": 0.337
+    },
+    {
+      "pitcher_name": "Seth Lugo",
+      "team": "Kansas City Royals",
+      "opponent": "Houston Astros",
+      "line": 3.5,
+      "prob_over_3.5": 0.499,
+      "prob_over_4.5": 0.285,
+      "prob_over_5.5": 0.151,
+      "prob_over_6.5": 0.083
     }
   ],
   "historial": [
