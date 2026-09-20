@@ -18,7 +18,7 @@
       "line": 6.5,
       "prob_over_3.5": 0.977,
       "prob_over_4.5": 0.944,
-      "prob_over_5.5": 0.826,
+      "prob_over_5.5": 0.825,
       "prob_over_6.5": 0.832
     },
     {
@@ -29,7 +29,7 @@
       "prob_over_3.5": 0.244,
       "prob_over_4.5": 0.103,
       "prob_over_5.5": 0.037,
-      "prob_over_6.5": 0.025
+      "prob_over_6.5": 0.024
     },
     {
       "pitcher_name": "Jacob deGrom",
@@ -72,6 +72,16 @@
       "prob_over_6.5": 0.116
     },
     {
+      "pitcher_name": "Ryan Johnson",
+      "team": "Los Angeles Angels",
+      "opponent": "Minnesota Twins",
+      "line": 4.5,
+      "prob_over_3.5": 0.765,
+      "prob_over_4.5": 0.578,
+      "prob_over_5.5": 0.398,
+      "prob_over_6.5": 0.243
+    },
+    {
       "pitcher_name": "Patrick Sandoval",
       "team": "Boston Red Sox",
       "opponent": "Tampa Bay Rays",
@@ -80,16 +90,6 @@
       "prob_over_4.5": 0.357,
       "prob_over_5.5": 0.208,
       "prob_over_6.5": 0.114
-    },
-    {
-      "pitcher_name": "Ryan Johnson",
-      "team": "Los Angeles Angels",
-      "opponent": "Minnesota Twins",
-      "line": 4.5,
-      "prob_over_3.5": 0.757,
-      "prob_over_4.5": 0.568,
-      "prob_over_5.5": 0.388,
-      "prob_over_6.5": 0.235
     },
     {
       "pitcher_name": "Quinn Mathews",
@@ -117,7 +117,7 @@
       "opponent": "Boston Red Sox",
       "line": 5.5,
       "prob_over_3.5": 0.857,
-      "prob_over_4.5": 0.72,
+      "prob_over_4.5": 0.719,
       "prob_over_5.5": 0.541,
       "prob_over_6.5": 0.387
     },
@@ -126,7 +126,7 @@
       "team": "Minnesota Twins",
       "opponent": "Los Angeles Angels",
       "line": 5.5,
-      "prob_over_3.5": 0.842,
+      "prob_over_3.5": 0.841,
       "prob_over_4.5": 0.693,
       "prob_over_5.5": 0.511,
       "prob_over_6.5": 0.35
@@ -146,20 +146,10 @@
       "team": "San Francisco Giants",
       "opponent": "Los Angeles Dodgers",
       "line": 3.5,
-      "prob_over_3.5": 0.185,
-      "prob_over_4.5": 0.072,
-      "prob_over_5.5": 0.022,
-      "prob_over_6.5": 0.016
-    },
-    {
-      "pitcher_name": "Sandy Alcantara",
-      "team": "Miami Marlins",
-      "opponent": "San Diego Padres",
-      "line": 4.5,
-      "prob_over_3.5": 0.59,
-      "prob_over_4.5": 0.371,
-      "prob_over_5.5": 0.217,
-      "prob_over_6.5": 0.119
+      "prob_over_3.5": 0.189,
+      "prob_over_4.5": 0.074,
+      "prob_over_5.5": 0.023,
+      "prob_over_6.5": 0.017
     },
     {
       "pitcher_name": "Kade Anderson",
@@ -172,14 +162,24 @@
       "prob_over_6.5": 0.122
     },
     {
+      "pitcher_name": "Sandy Alcantara",
+      "team": "Miami Marlins",
+      "opponent": "San Diego Padres",
+      "line": 4.5,
+      "prob_over_3.5": 0.596,
+      "prob_over_4.5": 0.377,
+      "prob_over_5.5": 0.222,
+      "prob_over_6.5": 0.122
+    },
+    {
       "pitcher_name": "Corbin Burnes",
       "team": "Arizona Diamondbacks",
       "opponent": "New York Yankees",
       "line": 4.5,
-      "prob_over_3.5": 0.614,
-      "prob_over_4.5": 0.396,
-      "prob_over_5.5": 0.238,
-      "prob_over_6.5": 0.131
+      "prob_over_3.5": 0.611,
+      "prob_over_4.5": 0.394,
+      "prob_over_5.5": 0.236,
+      "prob_over_6.5": 0.13
     },
     {
       "pitcher_name": "Davis Martin",
@@ -189,7 +189,7 @@
       "prob_over_3.5": 0.629,
       "prob_over_4.5": 0.412,
       "prob_over_5.5": 0.251,
-      "prob_over_6.5": 0.139
+      "prob_over_6.5": 0.138
     },
     {
       "pitcher_name": "Jack Perkins",
@@ -212,14 +212,24 @@
       "prob_over_6.5": 0.148
     },
     {
+      "pitcher_name": "Walker Buehler",
+      "team": "San Diego Padres",
+      "opponent": "Miami Marlins",
+      "line": 4.5,
+      "prob_over_3.5": 0.659,
+      "prob_over_4.5": 0.448,
+      "prob_over_5.5": 0.283,
+      "prob_over_6.5": 0.16
+    },
+    {
       "pitcher_name": "Brandon Young",
       "team": "Baltimore Orioles",
       "opponent": "Milwaukee Brewers",
       "line": 4.5,
-      "prob_over_3.5": 0.659,
-      "prob_over_4.5": 0.447,
-      "prob_over_5.5": 0.28,
-      "prob_over_6.5": 0.157
+      "prob_over_3.5": 0.661,
+      "prob_over_4.5": 0.448,
+      "prob_over_5.5": 0.282,
+      "prob_over_6.5": 0.158
     },
     {
       "pitcher_name": "Martín Pérez",
@@ -242,16 +252,6 @@
       "prob_over_6.5": 0.293
     },
     {
-      "pitcher_name": "Walker Buehler",
-      "team": "San Diego Padres",
-      "opponent": "Miami Marlins",
-      "line": 4.5,
-      "prob_over_3.5": 0.668,
-      "prob_over_4.5": 0.458,
-      "prob_over_5.5": 0.292,
-      "prob_over_6.5": 0.165
-    },
-    {
       "pitcher_name": "Spencer Miles",
       "team": "Toronto Blue Jays",
       "opponent": "Texas Rangers",
@@ -266,7 +266,7 @@
       "team": "New York Yankees",
       "opponent": "Arizona Diamondbacks",
       "line": 4.5,
-      "prob_over_3.5": 0.687,
+      "prob_over_3.5": 0.686,
       "prob_over_4.5": 0.479,
       "prob_over_5.5": 0.309,
       "prob_over_6.5": 0.176
@@ -276,7 +276,7 @@
       "team": "Colorado Rockies",
       "opponent": "Seattle Mariners",
       "line": 3.5,
-      "prob_over_3.5": 0.49,
+      "prob_over_3.5": 0.491,
       "prob_over_4.5": 0.277,
       "prob_over_5.5": 0.145,
       "prob_over_6.5": 0.079
