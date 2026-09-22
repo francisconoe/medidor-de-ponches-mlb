@@ -2,6 +2,16 @@
   "fecha": "2026-09-21",
   "juegos": [
     {
+      "pitcher_name": "Shane Baz",
+      "team": "Baltimore Orioles",
+      "opponent": "Toronto Blue Jays",
+      "line": 3.5,
+      "prob_over_3.5": 0.574,
+      "prob_over_4.5": 0.356,
+      "prob_over_5.5": 0.206,
+      "prob_over_6.5": 0.113
+    },
+    {
       "pitcher_name": "Blade Tidwell",
       "team": "San Francisco Giants",
       "opponent": "Minnesota Twins",
@@ -16,10 +26,10 @@
       "team": "Washington Nationals",
       "opponent": "Detroit Tigers",
       "line": 3.5,
-      "prob_over_3.5": 0.238,
-      "prob_over_4.5": 0.099,
-      "prob_over_5.5": 0.035,
-      "prob_over_6.5": 0.023
+      "prob_over_3.5": 0.234,
+      "prob_over_4.5": 0.097,
+      "prob_over_5.5": 0.033,
+      "prob_over_6.5": 0.022
     },
     {
       "pitcher_name": "River Ryan",
@@ -32,34 +42,24 @@
       "prob_over_6.5": 0.042
     },
     {
-      "pitcher_name": "Shane Baz",
-      "team": "Baltimore Orioles",
-      "opponent": "Toronto Blue Jays",
-      "line": 4.5,
-      "prob_over_3.5": 0.585,
-      "prob_over_4.5": 0.367,
-      "prob_over_5.5": 0.215,
-      "prob_over_6.5": 0.118
+      "pitcher_name": "Zebby Matthews",
+      "team": "Minnesota Twins",
+      "opponent": "San Francisco Giants",
+      "line": 5.5,
+      "prob_over_3.5": 0.78,
+      "prob_over_4.5": 0.6,
+      "prob_over_5.5": 0.419,
+      "prob_over_6.5": 0.26
     },
     {
       "pitcher_name": "Trey Yesavage",
       "team": "Toronto Blue Jays",
       "opponent": "Baltimore Orioles",
       "line": 5.5,
-      "prob_over_3.5": 0.796,
-      "prob_over_4.5": 0.623,
-      "prob_over_5.5": 0.44,
-      "prob_over_6.5": 0.279
-    },
-    {
-      "pitcher_name": "Zebby Matthews",
-      "team": "Minnesota Twins",
-      "opponent": "San Francisco Giants",
-      "line": 4.5,
-      "prob_over_3.5": 0.687,
-      "prob_over_4.5": 0.48,
-      "prob_over_5.5": 0.31,
-      "prob_over_6.5": 0.178
+      "prob_over_3.5": 0.807,
+      "prob_over_4.5": 0.637,
+      "prob_over_5.5": 0.453,
+      "prob_over_6.5": 0.291
     }
   ],
   "historial": [
