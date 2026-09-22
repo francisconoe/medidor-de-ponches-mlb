@@ -1,4 +1,5 @@
 pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
-Riley Cornelio,under 3.5,-110,(assumed),0.757,0.257,20.0,-,no-pick
-Zack Wheeler,over 6.5,-110,(assumed),0.742,0.242,20.0,"over 6.5 (MEDIUM -123, xK=7.2)",agree
+Zack Wheeler,over 6.5,-110,(assumed),0.747,0.247,20.0,"over 6.5 (MEDIUM -123, xK=7.2)",agree
+Riley Cornelio,under 3.5,-110,(assumed),0.736,0.236,20.0,-,no-pick
 Janson Junk,under 3.5,-110,(assumed),0.707,0.207,20.0,-,no-pick
+Logan Gilbert,over 6.5,-110,(assumed),0.661,0.161,20.0,"over 6.5 (HIGH +118, xK=7.3)",agree
