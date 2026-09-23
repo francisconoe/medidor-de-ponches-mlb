@@ -201,3 +201,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-20,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.861,0.361,20.0,4,loss,-20.0
 2026-09-20,Gavin Williams,over 6.5,6.5,-110,(assumed),0.832,0.332,20.0,9,win,18.18
 2026-09-20,Lake Bachar,under 3.5,3.5,-110,(assumed),0.756,0.256,20.0,1,win,18.18
+2026-09-22,Zack Wheeler,over 6.5,6.5,-110,(assumed),0.747,0.247,20.0,11,win,18.18
+2026-09-22,Riley Cornelio,under 3.5,3.5,-110,(assumed),0.736,0.236,20.0,4,loss,-20.0
+2026-09-22,Janson Junk,under 3.5,3.5,-110,(assumed),0.707,0.207,20.0,6,loss,-20.0
+2026-09-22,Logan Gilbert,over 6.5,6.5,-110,(assumed),0.661,0.161,20.0,3,loss,-20.0
