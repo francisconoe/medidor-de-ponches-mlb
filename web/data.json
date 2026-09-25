@@ -16,20 +16,20 @@
       "team": "Los Angeles Dodgers",
       "opponent": "San Diego Padres",
       "line": 6.5,
-      "prob_over_3.5": 0.957,
-      "prob_over_4.5": 0.903,
-      "prob_over_5.5": 0.759,
-      "prob_over_6.5": 0.716
+      "prob_over_3.5": 0.956,
+      "prob_over_4.5": 0.901,
+      "prob_over_5.5": 0.756,
+      "prob_over_6.5": 0.71
     },
     {
       "pitcher_name": "Tyler Mahle",
       "team": "Atlanta Braves",
       "opponent": "Cincinnati Reds",
       "line": 6.5,
-      "prob_over_3.5": 0.956,
-      "prob_over_4.5": 0.899,
-      "prob_over_5.5": 0.755,
-      "prob_over_6.5": 0.707
+      "prob_over_3.5": 0.955,
+      "prob_over_4.5": 0.898,
+      "prob_over_5.5": 0.753,
+      "prob_over_6.5": 0.705
     },
     {
       "pitcher_name": "Eduardo Rodriguez",
@@ -80,16 +80,6 @@
       "prob_over_4.5": 0.563,
       "prob_over_5.5": 0.384,
       "prob_over_6.5": 0.231
-    },
-    {
-      "pitcher_name": "Peter Lambert",
-      "team": "Houston Astros",
-      "opponent": "Athletics",
-      "line": 4.5,
-      "prob_over_3.5": 0.747,
-      "prob_over_4.5": 0.556,
-      "prob_over_5.5": 0.378,
-      "prob_over_6.5": 0.228
     },
     {
       "pitcher_name": "Mason Barnett",
@@ -162,6 +152,16 @@
       "prob_over_6.5": 0.068
     },
     {
+      "pitcher_name": "Brady Singer",
+      "team": "Cincinnati Reds",
+      "opponent": "Atlanta Braves",
+      "line": 4.5,
+      "prob_over_3.5": 0.658,
+      "prob_over_4.5": 0.445,
+      "prob_over_5.5": 0.279,
+      "prob_over_6.5": 0.157
+    },
+    {
       "pitcher_name": "Matthew Boyd",
       "team": "Chicago Cubs",
       "opponent": "Miami Marlins",
@@ -179,7 +179,7 @@
       "prob_over_3.5": 0.806,
       "prob_over_4.5": 0.638,
       "prob_over_5.5": 0.456,
-      "prob_over_6.5": 0.295
+      "prob_over_6.5": 0.294
     },
     {
       "pitcher_name": "Kumar Rocker",
@@ -222,14 +222,14 @@
       "prob_over_6.5": 0.31
     },
     {
-      "pitcher_name": "Brady Singer",
-      "team": "Cincinnati Reds",
-      "opponent": "Atlanta Braves",
+      "pitcher_name": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "Athletics",
       "line": 4.5,
-      "prob_over_3.5": 0.684,
-      "prob_over_4.5": 0.475,
-      "prob_over_5.5": 0.305,
-      "prob_over_6.5": 0.174
+      "prob_over_3.5": 0.693,
+      "prob_over_4.5": 0.487,
+      "prob_over_5.5": 0.316,
+      "prob_over_6.5": 0.182
     }
   ],
   "historial": [
