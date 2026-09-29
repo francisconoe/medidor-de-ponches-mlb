@@ -2,6 +2,16 @@
   "fecha": "2026-09-29",
   "juegos": [
     {
+      "pitcher_name": "Cam Schlittler",
+      "team": "New York Yankees",
+      "opponent": "Boston Red Sox",
+      "line": 6.5,
+      "prob_over_3.5": 0.971,
+      "prob_over_4.5": 0.931,
+      "prob_over_5.5": 0.803,
+      "prob_over_6.5": 0.794
+    },
+    {
       "pitcher_name": "Chris Sale",
       "team": "Atlanta Braves",
       "opponent": "Philadelphia Phillies",
@@ -9,17 +19,7 @@
       "prob_over_3.5": 0.97,
       "prob_over_4.5": 0.93,
       "prob_over_5.5": 0.802,
-      "prob_over_6.5": 0.792
-    },
-    {
-      "pitcher_name": "Cam Schlittler",
-      "team": "New York Yankees",
-      "opponent": "Boston Red Sox",
-      "line": 6.5,
-      "prob_over_3.5": 0.967,
-      "prob_over_4.5": 0.924,
-      "prob_over_5.5": 0.791,
-      "prob_over_6.5": 0.773
+      "prob_over_6.5": 0.793
     },
     {
       "pitcher_name": "Payton Tolle",
@@ -36,10 +36,20 @@
       "team": "San Diego Padres",
       "opponent": "Chicago Cubs",
       "line": 4.5,
-      "prob_over_3.5": 0.722,
-      "prob_over_4.5": 0.523,
-      "prob_over_5.5": 0.348,
-      "prob_over_6.5": 0.204
+      "prob_over_3.5": 0.72,
+      "prob_over_4.5": 0.52,
+      "prob_over_5.5": 0.346,
+      "prob_over_6.5": 0.203
+    },
+    {
+      "pitcher_name": "Matthew Boyd",
+      "team": "Chicago Cubs",
+      "opponent": "San Diego Padres",
+      "line": 3.5,
+      "prob_over_3.5": 0.51,
+      "prob_over_4.5": 0.295,
+      "prob_over_5.5": 0.159,
+      "prob_over_6.5": 0.087
     },
     {
       "pitcher_name": "Jesús Luzardo",
@@ -70,16 +80,6 @@
       "prob_over_4.5": 0.184,
       "prob_over_5.5": 0.083,
       "prob_over_6.5": 0.048
-    },
-    {
-      "pitcher_name": "Matthew Boyd",
-      "team": "Chicago Cubs",
-      "opponent": "San Diego Padres",
-      "line": 3.5,
-      "prob_over_3.5": 0.495,
-      "prob_over_4.5": 0.282,
-      "prob_over_5.5": 0.149,
-      "prob_over_6.5": 0.082
     }
   ],
   "historial": [
