@@ -1,85 +1,85 @@
 {
-  "fecha": "2026-09-29",
+  "fecha": "2026-09-30",
   "juegos": [
     {
-      "pitcher_name": "Cam Schlittler",
-      "team": "New York Yankees",
-      "opponent": "Boston Red Sox",
+      "pitcher_name": "Hunter Brown",
+      "team": "Houston Astros",
+      "opponent": "Chicago White Sox",
       "line": 6.5,
-      "prob_over_3.5": 0.971,
-      "prob_over_4.5": 0.931,
-      "prob_over_5.5": 0.803,
-      "prob_over_6.5": 0.794
+      "prob_over_3.5": 0.961,
+      "prob_over_4.5": 0.911,
+      "prob_over_5.5": 0.772,
+      "prob_over_6.5": 0.739
     },
     {
-      "pitcher_name": "Chris Sale",
-      "team": "Atlanta Braves",
-      "opponent": "Philadelphia Phillies",
-      "line": 6.5,
-      "prob_over_3.5": 0.97,
-      "prob_over_4.5": 0.93,
-      "prob_over_5.5": 0.802,
-      "prob_over_6.5": 0.792
-    },
-    {
-      "pitcher_name": "Payton Tolle",
-      "team": "Boston Red Sox",
-      "opponent": "New York Yankees",
-      "line": 6.5,
-      "prob_over_3.5": 0.953,
-      "prob_over_4.5": 0.894,
-      "prob_over_5.5": 0.747,
-      "prob_over_6.5": 0.694
-    },
-    {
-      "pitcher_name": "Michael King",
-      "team": "San Diego Padres",
-      "opponent": "Chicago Cubs",
-      "line": 4.5,
-      "prob_over_3.5": 0.72,
-      "prob_over_4.5": 0.52,
-      "prob_over_5.5": 0.346,
-      "prob_over_6.5": 0.203
-    },
-    {
-      "pitcher_name": "Matthew Boyd",
-      "team": "Chicago Cubs",
-      "opponent": "San Diego Padres",
-      "line": 3.5,
-      "prob_over_3.5": 0.51,
-      "prob_over_4.5": 0.295,
-      "prob_over_5.5": 0.159,
-      "prob_over_6.5": 0.087
-    },
-    {
-      "pitcher_name": "Jesús Luzardo",
+      "pitcher_name": "Cristopher Sánchez",
       "team": "Philadelphia Phillies",
       "opponent": "Atlanta Braves",
       "line": 6.5,
-      "prob_over_3.5": 0.906,
-      "prob_over_4.5": 0.803,
-      "prob_over_5.5": 0.631,
-      "prob_over_6.5": 0.503
+      "prob_over_3.5": 0.942,
+      "prob_over_4.5": 0.872,
+      "prob_over_5.5": 0.717,
+      "prob_over_6.5": 0.642
     },
     {
-      "pitcher_name": "Hagen Smith",
+      "pitcher_name": "Kevin Gausman",
+      "team": "Chicago Cubs",
+      "opponent": "San Diego Padres",
+      "line": 5.5,
+      "prob_over_3.5": 0.883,
+      "prob_over_4.5": 0.761,
+      "prob_over_5.5": 0.584,
+      "prob_over_6.5": 0.44
+    },
+    {
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "opponent": "New York Yankees",
+      "line": 5.5,
+      "prob_over_3.5": 0.877,
+      "prob_over_4.5": 0.752,
+      "prob_over_5.5": 0.574,
+      "prob_over_6.5": 0.427
+    },
+    {
+      "pitcher_name": "Sean Burke",
       "team": "Chicago White Sox",
       "opponent": "Houston Astros",
-      "line": 3.5,
-      "prob_over_3.5": 0.21,
-      "prob_over_4.5": 0.084,
-      "prob_over_5.5": 0.028,
-      "prob_over_6.5": 0.019
+      "line": 4.5,
+      "prob_over_3.5": 0.738,
+      "prob_over_4.5": 0.543,
+      "prob_over_5.5": 0.367,
+      "prob_over_6.5": 0.219
     },
     {
-      "pitcher_name": "AJ Blubaugh",
-      "team": "Houston Astros",
-      "opponent": "Chicago White Sox",
-      "line": 3.5,
-      "prob_over_3.5": 0.369,
-      "prob_over_4.5": 0.184,
-      "prob_over_5.5": 0.083,
-      "prob_over_6.5": 0.048
+      "pitcher_name": "Max Fried",
+      "team": "New York Yankees",
+      "opponent": "Boston Red Sox",
+      "line": 4.5,
+      "prob_over_3.5": 0.732,
+      "prob_over_4.5": 0.538,
+      "prob_over_5.5": 0.363,
+      "prob_over_6.5": 0.217
+    },
+    {
+      "pitcher_name": "Nick Pivetta",
+      "team": "San Diego Padres",
+      "opponent": "Chicago Cubs",
+      "line": 4.5,
+      "prob_over_3.5": 0.617,
+      "prob_over_4.5": 0.402,
+      "prob_over_5.5": 0.244,
+      "prob_over_6.5": 0.135
+    },
+    {
+      "pitcher_name": "Tyler Mahle",
+      "team": "Atlanta Braves",
+      "opponent": "Philadelphia Phillies",
+      "line": 5.5,
+      "prob_over_3.5": 0.825,
+      "prob_over_4.5": 0.668,
+      "prob_over_5.5": 0.486,
+      "prob_over_6.5": 0.325
     }
   ],
   "historial": [
