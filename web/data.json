@@ -26,10 +26,20 @@
       "team": "Chicago Cubs",
       "opponent": "San Diego Padres",
       "line": 5.5,
-      "prob_over_3.5": 0.883,
-      "prob_over_4.5": 0.761,
-      "prob_over_5.5": 0.584,
-      "prob_over_6.5": 0.44
+      "prob_over_3.5": 0.88,
+      "prob_over_4.5": 0.757,
+      "prob_over_5.5": 0.58,
+      "prob_over_6.5": 0.434
+    },
+    {
+      "pitcher_name": "Max Fried",
+      "team": "New York Yankees",
+      "opponent": "Boston Red Sox",
+      "line": 4.5,
+      "prob_over_3.5": 0.76,
+      "prob_over_4.5": 0.574,
+      "prob_over_5.5": 0.396,
+      "prob_over_6.5": 0.243
     },
     {
       "pitcher_name": "Sonny Gray",
@@ -46,30 +56,20 @@
       "team": "Chicago White Sox",
       "opponent": "Houston Astros",
       "line": 4.5,
-      "prob_over_3.5": 0.738,
+      "prob_over_3.5": 0.737,
       "prob_over_4.5": 0.543,
       "prob_over_5.5": 0.367,
       "prob_over_6.5": 0.219
-    },
-    {
-      "pitcher_name": "Max Fried",
-      "team": "New York Yankees",
-      "opponent": "Boston Red Sox",
-      "line": 4.5,
-      "prob_over_3.5": 0.732,
-      "prob_over_4.5": 0.538,
-      "prob_over_5.5": 0.363,
-      "prob_over_6.5": 0.217
     },
     {
       "pitcher_name": "Nick Pivetta",
       "team": "San Diego Padres",
       "opponent": "Chicago Cubs",
       "line": 4.5,
-      "prob_over_3.5": 0.617,
-      "prob_over_4.5": 0.402,
-      "prob_over_5.5": 0.244,
-      "prob_over_6.5": 0.135
+      "prob_over_3.5": 0.607,
+      "prob_over_4.5": 0.39,
+      "prob_over_5.5": 0.235,
+      "prob_over_6.5": 0.13
     },
     {
       "pitcher_name": "Tyler Mahle",
