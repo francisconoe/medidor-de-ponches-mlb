@@ -6,20 +6,20 @@
       "team": "Philadelphia Phillies",
       "opponent": "Atlanta Braves",
       "line": 4.5,
-      "prob_over_3.5": 0.741,
-      "prob_over_4.5": 0.547,
-      "prob_over_5.5": 0.37,
-      "prob_over_6.5": 0.221
+      "prob_over_3.5": 0.733,
+      "prob_over_4.5": 0.537,
+      "prob_over_5.5": 0.361,
+      "prob_over_6.5": 0.214
     },
     {
       "pitcher_name": "Ray Kerr",
       "team": "Atlanta Braves",
       "opponent": "Philadelphia Phillies",
       "line": 3.5,
-      "prob_over_3.5": 0.468,
-      "prob_over_4.5": 0.258,
-      "prob_over_5.5": 0.131,
-      "prob_over_6.5": 0.072
+      "prob_over_3.5": 0.452,
+      "prob_over_4.5": 0.245,
+      "prob_over_5.5": 0.122,
+      "prob_over_6.5": 0.068
     }
   ],
   "historial": [
