@@ -59,7 +59,7 @@
       "prob_over_3.5": 0.737,
       "prob_over_4.5": 0.543,
       "prob_over_5.5": 0.367,
-      "prob_over_6.5": 0.219
+      "prob_over_6.5": 0.218
     },
     {
       "pitcher_name": "Nick Pivetta",
@@ -83,20 +83,6 @@
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-06",
-      "pitcher_name": "Gavin Williams",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.791,
-      "edge": 0.291,
-      "stake": 20.0,
-      "actual_k": 11,
-      "result": "win",
-      "profit": 18.18
-    },
     {
       "game_date": "2026-09-07",
       "pitcher_name": "Jesús Luzardo",
@@ -782,6 +768,20 @@
       "actual_k": 9,
       "result": "win",
       "profit": 18.18
+    },
+    {
+      "game_date": "2026-09-30",
+      "pitcher_name": "Hunter Brown",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.739,
+      "edge": 0.239,
+      "stake": 20.0,
+      "actual_k": 2,
+      "result": "loss",
+      "profit": -20.0
     }
   ]
 }
