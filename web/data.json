@@ -2,16 +2,6 @@
   "fecha": "2026-10-03",
   "juegos": [
     {
-      "pitcher_name": "Jacob Misiorowski",
-      "team": "Milwaukee Brewers",
-      "opponent": "San Diego Padres",
-      "line": 6.5,
-      "prob_over_3.5": 0.964,
-      "prob_over_4.5": 0.916,
-      "prob_over_5.5": 0.779,
-      "prob_over_6.5": 0.751
-    },
-    {
       "pitcher_name": "Parker Messick",
       "team": "Cleveland Guardians",
       "opponent": "Chicago White Sox",
@@ -22,24 +12,34 @@
       "prob_over_6.5": 0.737
     },
     {
+      "pitcher_name": "Jacob Misiorowski",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "line": 6.5,
+      "prob_over_3.5": 0.958,
+      "prob_over_4.5": 0.904,
+      "prob_over_5.5": 0.761,
+      "prob_over_6.5": 0.718
+    },
+    {
       "pitcher_name": "Tarik Skubal",
       "team": "Los Angeles Dodgers",
       "opponent": "Atlanta Braves",
       "line": 6.5,
-      "prob_over_3.5": 0.943,
-      "prob_over_4.5": 0.874,
-      "prob_over_5.5": 0.719,
-      "prob_over_6.5": 0.645
+      "prob_over_3.5": 0.948,
+      "prob_over_4.5": 0.885,
+      "prob_over_5.5": 0.734,
+      "prob_over_6.5": 0.67
     },
     {
       "pitcher_name": "Drew Rasmussen",
       "team": "Tampa Bay Rays",
       "opponent": "New York Yankees",
       "line": 6.5,
-      "prob_over_3.5": 0.93,
-      "prob_over_4.5": 0.848,
-      "prob_over_5.5": 0.686,
-      "prob_over_6.5": 0.591
+      "prob_over_3.5": 0.931,
+      "prob_over_4.5": 0.849,
+      "prob_over_5.5": 0.688,
+      "prob_over_6.5": 0.593
     },
     {
       "pitcher_name": "Hagen Smith",
@@ -62,24 +62,24 @@
       "prob_over_6.5": 0.02
     },
     {
-      "pitcher_name": "Robbie Ray",
-      "team": "San Diego Padres",
-      "opponent": "Milwaukee Brewers",
-      "line": 4.5,
-      "prob_over_3.5": 0.621,
-      "prob_over_4.5": 0.403,
-      "prob_over_5.5": 0.244,
-      "prob_over_6.5": 0.135
-    },
-    {
       "pitcher_name": "Gerrit Cole",
       "team": "New York Yankees",
       "opponent": "Tampa Bay Rays",
       "line": 4.5,
-      "prob_over_3.5": 0.681,
-      "prob_over_4.5": 0.472,
-      "prob_over_5.5": 0.303,
-      "prob_over_6.5": 0.172
+      "prob_over_3.5": 0.64,
+      "prob_over_4.5": 0.425,
+      "prob_over_5.5": 0.262,
+      "prob_over_6.5": 0.146
+    },
+    {
+      "pitcher_name": "Robbie Ray",
+      "team": "San Diego Padres",
+      "opponent": "Milwaukee Brewers",
+      "line": 4.5,
+      "prob_over_3.5": 0.674,
+      "prob_over_4.5": 0.464,
+      "prob_over_5.5": 0.295,
+      "prob_over_6.5": 0.167
     }
   ],
   "historial": [
