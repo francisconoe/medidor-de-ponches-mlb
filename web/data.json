@@ -26,7 +26,7 @@
       "team": "Los Angeles Dodgers",
       "opponent": "Atlanta Braves",
       "line": 6.5,
-      "prob_over_3.5": 0.948,
+      "prob_over_3.5": 0.949,
       "prob_over_4.5": 0.885,
       "prob_over_5.5": 0.734,
       "prob_over_6.5": 0.67
@@ -83,34 +83,6 @@
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-07",
-      "pitcher_name": "Jesús Luzardo",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.716,
-      "edge": 0.216,
-      "stake": 20.0,
-      "actual_k": 12,
-      "result": "win",
-      "profit": 18.18
-    },
-    {
-      "game_date": "2026-09-08",
-      "pitcher_name": "Jacob Misiorowski",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.91,
-      "edge": 0.41,
-      "stake": 20.0,
-      "actual_k": 9,
-      "result": "win",
-      "profit": 18.18
-    },
     {
       "game_date": "2026-09-08",
       "pitcher_name": "Tarik Skubal",
@@ -782,6 +754,34 @@
       "actual_k": 2,
       "result": "loss",
       "profit": -20.0
+    },
+    {
+      "game_date": "2026-10-03",
+      "pitcher_name": "Parker Messick",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.737,
+      "edge": 0.237,
+      "stake": 20.0,
+      "actual_k": 6,
+      "result": "loss",
+      "profit": -20.0
+    },
+    {
+      "game_date": "2026-10-03",
+      "pitcher_name": "Tarik Skubal",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.67,
+      "edge": 0.17,
+      "stake": 20.0,
+      "actual_k": 7,
+      "result": "win",
+      "profit": 18.18
     }
   ]
 }
