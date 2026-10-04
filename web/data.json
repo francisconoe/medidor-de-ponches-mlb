@@ -1,85 +1,45 @@
 {
-  "fecha": "2026-10-03",
+  "fecha": "2026-10-04",
   "juegos": [
     {
-      "pitcher_name": "Parker Messick",
-      "team": "Cleveland Guardians",
-      "opponent": "Chicago White Sox",
-      "line": 6.5,
-      "prob_over_3.5": 0.961,
-      "prob_over_4.5": 0.911,
-      "prob_over_5.5": 0.771,
-      "prob_over_6.5": 0.737
-    },
-    {
-      "pitcher_name": "Jacob Misiorowski",
-      "team": "Milwaukee Brewers",
-      "opponent": "San Diego Padres",
-      "line": 6.5,
-      "prob_over_3.5": 0.958,
-      "prob_over_4.5": 0.904,
-      "prob_over_5.5": 0.761,
-      "prob_over_6.5": 0.718
-    },
-    {
-      "pitcher_name": "Tarik Skubal",
+      "pitcher_name": "Blake Snell",
       "team": "Los Angeles Dodgers",
       "opponent": "Atlanta Braves",
       "line": 6.5,
-      "prob_over_3.5": 0.949,
-      "prob_over_4.5": 0.885,
-      "prob_over_5.5": 0.734,
-      "prob_over_6.5": 0.67
+      "prob_over_3.5": 0.939,
+      "prob_over_4.5": 0.866,
+      "prob_over_5.5": 0.709,
+      "prob_over_6.5": 0.627
     },
     {
-      "pitcher_name": "Drew Rasmussen",
-      "team": "Tampa Bay Rays",
-      "opponent": "New York Yankees",
-      "line": 6.5,
-      "prob_over_3.5": 0.931,
-      "prob_over_4.5": 0.849,
-      "prob_over_5.5": 0.688,
-      "prob_over_6.5": 0.593
-    },
-    {
-      "pitcher_name": "Hagen Smith",
-      "team": "Chicago White Sox",
-      "opponent": "Cleveland Guardians",
-      "line": 3.5,
-      "prob_over_3.5": 0.177,
-      "prob_over_4.5": 0.067,
-      "prob_over_5.5": 0.02,
-      "prob_over_6.5": 0.015
-    },
-    {
-      "pitcher_name": "Dylan Dodd",
+      "pitcher_name": "Ray Kerr",
       "team": "Atlanta Braves",
       "opponent": "Los Angeles Dodgers",
       "line": 3.5,
-      "prob_over_3.5": 0.217,
-      "prob_over_4.5": 0.087,
-      "prob_over_5.5": 0.029,
-      "prob_over_6.5": 0.02
+      "prob_over_3.5": 0.169,
+      "prob_over_4.5": 0.063,
+      "prob_over_5.5": 0.018,
+      "prob_over_6.5": 0.014
     },
     {
-      "pitcher_name": "Gerrit Cole",
-      "team": "New York Yankees",
-      "opponent": "Tampa Bay Rays",
-      "line": 4.5,
-      "prob_over_3.5": 0.64,
-      "prob_over_4.5": 0.425,
-      "prob_over_5.5": 0.262,
-      "prob_over_6.5": 0.146
-    },
-    {
-      "pitcher_name": "Robbie Ray",
+      "pitcher_name": "Michael King",
       "team": "San Diego Padres",
       "opponent": "Milwaukee Brewers",
-      "line": 4.5,
-      "prob_over_3.5": 0.674,
-      "prob_over_4.5": 0.464,
-      "prob_over_5.5": 0.295,
-      "prob_over_6.5": 0.167
+      "line": 5.5,
+      "prob_over_3.5": 0.791,
+      "prob_over_4.5": 0.615,
+      "prob_over_5.5": 0.433,
+      "prob_over_6.5": 0.273
+    },
+    {
+      "pitcher_name": "Logan Henderson",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "line": 6.5,
+      "prob_over_3.5": 0.901,
+      "prob_over_4.5": 0.794,
+      "prob_over_5.5": 0.622,
+      "prob_over_6.5": 0.493
     }
   ],
   "historial": [
