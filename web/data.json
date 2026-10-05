@@ -1,45 +1,45 @@
 {
-  "fecha": "2026-10-04",
+  "fecha": "2026-10-05",
   "juegos": [
     {
-      "pitcher_name": "Blake Snell",
-      "team": "Los Angeles Dodgers",
-      "opponent": "Atlanta Braves",
+      "pitcher_name": "Gavin Williams",
+      "team": "Cleveland Guardians",
+      "opponent": "Chicago White Sox",
       "line": 6.5,
-      "prob_over_3.5": 0.943,
-      "prob_over_4.5": 0.874,
-      "prob_over_5.5": 0.72,
-      "prob_over_6.5": 0.646
+      "prob_over_3.5": 0.98,
+      "prob_over_4.5": 0.952,
+      "prob_over_5.5": 0.84,
+      "prob_over_6.5": 0.858
     },
     {
-      "pitcher_name": "Ray Kerr",
-      "team": "Atlanta Braves",
-      "opponent": "Los Angeles Dodgers",
-      "line": 3.5,
-      "prob_over_3.5": 0.161,
-      "prob_over_4.5": 0.059,
-      "prob_over_5.5": 0.017,
-      "prob_over_6.5": 0.013
+      "pitcher_name": "Cam Schlittler",
+      "team": "New York Yankees",
+      "opponent": "Tampa Bay Rays",
+      "line": 6.5,
+      "prob_over_3.5": 0.928,
+      "prob_over_4.5": 0.844,
+      "prob_over_5.5": 0.68,
+      "prob_over_6.5": 0.579
     },
     {
-      "pitcher_name": "Michael King",
-      "team": "San Diego Padres",
-      "opponent": "Milwaukee Brewers",
+      "pitcher_name": "Freddy Peralta",
+      "team": "Tampa Bay Rays",
+      "opponent": "New York Yankees",
       "line": 5.5,
-      "prob_over_3.5": 0.79,
-      "prob_over_4.5": 0.615,
-      "prob_over_5.5": 0.433,
-      "prob_over_6.5": 0.273
+      "prob_over_3.5": 0.864,
+      "prob_over_4.5": 0.73,
+      "prob_over_5.5": 0.549,
+      "prob_over_6.5": 0.394
     },
     {
-      "pitcher_name": "Logan Henderson",
-      "team": "Milwaukee Brewers",
-      "opponent": "San Diego Padres",
-      "line": 6.5,
-      "prob_over_3.5": 0.895,
-      "prob_over_4.5": 0.784,
-      "prob_over_5.5": 0.61,
-      "prob_over_6.5": 0.475
+      "pitcher_name": "Anthony Kay",
+      "team": "Chicago White Sox",
+      "opponent": "Cleveland Guardians",
+      "line": 3.5,
+      "prob_over_3.5": 0.364,
+      "prob_over_4.5": 0.179,
+      "prob_over_5.5": 0.08,
+      "prob_over_6.5": 0.047
     }
   ],
   "historial": [
