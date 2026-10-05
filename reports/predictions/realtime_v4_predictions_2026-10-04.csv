@@ -1,5 +1,5 @@
 pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
-Blake Snell,Los Angeles Dodgers,Atlanta Braves,8,2026-09-26,confirmed,2026-10-04,6.9,0.943,0.874,0.72,0.646,6.5,-110,(assumed),over 6.5,0.646,0.5,0.146,0.234,0.075,0.0,— pass —
-Ray Kerr,Atlanta Braves,Los Angeles Dodgers,1,2026-10-01,confirmed,2026-10-04,2.29,0.161,0.059,0.017,0.013,3.5,-110,(assumed),under 3.5,0.839,0.5,0.339,0.601,0.057,0.0,— thin data —
-Michael King,San Diego Padres,Milwaukee Brewers,37,2026-09-29,confirmed,2026-10-04,5.11,0.791,0.615,0.433,0.273,5.5,-110,(assumed),under 5.5,0.567,0.5,0.067,0.082,0.068,0.0,— pass —
-Logan Henderson,Milwaukee Brewers,San Diego Padres,17,2026-09-23,confirmed,2026-10-04,6.1,0.895,0.784,0.61,0.475,6.5,-110,(assumed),under 6.5,0.525,0.5,0.025,0.001,0.059,0.0,— pass —
+Blake Snell,Los Angeles Dodgers,Atlanta Braves,8,2026-09-26,confirmed,2026-10-04,6.9,0.943,0.874,0.72,0.646,6.5,-110,(assumed),over 6.5,0.646,0.5,0.146,0.234,0.072,0.0,— pass —
+Ray Kerr,Atlanta Braves,Los Angeles Dodgers,1,2026-10-01,confirmed,2026-10-04,2.29,0.161,0.059,0.017,0.013,3.5,-110,(assumed),under 3.5,0.839,0.5,0.339,0.601,0.061,0.0,— thin data —
+Michael King,San Diego Padres,Milwaukee Brewers,37,2026-09-29,confirmed,2026-10-04,5.11,0.79,0.615,0.433,0.273,5.5,-110,(assumed),under 5.5,0.567,0.5,0.067,0.082,0.064,0.0,— pass —
+Logan Henderson,Milwaukee Brewers,San Diego Padres,17,2026-09-23,confirmed,2026-10-04,6.1,0.895,0.784,0.61,0.475,6.5,-110,(assumed),under 6.5,0.525,0.5,0.025,0.001,0.056,0.0,— pass —
