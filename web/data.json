@@ -12,24 +12,14 @@
       "prob_over_6.5": 0.658
     },
     {
-      "pitcher_name": "Dustin May",
-      "team": "Milwaukee Brewers",
-      "opponent": "San Diego Padres",
-      "line": 4.5,
-      "prob_over_3.5": 0.709,
-      "prob_over_4.5": 0.508,
-      "prob_over_5.5": 0.335,
-      "prob_over_6.5": 0.195
-    },
-    {
       "pitcher_name": "Yoshinobu Yamamoto",
       "team": "Los Angeles Dodgers",
       "opponent": "Atlanta Braves",
       "line": 5.5,
-      "prob_over_3.5": 0.797,
-      "prob_over_4.5": 0.625,
-      "prob_over_5.5": 0.442,
-      "prob_over_6.5": 0.281
+      "prob_over_3.5": 0.794,
+      "prob_over_4.5": 0.62,
+      "prob_over_5.5": 0.438,
+      "prob_over_6.5": 0.278
     },
     {
       "pitcher_name": "Nick Pivetta",
@@ -40,6 +30,16 @@
       "prob_over_4.5": 0.443,
       "prob_over_5.5": 0.279,
       "prob_over_6.5": 0.157
+    },
+    {
+      "pitcher_name": "Dustin May",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "line": 4.5,
+      "prob_over_3.5": 0.697,
+      "prob_over_4.5": 0.493,
+      "prob_over_5.5": 0.322,
+      "prob_over_6.5": 0.186
     }
   ],
   "historial": [
