@@ -27,7 +27,7 @@
       "opponent": "New York Yankees",
       "line": 5.5,
       "prob_over_3.5": 0.864,
-      "prob_over_4.5": 0.73,
+      "prob_over_4.5": 0.729,
       "prob_over_5.5": 0.549,
       "prob_over_6.5": 0.394
     },
@@ -37,26 +37,12 @@
       "opponent": "Cleveland Guardians",
       "line": 3.5,
       "prob_over_3.5": 0.364,
-      "prob_over_4.5": 0.179,
+      "prob_over_4.5": 0.18,
       "prob_over_5.5": 0.08,
       "prob_over_6.5": 0.047
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-08",
-      "pitcher_name": "Tarik Skubal",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.861,
-      "edge": 0.361,
-      "stake": 20.0,
-      "actual_k": 5,
-      "result": "loss",
-      "profit": -20.0
-    },
     {
       "game_date": "2026-09-08",
       "pitcher_name": "Cam Schlittler",
@@ -740,6 +726,20 @@
       "edge": 0.17,
       "stake": 20.0,
       "actual_k": 7,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-10-05",
+      "pitcher_name": "Gavin Williams",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.858,
+      "edge": 0.358,
+      "stake": 20.0,
+      "actual_k": 11,
       "result": "win",
       "profit": 18.18
     }
