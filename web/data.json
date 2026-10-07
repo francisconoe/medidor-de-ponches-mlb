@@ -32,6 +32,16 @@
       "prob_over_6.5": 0.512
     },
     {
+      "pitcher_name": "Robert Gasser",
+      "team": "Milwaukee Brewers",
+      "opponent": "San Diego Padres",
+      "line": 4.5,
+      "prob_over_3.5": 0.636,
+      "prob_over_4.5": 0.421,
+      "prob_over_5.5": 0.26,
+      "prob_over_6.5": 0.145
+    },
+    {
       "pitcher_name": "Max Fried",
       "team": "New York Yankees",
       "opponent": "Tampa Bay Rays",
