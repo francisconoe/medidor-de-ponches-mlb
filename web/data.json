@@ -45,20 +45,6 @@
   "historial": [
     {
       "game_date": "2026-09-08",
-      "pitcher_name": "Cam Schlittler",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.837,
-      "edge": 0.337,
-      "stake": 20.0,
-      "actual_k": 10,
-      "result": "win",
-      "profit": 18.18
-    },
-    {
-      "game_date": "2026-09-08",
       "pitcher_name": "Riley Cornelio",
       "call": "under 3.5",
       "line": 3.5,
@@ -740,6 +726,20 @@
       "edge": 0.358,
       "stake": 20.0,
       "actual_k": 11,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-10-06",
+      "pitcher_name": "Chris Sale",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.658,
+      "edge": 0.158,
+      "stake": 20.0,
+      "actual_k": 7,
       "result": "win",
       "profit": 18.18
     }
