@@ -222,3 +222,4 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-10-03,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.67,0.17,20.0,7,win,18.18
 2026-10-05,Gavin Williams,over 6.5,6.5,-110,(assumed),0.858,0.358,20.0,11,win,18.18
 2026-10-06,Chris Sale,over 6.5,6.5,-110,(assumed),0.658,0.158,20.0,7,win,18.18
+2026-10-07,Sean Newcomb,under 3.5,3.5,-110,(assumed),0.873,0.373,20.0,1,win,18.18

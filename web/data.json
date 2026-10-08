@@ -74,20 +74,6 @@
   ],
   "historial": [
     {
-      "game_date": "2026-09-08",
-      "pitcher_name": "Riley Cornelio",
-      "call": "under 3.5",
-      "line": 3.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.707,
-      "edge": 0.207,
-      "stake": 20.0,
-      "actual_k": 4,
-      "result": "loss",
-      "profit": -20.0
-    },
-    {
       "game_date": "2026-09-09",
       "pitcher_name": "Yoshinobu Yamamoto",
       "call": "over 6.5",
@@ -770,6 +756,20 @@
       "edge": 0.158,
       "stake": 20.0,
       "actual_k": 7,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-10-07",
+      "pitcher_name": "Sean Newcomb",
+      "call": "under 3.5",
+      "line": 3.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.873,
+      "edge": 0.373,
+      "stake": 20.0,
+      "actual_k": 1,
       "result": "win",
       "profit": 18.18
     }
