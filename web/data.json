@@ -16,10 +16,10 @@
       "team": "Chicago White Sox",
       "opponent": "Cleveland Guardians",
       "line": 3.5,
-      "prob_over_3.5": 0.281,
-      "prob_over_4.5": 0.125,
-      "prob_over_5.5": 0.048,
-      "prob_over_6.5": 0.03
+      "prob_over_3.5": 0.259,
+      "prob_over_4.5": 0.112,
+      "prob_over_5.5": 0.041,
+      "prob_over_6.5": 0.027
     }
   ],
   "historial": [
