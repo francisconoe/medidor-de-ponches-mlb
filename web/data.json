@@ -1,75 +1,25 @@
 {
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-08",
   "juegos": [
     {
-      "pitcher_name": "Sean Newcomb",
+      "pitcher_name": "Parker Messick",
+      "team": "Cleveland Guardians",
+      "opponent": "Chicago White Sox",
+      "line": 6.5,
+      "prob_over_3.5": 0.941,
+      "prob_over_4.5": 0.871,
+      "prob_over_5.5": 0.715,
+      "prob_over_6.5": 0.638
+    },
+    {
+      "pitcher_name": "Hagen Smith",
       "team": "Chicago White Sox",
       "opponent": "Cleveland Guardians",
       "line": 3.5,
-      "prob_over_3.5": 0.127,
-      "prob_over_4.5": 0.043,
-      "prob_over_5.5": 0.011,
-      "prob_over_6.5": 0.009
-    },
-    {
-      "pitcher_name": "Walker Buehler",
-      "team": "San Diego Padres",
-      "opponent": "Milwaukee Brewers",
-      "line": 3.5,
-      "prob_over_3.5": 0.534,
-      "prob_over_4.5": 0.318,
-      "prob_over_5.5": 0.177,
-      "prob_over_6.5": 0.097
-    },
-    {
-      "pitcher_name": "Tyler Glasnow",
-      "team": "Los Angeles Dodgers",
-      "opponent": "Atlanta Braves",
-      "line": 6.5,
-      "prob_over_3.5": 0.909,
-      "prob_over_4.5": 0.808,
-      "prob_over_5.5": 0.637,
-      "prob_over_6.5": 0.512
-    },
-    {
-      "pitcher_name": "Robert Gasser",
-      "team": "Milwaukee Brewers",
-      "opponent": "San Diego Padres",
-      "line": 4.5,
-      "prob_over_3.5": 0.636,
-      "prob_over_4.5": 0.421,
-      "prob_over_5.5": 0.26,
-      "prob_over_6.5": 0.145
-    },
-    {
-      "pitcher_name": "Max Fried",
-      "team": "New York Yankees",
-      "opponent": "Tampa Bay Rays",
-      "line": 4.5,
-      "prob_over_3.5": 0.649,
-      "prob_over_4.5": 0.436,
-      "prob_over_5.5": 0.272,
-      "prob_over_6.5": 0.152
-    },
-    {
-      "pitcher_name": "Nick Martinez",
-      "team": "Tampa Bay Rays",
-      "opponent": "New York Yankees",
-      "line": 3.5,
-      "prob_over_3.5": 0.473,
-      "prob_over_4.5": 0.263,
-      "prob_over_5.5": 0.136,
-      "prob_over_6.5": 0.075
-    },
-    {
-      "pitcher_name": "Tyler Mahle",
-      "team": "Atlanta Braves",
-      "opponent": "Los Angeles Dodgers",
-      "line": 5.5,
-      "prob_over_3.5": 0.824,
-      "prob_over_4.5": 0.666,
-      "prob_over_5.5": 0.484,
-      "prob_over_6.5": 0.323
+      "prob_over_3.5": 0.281,
+      "prob_over_4.5": 0.125,
+      "prob_over_5.5": 0.048,
+      "prob_over_6.5": 0.03
     }
   ],
   "historial": [
