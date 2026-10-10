@@ -1,25 +1,25 @@
 {
-  "fecha": "2026-10-08",
+  "fecha": "2026-10-10",
   "juegos": [
     {
-      "pitcher_name": "Parker Messick",
+      "pitcher_name": "Gavin Williams",
       "team": "Cleveland Guardians",
       "opponent": "Chicago White Sox",
       "line": 6.5,
-      "prob_over_3.5": 0.941,
-      "prob_over_4.5": 0.871,
-      "prob_over_5.5": 0.715,
-      "prob_over_6.5": 0.638
+      "prob_over_3.5": 0.978,
+      "prob_over_4.5": 0.948,
+      "prob_over_5.5": 0.833,
+      "prob_over_6.5": 0.845
     },
     {
-      "pitcher_name": "Hagen Smith",
+      "pitcher_name": "Sean Burke",
       "team": "Chicago White Sox",
       "opponent": "Cleveland Guardians",
-      "line": 3.5,
-      "prob_over_3.5": 0.259,
-      "prob_over_4.5": 0.112,
-      "prob_over_5.5": 0.041,
-      "prob_over_6.5": 0.027
+      "line": 4.5,
+      "prob_over_3.5": 0.77,
+      "prob_over_4.5": 0.587,
+      "prob_over_5.5": 0.408,
+      "prob_over_6.5": 0.252
     }
   ],
   "historial": [
