@@ -6,10 +6,10 @@
       "team": "Milwaukee Brewers",
       "opponent": "Los Angeles Dodgers",
       "line": 6.5,
-      "prob_over_3.5": 0.951,
-      "prob_over_4.5": 0.89,
-      "prob_over_5.5": 0.741,
-      "prob_over_6.5": 0.683
+      "prob_over_3.5": 0.957,
+      "prob_over_4.5": 0.901,
+      "prob_over_5.5": 0.757,
+      "prob_over_6.5": 0.712
     },
     {
       "pitcher_name": "Tarik Skubal",

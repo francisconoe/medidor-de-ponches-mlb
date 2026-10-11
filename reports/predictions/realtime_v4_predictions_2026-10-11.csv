@@ -1,3 +1,3 @@
 pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
-Jacob Misiorowski,Milwaukee Brewers,Los Angeles Dodgers,34,2026-10-03,proxy,2026-10-11,7.08,0.951,0.89,0.741,0.683,6.5,-110,(assumed),over 6.5,0.683,0.5,0.183,0.305,0.093,20.0,over 6.5
-Tarik Skubal,Los Angeles Dodgers,Milwaukee Brewers,30,2026-10-03,proxy,2026-10-11,6.66,0.932,0.852,0.69,0.597,6.5,-110,(assumed),over 6.5,0.597,0.5,0.097,0.139,0.072,0.0,— pass —
+Jacob Misiorowski,Milwaukee Brewers,Los Angeles Dodgers,34,2026-10-03,confirmed,2026-10-11,7.24,0.957,0.901,0.757,0.712,6.5,-110,(assumed),over 6.5,0.712,0.5,0.212,0.36,0.093,20.0,over 6.5
+Tarik Skubal,Los Angeles Dodgers,Milwaukee Brewers,30,2026-10-03,confirmed,2026-10-11,6.66,0.932,0.852,0.69,0.597,6.5,-110,(assumed),over 6.5,0.597,0.5,0.097,0.139,0.072,0.0,— pass —
