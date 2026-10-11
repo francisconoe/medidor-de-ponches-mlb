@@ -1,42 +1,28 @@
 {
-  "fecha": "2026-10-10",
+  "fecha": "2026-10-11",
   "juegos": [
     {
-      "pitcher_name": "Gavin Williams",
-      "team": "Cleveland Guardians",
-      "opponent": "Chicago White Sox",
+      "pitcher_name": "Jacob Misiorowski",
+      "team": "Milwaukee Brewers",
+      "opponent": "Los Angeles Dodgers",
       "line": 6.5,
-      "prob_over_3.5": 0.984,
-      "prob_over_4.5": 0.961,
-      "prob_over_5.5": 0.859,
-      "prob_over_6.5": 0.886
+      "prob_over_3.5": 0.951,
+      "prob_over_4.5": 0.89,
+      "prob_over_5.5": 0.741,
+      "prob_over_6.5": 0.683
     },
     {
-      "pitcher_name": "Sean Burke",
-      "team": "Chicago White Sox",
-      "opponent": "Cleveland Guardians",
-      "line": 4.5,
-      "prob_over_3.5": 0.65,
-      "prob_over_4.5": 0.437,
-      "prob_over_5.5": 0.273,
-      "prob_over_6.5": 0.153
+      "pitcher_name": "Tarik Skubal",
+      "team": "Los Angeles Dodgers",
+      "opponent": "Milwaukee Brewers",
+      "line": 6.5,
+      "prob_over_3.5": 0.932,
+      "prob_over_4.5": 0.852,
+      "prob_over_5.5": 0.69,
+      "prob_over_6.5": 0.597
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-09",
-      "pitcher_name": "Yoshinobu Yamamoto",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.736,
-      "edge": 0.236,
-      "stake": 20.0,
-      "actual_k": 10,
-      "result": "win",
-      "profit": 18.18
-    },
     {
       "game_date": "2026-09-09",
       "pitcher_name": "Janson Junk",
@@ -720,6 +706,20 @@
       "edge": 0.373,
       "stake": 20.0,
       "actual_k": 1,
+      "result": "win",
+      "profit": 18.18
+    },
+    {
+      "game_date": "2026-10-10",
+      "pitcher_name": "Gavin Williams",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.886,
+      "edge": 0.386,
+      "stake": 20.0,
+      "actual_k": 12,
       "result": "win",
       "profit": 18.18
     }
