@@ -1,42 +1,48 @@
 {
-  "fecha": "2026-10-11",
+  "fecha": "2026-10-12",
   "juegos": [
     {
-      "pitcher_name": "Jacob Misiorowski",
-      "team": "Milwaukee Brewers",
-      "opponent": "Los Angeles Dodgers",
-      "line": 6.5,
-      "prob_over_3.5": 0.957,
-      "prob_over_4.5": 0.901,
-      "prob_over_5.5": 0.757,
-      "prob_over_6.5": 0.712
-    },
-    {
-      "pitcher_name": "Tarik Skubal",
+      "pitcher_name": "Yoshinobu Yamamoto",
       "team": "Los Angeles Dodgers",
       "opponent": "Milwaukee Brewers",
       "line": 6.5,
-      "prob_over_3.5": 0.932,
-      "prob_over_4.5": 0.852,
-      "prob_over_5.5": 0.69,
-      "prob_over_6.5": 0.597
+      "prob_over_3.5": 0.917,
+      "prob_over_4.5": 0.823,
+      "prob_over_5.5": 0.655,
+      "prob_over_6.5": 0.54
+    },
+    {
+      "pitcher_name": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "line": 5.5,
+      "prob_over_3.5": 0.805,
+      "prob_over_4.5": 0.636,
+      "prob_over_5.5": 0.453,
+      "prob_over_6.5": 0.292
+    },
+    {
+      "pitcher_name": "Logan Henderson",
+      "team": "Milwaukee Brewers",
+      "opponent": "Los Angeles Dodgers",
+      "line": 5.5,
+      "prob_over_3.5": 0.805,
+      "prob_over_4.5": 0.637,
+      "prob_over_5.5": 0.455,
+      "prob_over_6.5": 0.294
+    },
+    {
+      "pitcher_name": "Foster Griffin",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "line": 4.5,
+      "prob_over_3.5": 0.691,
+      "prob_over_4.5": 0.484,
+      "prob_over_5.5": 0.313,
+      "prob_over_6.5": 0.179
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-09",
-      "pitcher_name": "Janson Junk",
-      "call": "under 3.5",
-      "line": 3.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.711,
-      "edge": 0.211,
-      "stake": 20.0,
-      "actual_k": 0,
-      "result": "win",
-      "profit": 18.18
-    },
     {
       "game_date": "2026-09-10",
       "pitcher_name": "Logan Gilbert",
@@ -722,6 +728,20 @@
       "actual_k": 12,
       "result": "win",
       "profit": 18.18
+    },
+    {
+      "game_date": "2026-10-11",
+      "pitcher_name": "Jacob Misiorowski",
+      "call": "over 6.5",
+      "line": 6.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.712,
+      "edge": 0.212,
+      "stake": 20.0,
+      "actual_k": 5,
+      "result": "loss",
+      "profit": -20.0
     }
   ]
 }

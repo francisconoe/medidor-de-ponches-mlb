@@ -224,3 +224,4 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-10-06,Chris Sale,over 6.5,6.5,-110,(assumed),0.658,0.158,20.0,7,win,18.18
 2026-10-07,Sean Newcomb,under 3.5,3.5,-110,(assumed),0.873,0.373,20.0,1,win,18.18
 2026-10-10,Gavin Williams,over 6.5,6.5,-110,(assumed),0.886,0.386,20.0,12,win,18.18
+2026-10-11,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.712,0.212,20.0,5,loss,-20.0
