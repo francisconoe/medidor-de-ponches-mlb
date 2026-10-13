@@ -1,5 +1,5 @@
 pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
 Yoshinobu Yamamoto,Los Angeles Dodgers,Milwaukee Brewers,31,2026-10-06,confirmed,2026-10-12,6.4,0.917,0.823,0.655,0.54,6.5,-110,(assumed),over 6.5,0.54,0.5,0.04,0.031,0.071,0.0,— pass —
-Drew Rasmussen,Tampa Bay Rays,Cleveland Guardians,33,2026-10-03,confirmed,2026-10-12,5.21,0.805,0.636,0.453,0.292,5.5,-110,(assumed),under 5.5,0.547,0.5,0.047,0.044,0.082,0.0,— pass —
-Logan Henderson,Milwaukee Brewers,Los Angeles Dodgers,18,2026-10-04,confirmed,2026-10-12,5.22,0.805,0.637,0.455,0.294,5.5,-110,(assumed),under 5.5,0.545,0.5,0.045,0.04,0.067,0.0,— pass —
-Foster Griffin,Cleveland Guardians,Tampa Bay Rays,34,2026-10-07,confirmed,2026-10-12,4.51,0.691,0.484,0.313,0.179,4.5,-110,(assumed),under 4.5,0.516,0.5,0.016,-0.014,0.086,0.0,— pass —
+Drew Rasmussen,Tampa Bay Rays,Cleveland Guardians,33,2026-10-03,confirmed,2026-10-12,5.21,0.805,0.636,0.453,0.292,5.5,-110,(assumed),under 5.5,0.547,0.5,0.047,0.044,0.076,0.0,— pass —
+Logan Henderson,Milwaukee Brewers,Los Angeles Dodgers,18,2026-10-04,confirmed,2026-10-12,5.22,0.805,0.637,0.455,0.294,5.5,-110,(assumed),under 5.5,0.545,0.5,0.045,0.04,0.065,0.0,— pass —
+Foster Griffin,Cleveland Guardians,Tampa Bay Rays,34,2026-10-07,confirmed,2026-10-12,4.51,0.691,0.484,0.313,0.179,4.5,-110,(assumed),under 4.5,0.516,0.5,0.016,-0.014,0.084,0.0,— pass —
