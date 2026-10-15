@@ -1,0 +1,5 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Tyler Glasnow,Los Angeles Dodgers,Milwaukee Brewers,16,2026-10-07,proxy,2026-10-15,7.07,0.951,0.889,0.74,0.681,6.5,-110,(assumed),over 6.5,0.681,0.5,0.181,0.301,0.088,20.0,over 6.5
+Gavin Williams,Cleveland Guardians,Tampa Bay Rays,38,2026-10-10,confirmed,2026-10-15,6.42,0.919,0.826,0.658,0.544,6.5,-110,(assumed),over 6.5,0.544,0.5,0.044,0.039,0.101,0.0,— pass —
+Shane Drohan,Milwaukee Brewers,Los Angeles Dodgers,27,2026-09-24,proxy,2026-10-15,4.01,0.584,0.368,0.217,0.12,4.5,-110,(assumed),under 4.5,0.632,0.5,0.132,0.207,0.06,0.0,— pass —
+Griffin Jax,Tampa Bay Rays,Cleveland Guardians,21,2026-09-26,confirmed,2026-10-15,3.41,0.438,0.236,0.117,0.066,3.5,-110,(assumed),under 3.5,0.562,0.5,0.062,0.072,0.063,0.0,— pass —

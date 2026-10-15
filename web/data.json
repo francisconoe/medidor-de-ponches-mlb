@@ -1,25 +1,45 @@
 {
-  "fecha": "2026-10-14",
+  "fecha": "2026-10-15",
   "juegos": [
     {
-      "pitcher_name": "Blake Snell",
+      "pitcher_name": "Tyler Glasnow",
       "team": "Los Angeles Dodgers",
       "opponent": "Milwaukee Brewers",
       "line": 6.5,
-      "prob_over_3.5": 0.929,
-      "prob_over_4.5": 0.846,
-      "prob_over_5.5": 0.683,
-      "prob_over_6.5": 0.585
+      "prob_over_3.5": 0.951,
+      "prob_over_4.5": 0.889,
+      "prob_over_5.5": 0.74,
+      "prob_over_6.5": 0.681
     },
     {
-      "pitcher_name": "Robert Gasser",
+      "pitcher_name": "Gavin Williams",
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "line": 6.5,
+      "prob_over_3.5": 0.919,
+      "prob_over_4.5": 0.826,
+      "prob_over_5.5": 0.658,
+      "prob_over_6.5": 0.544
+    },
+    {
+      "pitcher_name": "Shane Drohan",
       "team": "Milwaukee Brewers",
       "opponent": "Los Angeles Dodgers",
       "line": 4.5,
-      "prob_over_3.5": 0.637,
-      "prob_over_4.5": 0.423,
-      "prob_over_5.5": 0.262,
-      "prob_over_6.5": 0.147
+      "prob_over_3.5": 0.584,
+      "prob_over_4.5": 0.368,
+      "prob_over_5.5": 0.217,
+      "prob_over_6.5": 0.12
+    },
+    {
+      "pitcher_name": "Griffin Jax",
+      "team": "Tampa Bay Rays",
+      "opponent": "Cleveland Guardians",
+      "line": 3.5,
+      "prob_over_3.5": 0.438,
+      "prob_over_4.5": 0.236,
+      "prob_over_5.5": 0.117,
+      "prob_over_6.5": 0.066
     }
   ],
   "historial": [
