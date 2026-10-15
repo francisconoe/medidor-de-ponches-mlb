@@ -6,10 +6,20 @@
       "team": "Los Angeles Dodgers",
       "opponent": "Milwaukee Brewers",
       "line": 6.5,
-      "prob_over_3.5": 0.951,
-      "prob_over_4.5": 0.889,
-      "prob_over_5.5": 0.74,
-      "prob_over_6.5": 0.681
+      "prob_over_3.5": 0.952,
+      "prob_over_4.5": 0.891,
+      "prob_over_5.5": 0.742,
+      "prob_over_6.5": 0.685
+    },
+    {
+      "pitcher_name": "Shane Drohan",
+      "team": "Milwaukee Brewers",
+      "opponent": "Los Angeles Dodgers",
+      "line": 3.5,
+      "prob_over_3.5": 0.561,
+      "prob_over_4.5": 0.345,
+      "prob_over_5.5": 0.198,
+      "prob_over_6.5": 0.109
     },
     {
       "pitcher_name": "Gavin Williams",
@@ -20,16 +30,6 @@
       "prob_over_4.5": 0.826,
       "prob_over_5.5": 0.658,
       "prob_over_6.5": 0.544
-    },
-    {
-      "pitcher_name": "Shane Drohan",
-      "team": "Milwaukee Brewers",
-      "opponent": "Los Angeles Dodgers",
-      "line": 4.5,
-      "prob_over_3.5": 0.584,
-      "prob_over_4.5": 0.368,
-      "prob_over_5.5": 0.217,
-      "prob_over_6.5": 0.12
     },
     {
       "pitcher_name": "Griffin Jax",
