@@ -1,0 +1,2 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Nick Martinez,Tampa Bay Rays,Cleveland Guardians,36,2026-10-07,proxy,2026-10-16,2.97,0.323,0.151,0.063,0.038,3.5,-110,(assumed),under 3.5,0.677,0.5,0.177,0.292,0.075,20.0,under 3.5
