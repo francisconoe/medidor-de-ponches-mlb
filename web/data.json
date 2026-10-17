@@ -6,27 +6,13 @@
       "team": "Tampa Bay Rays",
       "opponent": "Cleveland Guardians",
       "line": 3.5,
-      "prob_over_3.5": 0.322,
-      "prob_over_4.5": 0.151,
-      "prob_over_5.5": 0.063,
-      "prob_over_6.5": 0.038
+      "prob_over_3.5": 0.283,
+      "prob_over_4.5": 0.126,
+      "prob_over_5.5": 0.049,
+      "prob_over_6.5": 0.031
     }
   ],
   "historial": [
-    {
-      "game_date": "2026-09-10",
-      "pitcher_name": "Zack Wheeler",
-      "call": "over 6.5",
-      "line": 6.5,
-      "odds": -110,
-      "book": "(assumed)",
-      "model_prob": 0.737,
-      "edge": 0.237,
-      "stake": 20.0,
-      "actual_k": 9,
-      "result": "win",
-      "profit": 18.18
-    },
     {
       "game_date": "2026-09-11",
       "pitcher_name": "Chris Sale",
@@ -712,6 +698,20 @@
       "actual_k": 6,
       "result": "loss",
       "profit": -20.0
+    },
+    {
+      "game_date": "2026-10-16",
+      "pitcher_name": "Nick Martinez",
+      "call": "under 3.5",
+      "line": 3.5,
+      "odds": -110,
+      "book": "(assumed)",
+      "model_prob": 0.714,
+      "edge": 0.214,
+      "stake": 20.0,
+      "actual_k": 0,
+      "result": "win",
+      "profit": 18.18
     }
   ]
 }

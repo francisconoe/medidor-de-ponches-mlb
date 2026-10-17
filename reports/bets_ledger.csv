@@ -226,3 +226,4 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-10-10,Gavin Williams,over 6.5,6.5,-110,(assumed),0.886,0.386,20.0,12,win,18.18
 2026-10-11,Jacob Misiorowski,over 6.5,6.5,-110,(assumed),0.712,0.212,20.0,5,loss,-20.0
 2026-10-15,Tyler Glasnow,over 6.5,6.5,-110,(assumed),0.685,0.185,20.0,6,loss,-20.0
+2026-10-16,Nick Martinez,under 3.5,3.5,-110,(assumed),0.714,0.214,20.0,0,win,18.18
