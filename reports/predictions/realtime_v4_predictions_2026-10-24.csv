@@ -1,3 +1,3 @@
 pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
-Drew Rasmussen,Tampa Bay Rays,Milwaukee Brewers,35,2026-10-18,proxy,2026-10-24,5.89,0.879,0.755,0.576,0.429,5.5,-110,(assumed),over 5.5,0.576,0.5,0.076,0.1,0.061,0.0,— pass —
-Logan Henderson,Milwaukee Brewers,Tampa Bay Rays,19,2026-10-12,proxy,2026-10-24,4.77,0.738,0.542,0.365,0.217,4.5,-110,(assumed),over 4.5,0.542,0.5,0.042,0.036,0.076,0.0,— pass —
+Drew Rasmussen,Tampa Bay Rays,Milwaukee Brewers,35,2026-10-18,confirmed,2026-10-24,5.89,0.879,0.755,0.576,0.429,5.5,-110,(assumed),over 5.5,0.576,0.5,0.076,0.1,0.061,0.0,— pass —
+Logan Henderson,Milwaukee Brewers,Tampa Bay Rays,19,2026-10-12,confirmed,2026-10-24,4.63,0.713,0.51,0.336,0.195,4.5,-110,(assumed),over 4.5,0.51,0.5,0.01,-0.026,0.077,0.0,— pass —
