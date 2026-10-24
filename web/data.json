@@ -1,25 +1,25 @@
 {
-  "fecha": "2026-10-23",
+  "fecha": "2026-10-24",
   "juegos": [
     {
-      "pitcher_name": "Jacob Misiorowski",
-      "team": "Milwaukee Brewers",
-      "opponent": "Tampa Bay Rays",
-      "line": 5.5,
-      "prob_over_3.5": 0.874,
-      "prob_over_4.5": 0.746,
-      "prob_over_5.5": 0.566,
-      "prob_over_6.5": 0.415
-    },
-    {
-      "pitcher_name": "Nick Martinez",
+      "pitcher_name": "Drew Rasmussen",
       "team": "Tampa Bay Rays",
       "opponent": "Milwaukee Brewers",
-      "line": 3.5,
-      "prob_over_3.5": 0.403,
-      "prob_over_4.5": 0.208,
-      "prob_over_5.5": 0.098,
-      "prob_over_6.5": 0.056
+      "line": 5.5,
+      "prob_over_3.5": 0.879,
+      "prob_over_4.5": 0.755,
+      "prob_over_5.5": 0.576,
+      "prob_over_6.5": 0.429
+    },
+    {
+      "pitcher_name": "Logan Henderson",
+      "team": "Milwaukee Brewers",
+      "opponent": "Tampa Bay Rays",
+      "line": 4.5,
+      "prob_over_3.5": 0.738,
+      "prob_over_4.5": 0.542,
+      "prob_over_5.5": 0.365,
+      "prob_over_6.5": 0.217
     }
   ],
   "historial": [
