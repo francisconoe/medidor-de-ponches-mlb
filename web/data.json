@@ -16,10 +16,10 @@
       "team": "Tampa Bay Rays",
       "opponent": "Milwaukee Brewers",
       "line": 5.5,
-      "prob_over_3.5": 0.781,
-      "prob_over_4.5": 0.6,
-      "prob_over_5.5": 0.418,
-      "prob_over_6.5": 0.258
+      "prob_over_3.5": 0.784,
+      "prob_over_4.5": 0.604,
+      "prob_over_5.5": 0.421,
+      "prob_over_6.5": 0.262
     }
   ],
   "historial": [
