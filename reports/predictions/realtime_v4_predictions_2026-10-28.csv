@@ -1,0 +1,3 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Jacob Misiorowski,Milwaukee Brewers,Tampa Bay Rays,36,2026-10-23,proxy,2026-10-28,5.51,0.842,0.693,0.51,0.349,5.5,-110,(assumed),over 5.5,0.51,0.5,0.01,-0.026,0.079,0.0,— pass —
+Drew Rasmussen,Tampa Bay Rays,Milwaukee Brewers,36,2026-10-24,proxy,2026-10-28,5.43,0.833,0.678,0.496,0.334,5.5,-110,(assumed),under 5.5,0.504,0.5,0.004,-0.037,0.067,0.0,— pass —

@@ -1,25 +1,25 @@
 {
-  "fecha": "2026-10-27",
+  "fecha": "2026-10-28",
   "juegos": [
     {
-      "pitcher_name": "Griffin Jax",
-      "team": "Tampa Bay Rays",
-      "opponent": "Milwaukee Brewers",
-      "line": 4.5,
-      "prob_over_3.5": 0.679,
-      "prob_over_4.5": 0.47,
-      "prob_over_5.5": 0.302,
-      "prob_over_6.5": 0.172
-    },
-    {
-      "pitcher_name": "Dustin May",
+      "pitcher_name": "Jacob Misiorowski",
       "team": "Milwaukee Brewers",
       "opponent": "Tampa Bay Rays",
-      "line": 3.5,
-      "prob_over_3.5": 0.489,
-      "prob_over_4.5": 0.277,
-      "prob_over_5.5": 0.146,
-      "prob_over_6.5": 0.08
+      "line": 5.5,
+      "prob_over_3.5": 0.842,
+      "prob_over_4.5": 0.693,
+      "prob_over_5.5": 0.51,
+      "prob_over_6.5": 0.349
+    },
+    {
+      "pitcher_name": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "opponent": "Milwaukee Brewers",
+      "line": 5.5,
+      "prob_over_3.5": 0.833,
+      "prob_over_4.5": 0.678,
+      "prob_over_5.5": 0.496,
+      "prob_over_6.5": 0.334
     }
   ],
   "historial": [
